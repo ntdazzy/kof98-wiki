@@ -221,16 +221,16 @@ Chiến Hồn là hệ dưỡng thành FREE mạnh vì nó chạm **cả 3 chỗ
 | Hồn Nộ (怒气) / Hào Quang (光环) → điểm cộng | factor10 (cộng) | `BV_SoulRp` / `BV_SoulPassive` | Cộng |
 | Hồn **toàn cục** (全局 kGlobal) | **cấp tài khoản** (§5) | `BV_SoulCommon_Global` = **toàn 0** trên server mới | Cộng account |
 
-`BV_SoulCommonRate` theo sao Hồn (`soulItemData:getStar()`, 1★→10★), dạng `{base, +mỗi-cấp}`:
+`BV_SoulCommonRate` theo sao Hồn (`soulItemData:getStar()`), dạng `{base, +mỗi-cấp}`. Mảng config có 10 nấc, **nhưng Chiến Hồn trong game tối đa chỉ tới 7★** — các nấc 8★–10★ tồn tại trong config nhưng không đạt tới:
 
 | Sao Hồn | base % | +/cấp | Nguồn |
 |---|---|---|---|
 | 1★ | 0.002 | 0.0002 | `ConfigValue.lua:267–270` |
 | 5★ | 0.012 | 0.0014 | `ConfigValue.lua:283–286` |
-| 8★ | 0.024 | 0.0027 | `ConfigValue.lua:295–298` |
-| 10★ | 0.030 | 0.0033 | `ConfigValue.lua:303–306` |
+| 7★ (max thực tế) | 0.018 | 0.0021 | `ConfigValue.lua:291–294` |
+| 8★–10★ (config, không đạt) | 0.024→0.030 | — | `ConfigValue.lua:295–306` |
 
-Ví dụ 1 Hồn thường 10★ nâng 10 cấp → `soulRateFactor += 0.030 + 0.0033×10 = 0.063` = **+6.3%** cắm thẳng vào factor4 (nhân toàn bộ nền Công/Thủ/HP).
+Ví dụ 1 Hồn thường 5★ nâng 10 cấp → `soulRateFactor += 0.012 + 0.0014×10 = 0.026` = **+2.6%** cắm thẳng vào factor4 (nhân toàn bộ nền Công/Thủ/HP).
 
 `BV_SoulFateRate` theo sao Vận Mệnh (index = sao+1, phần "+mỗi-cấp" đều **= 0** nên chỉ phụ thuộc sao):
 

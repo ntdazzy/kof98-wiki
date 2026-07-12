@@ -6,7 +6,7 @@ const app = document.getElementById('app');
 const $ = (s, r = document) => r.querySelector(s);
 const esc = s => (s ?? '').toString().replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const T = o => !o ? '' : (S.lang === 'zh' ? (o.zh || o.vi) : (o.vi || o.zh)) || '';
-const norm = s => (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+const norm = s => (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/g, 'd');
 
 /* ---------- data ---------- */
 async function loadData() {
@@ -17,10 +17,10 @@ async function loadData() {
 }
 function buildIndex() {
   const idx = [];
-  (S.data.heroes || []).forEach(h => idx.push({ t: 'hero', id: h.id, k: 'Võ Sĩ', vi: h.name.vi, zh: h.name.zh, icon: h.avatar || h.portrait, extra: `${h.rarity} ${h.type}`, route: `#/hero/${h.id}` }));
-  (S.data.warsouls || []).forEach(s => { if (s.name.vi || s.name.zh) idx.push({ t: 'soul', id: s.id, k: 'Chiến Hồn', vi: s.name.vi, zh: s.name.zh, icon: s.icon, extra: s.type, route: `#/soul/${s.id}` }); });
-  (S.data.items || []).forEach(it => { if (it.name.vi || it.name.zh) idx.push({ t: 'item', id: it.id, k: 'Vật Phẩm', vi: it.name.vi, zh: it.name.zh, icon: it.icon, extra: it.type, route: `#/item/${it.id}` }); });
-  (S.data.systems || []).forEach(sy => idx.push({ t: 'guide', id: sy.key, k: 'Cẩm Nang', vi: sy.title, zh: sy.title, icon: null, extra: '', route: `#/guide/${sy.key}` }));
+  (S.data.heroes || []).forEach(h => { const n = h.name || {}; if (n.vi || n.zh) idx.push({ t: 'hero', id: h.id, k: 'Võ Sĩ', vi: n.vi, zh: n.zh, icon: h.portrait || h.avatar, extra: `${h.rarity} ${h.type}`, route: `#/hero/${h.id}` }); });
+  (S.data.warsouls || []).forEach(s => { const n = s.name || {}; if (n.vi || n.zh) idx.push({ t: 'soul', id: s.id, k: 'Chiến Hồn', vi: n.vi, zh: n.zh, icon: s.icon, extra: s.type, route: `#/soul/${s.id}` }); });
+  (S.data.items || []).forEach(it => { const n = it.name || {}; if (n.vi || n.zh) idx.push({ t: 'item', id: it.id, k: 'Vật Phẩm', vi: n.vi, zh: n.zh, icon: it.icon, extra: it.type, route: `#/item/${it.id}` }); });
+  (S.data.systems || []).forEach(sy => { if (sy.title) idx.push({ t: 'guide', id: sy.key, k: 'Cẩm Nang', vi: sy.title, zh: sy.title, icon: null, extra: '', route: `#/guide/${sy.key}` }); });
   S.index = idx;
 }
 
@@ -29,7 +29,7 @@ function md(src) {
   const lines = src.replace(/\r/g, '').split('\n');
   let html = '', i = 0, tocFlush = false;
   const inline = t => esc(t)
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (m, txt, url) => /^(https?:|mailto:|#|\/)/i.test(url.trim()) ? `<a href="${url.trim()}" rel="noopener">${txt}</a>` : txt)
     .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
     .replace(/(^|[^*])\*([^*\n]+)\*/g, '$1<em>$2</em>')
     .replace(/`([^`]+)`/g, '<code>$1</code>');
@@ -145,14 +145,14 @@ function pageHeroes() {
     const list = heroes.filter(h =>
       (fRar === 'all' || h.rarity === fRar) && (fEl === 'all' || h.type === fEl) &&
       (!q || norm(T(h.name)).includes(norm(q)) || (h.name.zh || '').includes(q)));
-    $('#hgrid').innerHTML = list.map(h => `
+    $('#hgrid').innerHTML = list.length ? list.map(h => `
       <a class="hcard" data-r="${h.rarity}" href="#/hero/${h.id}">
-        <div class="port">${heroPortrait(h) ? `<img loading="lazy" src="${esc(heroPortrait(h))}" alt="${esc(T(h.name))}">` : ''}
+        <div class="port">${heroPortrait(h) ? `<img loading="lazy" src="${esc(heroPortrait(h))}" alt="${esc(T(h.name))}" onerror="this.style.display='none'">` : ''}
           <span class="rar" data-r="${h.rarity}">${h.rarity}</span>
           ${h.type ? `<span class="el" data-e="${h.type}">${h.type}</span>` : ''}
         </div>
         <div class="meta"><div class="nm">${esc(T(h.name) || h.id)}</div><div class="zh">${esc(S.lang === 'zh' ? h.id : (h.name.zh || ''))}</div></div>
-      </a>`).join('');
+      </a>`).join('') : emptyState();
     $('#hcount').textContent = `${list.length} võ sĩ`;
   };
   app.innerHTML = `
@@ -178,7 +178,7 @@ function pageHero(id) {
   <div class="detail fade">
     <div class="dpanel">
       <div class="dhero-art">
-        ${heroPortrait(h) ? `<img src="${esc(heroPortrait(h))}" alt="">` : ''}
+        ${heroPortrait(h) ? `<img src="${esc(heroPortrait(h))}" alt="${esc(T(h.name))}" onerror="this.style.display='none'">` : ''}
         <div class="badge"><span class="tag rar" data-r="${h.rarity}" style="color:var(--r-${h.rarity})">${h.rarity}</span>${h.type ? `<span class="tag el" data-e="${h.type}">${EL[h.type]} · ${h.type}</span>` : ''}</div>
       </div>
       ${h.namePic ? `<div style="padding:14px;text-align:center;background:var(--bg-2)"><img src="${esc(h.namePic)}" style="max-height:44px;margin:0 auto" alt=""></div>` : ''}
@@ -195,12 +195,15 @@ function pageHero(id) {
         <div class="cell"><div class="l">Tỉ lệ bạo kích</div><div class="v">${h.critRate != null ? (h.critRate * 100).toFixed(1) + '%' : '—'}</div></div>
       </div>
       ${(T(h.shortDesc) || T(h.desc)) ? `<div class="desc-box">${esc(T(h.shortDesc) || T(h.desc))}
-        ${h.desc.zh && S.lang !== 'zh' ? `<div class="zh-orig">中: ${esc(h.desc.zh)}</div>` : ''}</div>` : ''}
-      <div style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap">
-        <span class="pill">Kỹ năng thường: ${esc(h.normalSkill || '—')}</span>
-        <span class="pill">Kỹ năng sao: ${esc(h.starSkill || '—')}</span>
-      </div>
+        ${h.desc?.zh && S.lang !== 'zh' ? `<div class="zh-orig">中: ${esc(h.desc.zh)}</div>` : ''}</div>` : ''}
       <a class="btn btn-g" style="margin-top:20px" href="#/calc?hero=${h.id}">🧮 Tính lực chiến cho ${esc(T(h.name))}</a>
+      ${(h.skills && h.skills.length) ? `<div class="section-t" style="margin:30px 0 14px;font-size:17px">Kỹ năng <div class="line"></div></div>
+        <div class="skills">${h.skills.map(s => `
+          <div class="skill">
+            <div class="sk-ic">${s.icon ? `<img loading="lazy" src="${esc(s.icon)}" alt="">` : '⚡'}</div>
+            <div class="sk-b"><div class="sk-h"><b>${esc(T(s.name) || s.id)}</b><span class="pill">${esc(s.role)}</span></div>
+              ${(T(s.desc)) ? `<p>${esc(T(s.desc))}</p>` : ''}</div>
+          </div>`).join('')}</div>` : ''}
     </div>
   </div>`;
 }
@@ -211,12 +214,12 @@ function pageSouls() {
   let fT = 'all';
   const render = () => {
     const list = souls.filter(s => fT === 'all' || s.type === fT);
-    $('#sgrid').innerHTML = list.map(s => `
-      <div class="hcard" data-r="${s.star >= 7 ? 'SP' : s.star >= 5 ? 'UR' : ''}" style="cursor:default">
-        <div class="port" style="aspect-ratio:1;display:grid;place-items:center;padding:14px">${s.icon ? `<img loading="lazy" src="${esc(s.icon)}" style="object-fit:contain" alt="">` : '<div style="font-size:32px">🔥</div>'}
+    $('#sgrid').innerHTML = list.length ? list.map(s => `
+      <a class="hcard" data-r="${s.star >= 7 ? 'SP' : s.star >= 5 ? 'UR' : ''}" href="#/soul/${s.id}">
+        <div class="port" style="aspect-ratio:1;display:grid;place-items:center;padding:14px">${s.icon ? `<img loading="lazy" src="${esc(s.icon)}" style="object-fit:contain" onerror="this.style.display='none'" alt="">` : '<div style="font-size:32px">🔥</div>'}
           <span class="rar" data-r="${s.star >= 7 ? 'SP' : 'UR'}">★${s.star ?? '?'}</span></div>
         <div class="meta"><div class="nm">${esc(T(s.name) || s.id)}</div><div class="zh">${esc(TYPE[s.type] || s.type)}</div></div>
-      </div>`).join('');
+      </a>`).join('') : emptyState();
     $('#scount').textContent = `${list.length} chiến hồn`;
   };
   app.innerHTML = `
@@ -233,13 +236,13 @@ function pageItems() {
   const cats = [...new Set(items.map(i => i.type).filter(Boolean))].sort();
   const render = () => {
     const list = items.filter(it => (cat === 'all' || it.type === cat) &&
-      (!q || norm(T(it.name)).includes(norm(q)) || (it.name.zh || '').includes(q) || norm(it.id).includes(norm(q)))).slice(0, 600);
-    $('#igrid').innerHTML = list.map(it => `
-      <div class="icell" title="${esc(T(it.name))}" onclick="location.hash='#/item/${it.id}'">
-        <div class="box"><img loading="lazy" class="q-${it.quality || 1}" src="${esc(it.icon)}" alt=""></div>
+      (!q || norm(T(it.name)).includes(norm(q)) || (it.name.zh || '').includes(q) || norm(it.id).includes(norm(q)))).slice(0, 900);
+    $('#igrid').innerHTML = list.length ? list.map(it => `
+      <a class="icell" title="${esc(T(it.name))}" href="#/item/${it.id}">
+        <div class="box"><img loading="lazy" class="q-${it.quality || 1}" src="${esc(it.icon)}" alt="" onerror="this.style.display='none'"></div>
         <div class="cap">${esc(T(it.name) || it.id)}</div>
-      </div>`).join('');
-    $('#icount').textContent = `${list.length}${list.length >= 600 ? '+' : ''} vật phẩm`;
+      </a>`).join('') : emptyState();
+    $('#icount').textContent = `${list.length}${list.length >= 900 ? '+' : ''} vật phẩm`;
   };
   app.innerHTML = `
     <div class="page-head fade"><h1>💎 Vật Phẩm</h1><div class="sub">${items.length.toLocaleString()} vật phẩm có icon. Bấm để xem công dụng & nguồn kiếm.</div></div>
@@ -259,7 +262,7 @@ function pageItem(id) {
   <div class="crumb"><a href="#/items">Vật Phẩm</a> / ${esc(T(it.name))}</div>
   <div class="detail fade" style="grid-template-columns:280px 1fr">
     <div class="dpanel" style="padding:30px;display:grid;place-items:center;background:var(--bg-2)">
-      ${it.icon ? `<img src="${esc(it.icon)}" style="width:120px;height:120px;object-fit:contain" class="q-${it.quality || 1}" alt="">` : '💎'}
+      ${it.icon ? `<img src="${esc(it.icon)}" style="width:120px;height:120px;object-fit:contain" class="q-${it.quality || 1}" alt="" onerror="this.style.display='none'">` : '💎'}
     </div>
     <div class="dpanel dbody">
       <h1>${esc(T(it.name) || it.id)}</h1>
@@ -268,7 +271,30 @@ function pageItem(id) {
         <span class="pill">Loại: ${esc(it.type || '—')}</span><span class="pill">Phẩm: ${it.quality ?? '—'}</span>
       </div>
       ${(T(it.funcDesc) || T(it.desc)) ? `<div class="desc-box">${esc(T(it.funcDesc) || T(it.desc))}
-        ${(it.funcDesc.zh || it.desc.zh) && S.lang !== 'zh' ? `<div class="zh-orig">中: ${esc(it.funcDesc.zh || it.desc.zh)}</div>` : ''}</div>` : '<div class="desc-box" style="color:var(--txt-3)">Chưa có mô tả.</div>'}
+        ${(it.funcDesc?.zh || it.desc?.zh) && S.lang !== 'zh' ? `<div class="zh-orig">中: ${esc(it.funcDesc?.zh || it.desc?.zh)}</div>` : ''}</div>` : '<div class="desc-box" style="color:var(--txt-3)">Chưa có mô tả.</div>'}
+    </div>
+  </div>`;
+}
+
+const SOUL_TYPE = { COMMAND: 'Chỉ Huy (指挥)', GLOBAL: 'Toàn Cục (全局)', PASSIVE: 'Bị Động (被动)', ATTR: 'Thuộc Tính (属性)', ANGER: 'Nộ Khí (怒气)', FATE: 'Mệnh Hồn (命魂)', TALENT: 'Thiên Phú (天赋)' };
+function pageSoul(id) {
+  const s = (S.data.warsouls || []).find(x => x.id === id); if (!s) return notFound();
+  app.innerHTML = `
+  <div class="crumb"><a href="#/souls">Chiến Hồn</a> / ${esc(T(s.name))}</div>
+  <div class="detail fade" style="grid-template-columns:280px 1fr">
+    <div class="dpanel" style="padding:30px;display:grid;place-items:center;background:linear-gradient(180deg,var(--bg-3),#140d0f)">
+      ${s.icon ? `<img src="${esc(s.icon)}" style="width:130px;height:130px;object-fit:contain" onerror="this.style.display='none'" alt="">` : '<div style="font-size:56px">🔥</div>'}
+    </div>
+    <div class="dpanel dbody">
+      <h1>${esc(T(s.name) || s.id)}</h1>
+      <div class="zh">${esc(s.name.zh || '')} · <span class="pill">${s.id}</span></div>
+      <div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap">
+        <span class="pill" style="color:var(--gold)">${SOUL_TYPE[s.type] || s.type}</span>
+        <span class="pill">★ ${s.star ?? '?'}</span>
+      </div>
+      ${T(s.desc) ? `<div class="desc-box">${esc(T(s.desc))}
+        ${s.desc?.zh && S.lang !== 'zh' ? `<div class="zh-orig">中: ${esc(s.desc.zh)}</div>` : ''}</div>` : '<div class="desc-box" style="color:var(--txt-3)">Chưa có mô tả hiệu ứng.</div>'}
+      <a class="btn btn-g" style="margin-top:18px" href="#/guide/war-soul">📖 Cẩm nang Chiến Hồn</a>
     </div>
   </div>`;
 }
@@ -290,8 +316,11 @@ function pageGuide(key) {
     </div>`;
   // smooth-scroll toc + intra-links
   $$('.toc a, .md a[href^="#"]').forEach(a => a.addEventListener('click', e => {
-    const id = a.getAttribute('href').slice(1); const el = document.getElementById(id);
-    if (el) { e.preventDefault(); el.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+    const href = a.getAttribute('href');
+    if (href.startsWith('#/')) return;            // real route link — let router handle
+    e.preventDefault();
+    const el = document.getElementById(href.slice(1));
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }));
 }
 
@@ -357,6 +386,7 @@ function pageCalc(params) {
   if (pre) fillHero(); else calc();
 }
 
+function emptyState(msg) { return `<div class="loading" style="grid-column:1/-1"><div style="font-size:40px">🔍</div><p style="margin-top:10px">${esc(msg || 'Không có kết quả phù hợp.')}</p></div>`; }
 function notFound() { app.innerHTML = `<div class="loading"><div style="font-size:48px">🔍</div><p style="margin-top:14px">Không tìm thấy nội dung.</p><a class="btn btn-g" style="margin-top:16px" href="#/">← Về trang chủ</a></div>`; }
 
 /* ---------- router ---------- */
@@ -373,6 +403,7 @@ function route() {
   if (p === 'heroes') return pageHeroes();
   if (p === 'hero') return pageHero(id);
   if (p === 'souls') return pageSouls();
+  if (p === 'soul') return pageSoul(id);
   if (p === 'items') return pageItems();
   if (p === 'item') return pageItem(id);
   if (p === 'guides') return pageGuides();
@@ -389,7 +420,8 @@ $('#lang').addEventListener('click', e => {
   document.documentElement.lang = S.lang === 'zh' ? 'zh' : 'vi';
   route();
 });
-$('#burger').addEventListener('click', () => $('#nav').style.display = $('#nav').style.display === 'flex' ? '' : 'flex');
+$('#burger').addEventListener('click', () => $('#nav').classList.toggle('open'));
+$('#nav').addEventListener('click', e => { if (e.target.closest('a')) $('#nav').classList.remove('open'); });
 $$('#lang button').forEach(x => x.classList.toggle('on', x.dataset.l === S.lang));
 
 window.addEventListener('hashchange', route);
