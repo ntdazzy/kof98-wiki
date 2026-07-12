@@ -1,0 +1,10 @@
+{
+  "name": "kof98-wiki",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bách khoa Quyền Hoàng 98 — full bilingual (Trung–Việt) KOF98 game wiki, data extracted 100% from game source.",
+  "scripts": {
+    "dev": "python -m http.server 5173 --directory public",
+    "start": "python -m http.server 5173 --directory public"
+  }
+}

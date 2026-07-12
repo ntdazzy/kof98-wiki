@@ -1,0 +1,9 @@
+_shot_*.png
+*.log
+.DS_Store
+node_modules/
+.vercel
+danta*.png
+out_*.png
+dec_*.png
+test_*.png
