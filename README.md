@@ -37,6 +37,11 @@ railway up
 ```
 (Railway sẽ phục vụ thư mục `public/` như static site; hoặc thêm service Nginx trỏ vào `public/`.)
 
+### Cách C — GitHub Pages (miễn phí 100%, không cần Vercel)
+Repo đã kèm workflow `.github/workflows/pages.yml`. Chỉ cần:
+1. Vào **Settings → Pages → Source: GitHub Actions** (repo cần **Public**, hoặc GitHub Pro nếu Private).
+2. Xong — URL live: `https://ntdazzy.github.io/kof98-wiki/` (tự deploy mỗi lần push).
+
 ### Chạy thử ở máy
 ```bash
 npm run dev       # python -m http.server 5173 --directory public
