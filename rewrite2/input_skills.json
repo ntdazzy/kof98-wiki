@@ -1,0 +1,248 @@
+[
+ {
+  "i": 0,
+  "kind": "skillname",
+  "zh": "三连杀",
+  "cur": "ba liên giết"
+ },
+ {
+  "i": 1,
+  "kind": "skillname",
+  "zh": "五光斩",
+  "cur": "năm sáng trảm"
+ },
+ {
+  "i": 2,
+  "kind": "skillname",
+  "zh": "冰之岩",
+  "cur": "băng chi nham"
+ },
+ {
+  "i": 3,
+  "kind": "skillname",
+  "zh": "冰之花",
+  "cur": "băng chi hoa"
+ },
+ {
+  "i": 4,
+  "kind": "skillname",
+  "zh": "冲波",
+  "cur": "xung ba"
+ },
+ {
+  "i": 5,
+  "kind": "skillname",
+  "zh": "冻气拳",
+  "cur": "đông khí quyền"
+ },
+ {
+  "i": 6,
+  "kind": "skillname",
+  "zh": "冻神之刃",
+  "cur": "đông thần chi nhận"
+ },
+ {
+  "i": 7,
+  "kind": "skillname",
+  "zh": "去龙之淀",
+  "cur": "khứ rồng chi đọng"
+ },
+ {
+  "i": 8,
+  "kind": "skillname",
+  "zh": "双推旋",
+  "cur": "song đẩy xoáy"
+ },
+ {
+  "i": 9,
+  "kind": "skillname",
+  "zh": "咒怨死魂",
+  "cur": "nguyền oán tử hồn"
+ },
+ {
+  "i": 10,
+  "kind": "skillname",
+  "zh": "大击放",
+  "cur": "lớn kích phóng"
+ },
+ {
+  "i": 11,
+  "kind": "skillname",
+  "zh": "天之牙",
+  "cur": "thiên chi Nha"
+ },
+ {
+  "i": 12,
+  "kind": "skillname",
+  "zh": "天崩斩",
+  "cur": "thiên băng trảm"
+ },
+ {
+  "i": 13,
+  "kind": "skillname",
+  "zh": "幻影风花",
+  "cur": "huyễn ảnh phong hoa"
+ },
+ {
+  "i": 14,
+  "kind": "skillname",
+  "zh": "旅行车",
+  "cur": "lữ hành xe"
+ },
+ {
+  "i": 15,
+  "kind": "skillname",
+  "zh": "旋风刚拳",
+  "cur": "lốc xoáy cương quyền"
+ },
+ {
+  "i": 16,
+  "kind": "skillname",
+  "zh": "无限炮",
+  "cur": "vô hạn pháo"
+ },
+ {
+  "i": 17,
+  "kind": "skillname",
+  "zh": "日折之楔",
+  "cur": "nhật chiết chi nêm"
+ },
+ {
+  "i": 18,
+  "kind": "skillname",
+  "zh": "极限虎咆",
+  "cur": "cực hạn hổ gầm"
+ },
+ {
+  "i": 19,
+  "kind": "skillname",
+  "zh": "水泡单元",
+  "cur": "thủy bọt đơn nguyên"
+ },
+ {
+  "i": 20,
+  "kind": "skillname",
+  "zh": "流星脚",
+  "cur": "lưu sao chân"
+ },
+ {
+  "i": 21,
+  "kind": "skillname",
+  "zh": "流锤箭",
+  "cur": "lưu chùy tên"
+ },
+ {
+  "i": 22,
+  "kind": "skillname",
+  "zh": "烈千脚",
+  "cur": "liệt Thiên chân"
+ },
+ {
+  "i": 23,
+  "kind": "skillname",
+  "zh": "热月",
+  "cur": "nhiệt nguyệt"
+ },
+ {
+  "i": 24,
+  "kind": "skillname",
+  "zh": "疾风斩",
+  "cur": "tật phong trảm"
+ },
+ {
+  "i": 25,
+  "kind": "skillname",
+  "zh": "秘传·幻梦咒怨死魂葬",
+  "cur": "bí truyền · huyễn mộng nguyền oán tử hồn táng"
+ },
+ {
+  "i": 26,
+  "kind": "skillname",
+  "zh": "稻妻之牙",
+  "cur": "đạo thê chi Nha"
+ },
+ {
+  "i": 27,
+  "kind": "skillname",
+  "zh": "空之息吹",
+  "cur": "không chi tức thổi"
+ },
+ {
+  "i": 28,
+  "kind": "skillname",
+  "zh": "舍己从龙",
+  "cur": "xả ta từ rồng"
+ },
+ {
+  "i": 29,
+  "kind": "skillname",
+  "zh": "荒狂之风",
+  "cur": "hoang cuồng chi phong"
+ },
+ {
+  "i": 30,
+  "kind": "skillname",
+  "zh": "虹",
+  "cur": "hồng"
+ },
+ {
+  "i": 31,
+  "kind": "skillname",
+  "zh": "辉神之牙",
+  "cur": "huy thần chi Nha"
+ },
+ {
+  "i": 32,
+  "kind": "skillname",
+  "zh": "连续斩",
+  "cur": "liên tục trảm"
+ },
+ {
+  "i": 33,
+  "kind": "skillname",
+  "zh": "闪光之牙",
+  "cur": "chớp sáng chi Nha"
+ },
+ {
+  "i": 34,
+  "kind": "skillname",
+  "zh": "阵风",
+  "cur": "trận phong"
+ },
+ {
+  "i": 35,
+  "kind": "skillname",
+  "zh": "雨月",
+  "cur": "vũ nguyệt"
+ },
+ {
+  "i": 36,
+  "kind": "skillname",
+  "zh": "雪月",
+  "cur": "tuyết nguyệt"
+ },
+ {
+  "i": 37,
+  "kind": "skillname",
+  "zh": "青岚",
+  "cur": "thanh lam"
+ },
+ {
+  "i": 38,
+  "kind": "skillname",
+  "zh": "风月",
+  "cur": "phong nguyệt"
+ },
+ {
+  "i": 39,
+  "kind": "skillname",
+  "zh": "鬼抑之月",
+  "cur": "quỷ ức chi nguyệt"
+ },
+ {
+  "i": 40,
+  "kind": "skillname",
+  "zh": "鹫羽落",
+  "cur": "thứu vũ rơi"
+ }
+]
