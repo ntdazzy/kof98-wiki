@@ -39,7 +39,7 @@ const itemTypeVi = t => ITEM_TYPE[t] || 'Vật phẩm';
 
 /* ---------- data ---------- */
 async function loadData() {
-  const files = ['heroes', 'items', 'warsouls', 'systems', 'stats', 'equipment', 'events'];
+  const files = ['heroes', 'items', 'warsouls', 'systems', 'stats', 'equipment', 'events', 'artifacts', 'arena'];
   const res = await Promise.all(files.map(f => fetch(`data/${f}.json`).then(r => r.json()).catch(() => null)));
   files.forEach((f, i) => S.data[f] = res[i]);
   buildIndex();
@@ -129,11 +129,20 @@ document.addEventListener('click', e => { if (!e.target.closest('.searchbox')) s
 
 /* ---------- helpers ---------- */
 function zhLine(zh) { return zh && S.lang !== 'zh' ? `<div class="zh">${esc(zh)}</div>` : ''; }
+// Tô màu số liệu + thuật ngữ trong game để đọc trực quan hơn.
+function hl(text) {
+  let s = esc(text);
+  // số: có dấu +/-, %, ×, phần nghìn, thập phân
+  s = s.replace(/(×\s?\d[\d.,]*|[+\-−±]\s?\d[\d.,]*\s?%?|\b\d[\d.,]*\s?%|\b\d[\d.,]*)/g, m => `<span class="nm">${m}</span>`);
+  // thuật ngữ game trong 「」 và 【】
+  s = s.replace(/「([^」]*)」/g, '<span class="tm">「$1」</span>').replace(/【([^】]*)】/g, '<span class="tm">【$1】</span>');
+  return s;
+}
 function descBlock(o, fallback) {
   const vi = T(o);
   if (!vi) return fallback ? `<div class="desc-box muted">${esc(fallback)}</div>` : '';
   const showZh = o && o.zh && S.lang !== 'zh' && o.zh !== vi;
-  return `<div class="desc-box">${esc(vi)}${showZh ? `<details class="zh-orig"><summary>Xem nguyên văn tiếng Trung</summary>${esc(o.zh)}</details>` : ''}</div>`;
+  return `<div class="desc-box">${hl(vi)}${showZh ? `<details class="zh-orig"><summary>Xem nguyên văn tiếng Trung</summary>${esc(o.zh)}</details>` : ''}</div>`;
 }
 
 /* ---------- pages ---------- */
@@ -144,6 +153,7 @@ function pageHome() {
     ['🔥', 'Chiến Hồn', `${(st.warsouls || 0).toLocaleString()} chiến hồn — hiệu ứng, cách dùng`, '#/souls'],
     ['🗡️', 'Trang Bị', `${st.equipment || 0} bộ trang bị riêng của từng tướng`, '#/equips'],
     ['💎', 'Vật Phẩm', `${(st.itemsWithIcon || 0).toLocaleString()} vật phẩm — công dụng, nơi kiếm`, '#/items'],
+    ['🎮', 'Tính Năng', 'Thần Khí, Đấu Trường, Cửa Hàng và các hệ thống game', '#/features'],
     ['🎉', 'Sự Kiện', `${st.events || 0} sự kiện trong game — chơi gì, nhận gì`, '#/events'],
     ['📖', 'Cẩm Nang', `${st.systems || 0} bài hướng dẫn cơ chế & mẹo chơi`, '#/guides'],
     ['🧮', 'Tính Lực Chiến', 'Ước tính lực chiến từ chỉ số tướng của bạn', '#/calc'],
@@ -235,7 +245,7 @@ function pageHero(id) {
           <div class="skill">
             <div class="sk-ic">${s.icon ? `<img loading="lazy" src="${esc(s.icon)}" alt="" onerror="this.parentNode.textContent='⚡'">` : '⚡'}</div>
             <div class="sk-b"><div class="sk-h"><b>${esc(T(s.name) || 'Kỹ năng')}</b><span class="pill">${esc(s.role)}</span></div>
-              ${T(s.desc) ? `<p>${esc(T(s.desc))}</p>` : '<p class="muted">Chưa có mô tả.</p>'}</div>
+              ${T(s.desc) ? `<p>${hl(T(s.desc))}</p>` : '<p class="muted">Chưa có mô tả.</p>'}</div>
           </div>`).join('')}</div>` : ''}
     </div>
   </div>`;
@@ -320,6 +330,7 @@ function pageItems() {
 }
 function pageItem(id) {
   const it = (S.data.items || []).find(x => x.id === id); if (!it) return notFound();
+  const fn = T(it.funcDesc), ds = T(it.desc);
   app.innerHTML = `
   <div class="crumb"><a href="#/items">Vật Phẩm</a> / ${esc(T(it.name))}</div>
   <div class="detail narrow fade">
@@ -329,14 +340,16 @@ function pageItem(id) {
     <div class="dpanel dbody">
       <h1>${esc(T(it.name) || '?')}</h1>
       ${zhLine(it.name.zh || it.cnName)}
-      <div class="tagrow"><span class="pill gold">${esc(itemTypeVi(it.type))}</span>${it.quality ? `<span class="pill">Phẩm ${it.quality}</span>` : ''}</div>
-      ${descBlock(T(it.funcDesc) ? it.funcDesc : it.desc, 'Vật phẩm này chưa có mô tả trong game.')}
+      <div class="tagrow"><span class="pill gold">${esc(itemTypeVi(it.type))}</span>${it.category ? `<span class="pill">${esc(it.category)}</span>` : ''}${it.quality ? `<span class="pill">${'★'.repeat(Math.min(it.quality, 7))}</span>` : ''}</div>
+      ${it.usage ? `<div class="usebox"><div class="ulabel">📌 Dùng để làm gì?</div><div>${hl(it.usage)}</div></div>` : ''}
+      ${(fn || ds) ? `<div class="section-t sub2" style="margin:22px 0 10px">Chi tiết <div class="line"></div></div>${descBlock(fn ? it.funcDesc : it.desc)}` : (it.usage ? '' : '<div class="desc-box muted">Vật phẩm này chưa có mô tả chi tiết trong game.</div>')}
     </div>
   </div>`;
 }
 
 function heroName(hid) { const h = (S.data.heroes || []).find(x => x.id === hid); return h ? (T(h.name) || hid) : hid; }
 function heroPortById(hid) { const h = (S.data.heroes || []).find(x => x.id === hid); return h ? heroPortrait(h) : ''; }
+const slotVi = s => /^E\d$/.test(s || '') ? 'Món ' + s.slice(1) : (s || '');
 function pageEquips() {
   const eq = (S.data.equipment || []).filter(e => e.name.vi || e.name.zh);
   let q = '', fq = 'all';
@@ -378,6 +391,7 @@ function pageEquip(id) {
       <div class="tagrow">
         <span class="pill" style="color:var(--r-${e.quality})">${RAR_VI[e.quality] || e.quality}</span>
         <a class="pill link" href="#/hero/${e.hero}">Của ${esc(heroName(e.hero))}</a>
+        ${slotVi(e.slot) ? `<span class="pill">${esc(slotVi(e.slot))}</span>` : ''}
       </div>
       ${(e.maxAtk != null || e.maxHp != null || e.maxDef != null) ? `<div class="kv three">
         ${e.maxAtk != null ? `<div class="cell"><div class="l">Công tối đa</div><div class="v" style="color:var(--el-atk)">${fmt(e.maxAtk)}</div></div>` : ''}
@@ -392,18 +406,88 @@ function pageEquip(id) {
 function pageEvents() {
   const evs = S.data.events || [];
   const groups = {};
-  evs.forEach(e => { (groups[e.category] = groups[e.category] || []).push(e); });
+  evs.forEach((e, i) => { e._i = i; (groups[e.category] = groups[e.category] || []).push(e); });
   app.innerHTML = `
-    <div class="page-head fade"><h1>🎉 Sự Kiện Trong Game</h1><div class="sub">Tổng hợp các sự kiện và hoạt động thường có trong Quyền Hoàng 98 — chơi gì, làm gì để nhận thưởng. Sự kiện thật đổi theo thời gian trong game.</div></div>
+    <div class="page-head fade"><h1>🎉 Sự Kiện Trong Game</h1><div class="sub">Tổng hợp các sự kiện và hoạt động thường có trong Quyền Hoàng 98 — chơi gì, làm gì để nhận thưởng. Bấm vào từng sự kiện để xem chi tiết. Sự kiện thật đổi theo thời gian trong game.</div></div>
     ${Object.entries(groups).map(([cat, list]) => `
       <div class="section-t sub2">${list[0].badge} ${esc(cat)} <span class="cbadge">${list.length}</span><div class="line"></div></div>
       <div class="evgrid fade">${list.map(e => `
-        <div class="evcard">
+        <a class="evcard" href="#/event/${e._i}">
           <div class="evtop"><span class="evbadge">${e.badge}</span><b>${esc(T(e.name) || '?')}</b></div>
-          ${T(e.desc) ? `<p>${esc(T(e.desc))}</p>` : '<p class="muted">Sự kiện thường kỳ trong game.</p>'}
-        </div>`).join('')}</div>`).join('')}`;
+          ${T(e.desc) ? `<p>${esc(T(e.desc).slice(0, 90))}${T(e.desc).length > 90 ? '…' : ''}</p>` : '<p class="muted">Sự kiện thường kỳ trong game.</p>'}
+          <span class="evmore">Xem chi tiết →</span>
+        </a>`).join('')}</div>`).join('')}`;
+}
+function pageEvent(i) {
+  const e = (S.data.events || [])[+i]; if (!e) return notFound();
+  app.innerHTML = `
+  <div class="crumb"><a href="#/events">Sự Kiện</a> / ${esc(T(e.name))}</div>
+  <div class="detail narrow fade">
+    <div class="dpanel dcenter ev-logo"><div class="evbig">${e.badge}</div><div class="evcat">${esc(e.category)}</div></div>
+    <div class="dpanel dbody">
+      <h1>${esc(T(e.name) || '?')}</h1>
+      ${zhLine(e.name.zh)}
+      <div class="tagrow"><span class="pill gold">${e.badge} ${esc(e.category)}</span></div>
+      ${T(e.desc) ? `<div class="desc-box">${hl(T(e.desc))}</div>` : '<div class="desc-box muted">Sự kiện thường kỳ trong game. Nội dung và phần thưởng thay đổi theo từng đợt.</div>'}
+      <div class="usebox"><div class="ulabel">ℹ️ Lưu ý</div><div>Sự kiện trong game mở theo thời gian và có thể khác nhau giữa các đợt. Hãy vào mục Hoạt Động trong game để xem sự kiện đang diễn ra và thời hạn nhận thưởng.</div></div>
+    </div>
+  </div>`;
 }
 
+/* ---------- tính năng game ---------- */
+function pageFeatures() {
+  const st = S.data.stats || {};
+  const feats = [
+    ['🗿', 'Thần Khí', `Sức mạnh riêng của ${st.artifacts || 0} võ sĩ đặc biệt`, '#/artifacts'],
+    ['🏆', 'Đấu Trường', 'PK xếp hạng với người chơi khác, giành danh hiệu', '#/arena'],
+    ['🛒', 'Cửa Hàng', 'Các loại shop, tiền tệ và cách tiêu cho hiệu quả', '#/shop'],
+    ['🗡️', 'Trang Bị', `${st.equipment || 0} bộ trang bị riêng của từng tướng`, '#/equips'],
+    ['🔥', 'Chiến Hồn', `${(st.warsouls || 0).toLocaleString()} chiến hồn tăng lực cả đội`, '#/souls'],
+    ['🎯', 'Can Thiệp', 'Cơ chế chiêu mộ / kéo võ sĩ về đội', '#/guide/intervene'],
+  ];
+  const g = S.data.systems || [];
+  app.innerHTML = `
+    <div class="page-head fade"><h1>🎮 Tính Năng Game</h1><div class="sub">Các hệ thống chính trong Quyền Hoàng 98. Bấm vào từng mục để hiểu cách chơi và cách tối ưu.</div></div>
+    <div class="grid-cards fade">${feats.map(c => `<a class="navcard" href="${c[3]}"><div class="ic">${c[0]}</div><h3>${c[1]}</h3><p>${c[2]}</p><div class="arrow">→</div></a>`).join('')}</div>
+    <div class="section-t">Hướng dẫn chi tiết cơ chế <div class="line"></div></div>
+    <div class="grid-cards fade">${g.map((x, i) => `<a class="navcard sm" href="#/guide/${x.key}"><div class="ic">${GUIDE_ICON[i] || '📄'}</div><h3>${esc(x.title)}</h3><div class="arrow">→</div></a>`).join('')}</div>`;
+}
+function pageArtifacts() {
+  const arts = S.data.artifacts || [];
+  app.innerHTML = `
+    <div class="page-head fade"><h1>🗿 Thần Khí (神器)</h1><div class="sub">Thần Khí là hệ thống sức mạnh riêng của một số võ sĩ đặc biệt. Mỗi Thần Khí mở thêm kỹ năng và chỉ số mạnh cho tướng đó khi bạn nghiên cứu và nâng cấp nó. Hiện có <b>${arts.length} võ sĩ</b> sở hữu Thần Khí. Bấm vào tướng để xem chi tiết.</div></div>
+    <div class="hgrid fade">${arts.map(a => `
+      <a class="hcard" data-r="${a.rarity}" href="#/hero/${a.hero}">
+        <div class="port"><img loading="lazy" src="${esc(a.portrait || '')}" alt="" onerror="this.style.display='none'"><span class="rar" data-r="${a.rarity}">${a.rarity}</span><span class="el" style="background:rgba(0,0,0,.6);color:var(--gold)">🗿</span></div>
+        <div class="meta"><div class="nm">${esc(T(a.name) || a.hero)}</div>${a.name.zh && S.lang !== 'zh' ? `<div class="zh">${esc(a.name.zh)}</div>` : ''}</div>
+      </a>`).join('')}</div>
+    <div class="usebox" style="margin-top:20px"><div class="ulabel">ℹ️ Cách hoạt động</div><div>Vào phần Thần Khí trong game, chọn võ sĩ có Thần Khí rồi nghiên cứu (dùng nguyên liệu) để mở và nâng các điểm sức mạnh. Thần Khí càng cao thì tướng càng mạnh, đặc biệt hữu ích cho các tướng chủ lực.</div></div>`;
+}
+function pageArena() {
+  const titles = S.data.arena || [];
+  app.innerHTML = `
+    <div class="page-head fade"><h1>🏆 Đấu Trường (竞技场)</h1><div class="sub">Đấu Trường là chế độ PK xếp hạng: bạn đấu đội hình với người chơi khác để leo hạng, nhận thưởng theo mùa và giành các danh hiệu danh giá.</div></div>
+    <div class="usebox"><div class="ulabel">🎮 Cách chơi</div><div>Chọn đội hình mạnh nhất, thách đấu các người chơi trên bảng xếp hạng. Thắng thì leo hạng, hạng càng cao thưởng càng lớn. Mỗi mùa kết thúc sẽ trao thưởng theo thứ hạng và làm mới bảng.</div></div>
+    <div class="section-t sub2">Danh hiệu Đấu Trường <span class="cbadge">${titles.length}</span><div class="line"></div></div>
+    <div class="sgrid fade">${titles.map(t => `
+      <div class="scard" style="cursor:default">
+        <div class="sic">${t.icon ? `<img src="${esc(t.icon)}" onerror="this.parentNode.textContent='🏅'" alt="">` : '🏅'}</div>
+        <div class="smeta"><div class="nm">${esc(T(t.name) || 'Danh hiệu')}</div><div class="tag-s">${esc(t.cond)}</div></div>
+      </div>`).join('')}</div>`;
+}
+function pageShop() {
+  const shops = [
+    ['💎', 'Cửa Hàng Kim Cương', 'Dùng Kim Cương (mua bằng nạp) đổi vật phẩm cao cấp: mảnh tướng SP/UR, vũ khí, chiến hồn hiếm.'],
+    ['🎖️', 'Cửa Hàng Vinh Dự', 'Dùng điểm Vinh Dự kiếm từ Đấu Trường / hoạt động để đổi mảnh tướng, đạo cụ nâng cấp.'],
+    ['🔮', 'Cửa Hàng Bí Ẩn', 'Shop làm mới ngẫu nhiên, thỉnh thoảng có món hời — nên xem mỗi ngày.'],
+    ['👑', 'Cửa Hàng Đặc Quyền', 'Ưu đãi cho người chơi có thẻ tháng / đặc quyền.'],
+    ['🪙', 'Cửa Hàng Vàng', 'Dùng Vàng (kiếm dễ) mua nguyên liệu cơ bản, đạo cụ thường ngày.'],
+  ];
+  app.innerHTML = `
+    <div class="page-head fade"><h1>🛒 Cửa Hàng (商店)</h1><div class="sub">Trong game có nhiều loại cửa hàng, mỗi loại dùng một loại tiền khác nhau. Hiểu rõ để tiêu cho đáng, ưu tiên món tăng lực chiến.</div></div>
+    <div class="evgrid fade">${shops.map(s => `<div class="evcard"><div class="evtop"><span class="evbadge">${s[0]}</span><b>${s[1]}</b></div><p>${s[2]}</p></div>`).join('')}</div>
+    <div class="usebox" style="margin-top:18px"><div class="ulabel">💡 Mẹo tiêu tiền</div><div>Ưu tiên đổi <span class="nm">mảnh tướng SP/UR</span> và <span class="nm">chiến hồn</span> — đây là thứ tăng lực chiến bền nhất. Xem thêm ở <a class="ln" href="#/guide/economy-shop">hướng dẫn Kinh Tế & Cửa Hàng</a>.</div></div>`;
+}
 function pageGuides() {
   const g = S.data.systems || [];
   app.innerHTML = `
@@ -511,7 +595,9 @@ function route() {
   const R = {
     heroes: pageHeroes, hero: () => pageHero(id), souls: pageSouls, soul: () => pageSoul(id),
     items: pageItems, item: () => pageItem(id), equips: pageEquips, equip: () => pageEquip(id),
-    events: pageEvents, guides: pageGuides, guide: () => pageGuide(id), calc: () => pageCalc(params),
+    events: pageEvents, event: () => pageEvent(id), guides: pageGuides, guide: () => pageGuide(id),
+    features: pageFeatures, artifacts: pageArtifacts, arena: pageArena, shop: pageShop,
+    calc: () => pageCalc(params),
   };
   (R[p] || notFound)();
 }

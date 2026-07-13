@@ -219,6 +219,20 @@ select.inline{cursor:pointer}
 .kv .cell .v{font-size:19px;font-weight:800;margin-top:3px}
 .desc-box{margin-top:18px;padding:16px;background:var(--bg-2);border:1px solid var(--line);border-radius:12px;
   color:var(--txt);font-size:14.5px;line-height:1.75;white-space:pre-line}
+/* tô màu số + thuật ngữ trong mô tả cho trực quan */
+.nm{color:var(--gold);font-weight:700;font-variant-numeric:tabular-nums}
+.tm{color:var(--blue);font-weight:600}
+.skill p .nm{color:#ffcf6b}
+/* hộp "dùng để làm gì" */
+.usebox{margin-top:16px;padding:14px 16px;background:rgba(245,196,81,.06);border:1px solid rgba(245,196,81,.22);
+  border-radius:12px;font-size:14px;line-height:1.65;color:var(--txt)}
+.usebox .ulabel{font-size:12px;font-weight:800;color:var(--gold);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px}
+.usebox .nm{color:var(--gold-2)}
+/* event detail */
+.evmore{display:inline-block;margin-top:8px;font-size:12px;font-weight:700;color:var(--gold)}
+.ev-logo{background:linear-gradient(180deg,var(--bg-3),#140d0f);gap:12px}
+.ev-logo .evbig{font-size:72px;line-height:1}
+.ev-logo .evcat{font-size:13px;font-weight:700;color:var(--txt-2)}
 .desc-box.muted{color:var(--txt-3)}
 .desc-box .zh-orig{color:var(--txt-3);font-size:13px;margin-top:12px;padding-top:10px;border-top:1px solid var(--line);white-space:pre-line}
 .desc-box .zh-orig summary{cursor:pointer;color:var(--txt-3);font-weight:600;list-style:revert}
