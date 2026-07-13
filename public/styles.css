@@ -163,7 +163,7 @@ img{display:block;max-width:100%}
 .kv .cell .l{color:var(--txt-3);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px}
 .kv .cell .v{font-size:18px;font-weight:800;margin-top:3px}
 .desc-box{margin-top:20px;padding:16px;background:var(--bg-2);border:1px solid var(--line);border-radius:12px;
-  color:var(--txt-2);font-size:14px;line-height:1.65}
+  color:var(--txt-2);font-size:14px;line-height:1.7;white-space:pre-line}
 .desc-box .zh-orig{color:var(--txt-3);font-size:13px;margin-top:10px;padding-top:10px;border-top:1px solid var(--line)}
 
 /* ---------- Skills (hero detail) ---------- */

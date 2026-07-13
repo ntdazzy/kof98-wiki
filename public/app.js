@@ -10,7 +10,7 @@ const norm = s => (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '
 
 /* ---------- data ---------- */
 async function loadData() {
-  const files = ['heroes', 'items', 'warsouls', 'systems', 'stats'];
+  const files = ['heroes', 'items', 'warsouls', 'systems', 'stats', 'equipment'];
   const res = await Promise.all(files.map(f => fetch(`data/${f}.json`).then(r => r.json()).catch(() => null)));
   files.forEach((f, i) => S.data[f] = res[i]);
   buildIndex();
@@ -20,6 +20,7 @@ function buildIndex() {
   (S.data.heroes || []).forEach(h => { const n = h.name || {}; if (n.vi || n.zh) idx.push({ t: 'hero', id: h.id, k: 'Võ Sĩ', vi: n.vi, zh: n.zh, icon: h.portrait || h.avatar, extra: `${h.rarity} ${h.type}`, route: `#/hero/${h.id}` }); });
   (S.data.warsouls || []).forEach(s => { const n = s.name || {}; if (n.vi || n.zh) idx.push({ t: 'soul', id: s.id, k: 'Chiến Hồn', vi: n.vi, zh: n.zh, icon: s.icon, extra: s.type, route: `#/soul/${s.id}` }); });
   (S.data.items || []).forEach(it => { const n = it.name || {}; if (n.vi || n.zh) idx.push({ t: 'item', id: it.id, k: 'Vật Phẩm', vi: n.vi, zh: n.zh, icon: it.icon, extra: it.type, route: `#/item/${it.id}` }); });
+  (S.data.equipment || []).forEach(e => { const n = e.name || {}; if (n.vi || n.zh) idx.push({ t: 'equip', id: e.id, k: 'Trang Bị', vi: n.vi, zh: n.zh, icon: e.icon, extra: e.quality, route: `#/equip/${e.id}` }); });
   (S.data.systems || []).forEach(sy => { if (sy.title) idx.push({ t: 'guide', id: sy.key, k: 'Cẩm Nang', vi: sy.title, zh: sy.title, icon: null, extra: '', route: `#/guide/${sy.key}` }); });
   S.index = idx;
 }
@@ -106,6 +107,7 @@ function pageHome() {
   const cards = [
     ['⚔️', 'Võ Sĩ', `${st.heroes || 0} tướng — chỉ số, hệ, độ hiếm, kỹ năng`, '#/heroes'],
     ['🔥', 'Chiến Hồn', `${st.warsouls || 0} hồn — loại, sao, hiệu ứng, tổng hợp`, '#/souls'],
+    ['🗡️', 'Trang Bị', `${st.equipment || 0} trang bị võ sĩ — chỉ số, thức tỉnh`, '#/equips'],
     ['💎', 'Vật Phẩm', `${st.items || 0} vật phẩm — công dụng, nguồn kiếm`, '#/items'],
     ['📖', 'Cẩm Nang', `${st.systems || 0} hệ thống — cơ chế & mẹo tối ưu`, '#/guides'],
     ['🧮', 'Tính Lực Chiến', 'Máy tính theo công thức gốc HeroCombatFormula', '#/calc'],
@@ -299,6 +301,62 @@ function pageSoul(id) {
   </div>`;
 }
 
+function heroName(hid) { const h = (S.data.heroes || []).find(x => x.id === hid); return h ? (T(h.name) || hid) : hid; }
+function pageEquips() {
+  const eq = (S.data.equipment || []).filter(e => e.name.vi || e.name.zh);
+  let q = '', fq = 'all';
+  const quals = ['SP', 'UR', 'SSR', 'SR', 'R'];
+  const render = () => {
+    const list = eq.filter(e => (fq === 'all' || e.quality === fq) &&
+      (!q || norm(T(e.name)).includes(norm(q)) || (e.name.zh || '').includes(q) || norm(heroName(e.hero)).includes(norm(q)))).slice(0, 500);
+    $('#eqgrid').innerHTML = list.length ? list.map(e => `
+      <a class="hcard" data-r="${e.quality}" href="#/equip/${e.id}">
+        <div class="port" style="aspect-ratio:1;display:grid;place-items:center;padding:16px;background:var(--bg-2)">
+          ${e.icon ? `<img loading="lazy" src="${esc(e.icon)}" style="object-fit:contain" onerror="this.style.display='none'" alt="">` : '<div style="font-size:30px">🗡️</div>'}
+          <span class="rar" data-r="${e.quality}">${e.quality}</span></div>
+        <div class="meta"><div class="nm">${esc(T(e.name) || e.id)}</div><div class="zh">${esc(heroName(e.hero))} · ${esc(e.slot)}</div></div>
+      </a>`).join('') : emptyState();
+    $('#eqcount').textContent = `${list.length}${list.length >= 500 ? '+' : ''} trang bị`;
+  };
+  app.innerHTML = `
+    <div class="page-head fade"><h1>🗡️ Trang Bị (装备)</h1><div class="sub">${eq.length} trang bị võ sĩ (mỗi tướng có bộ riêng E1–E4). Xem <a href="#/guide/equipment" style="color:var(--gold)">cẩm nang Trang Bị</a>.</div></div>
+    <div class="toolbar fade">
+      <input class="inline" id="eq" placeholder="Tìm theo tên / võ sĩ..." style="min-width:200px">
+      <div class="chips" id="eqChips"><button class="chip on" data-v="all">Tất cả</button>${quals.map(v => `<button class="chip" data-v="${v}">${v}</button>`).join('')}</div>
+      <span class="count" id="eqcount"></span>
+    </div>
+    <div class="hgrid fade" id="eqgrid"></div>`;
+  $('#eq').addEventListener('input', e => { q = e.target.value; render(); });
+  $('#eqChips').addEventListener('click', e => { const b = e.target.closest('.chip'); if (!b) return; fq = b.dataset.v; $$('#eqChips .chip').forEach(c => c.classList.toggle('on', c === b)); render(); });
+  render();
+}
+function pageEquip(id) {
+  const e = (S.data.equipment || []).find(x => x.id === id); if (!e) return notFound();
+  app.innerHTML = `
+  <div class="crumb"><a href="#/equips">Trang Bị</a> / ${esc(T(e.name))}</div>
+  <div class="detail fade" style="grid-template-columns:280px 1fr">
+    <div class="dpanel" style="padding:30px;display:grid;place-items:center;gap:16px;background:var(--bg-2)">
+      ${e.icon ? `<img src="${esc(e.icon)}" style="width:110px;height:110px;object-fit:contain" onerror="this.style.display='none'" alt="">` : '🗡️'}
+      ${e.awakenIcon ? `<div style="text-align:center"><img src="${esc(e.awakenIcon)}" style="width:80px;height:80px;object-fit:contain" onerror="this.style.display='none'" alt=""><div class="pill" style="margin-top:6px">Thức Tỉnh</div></div>` : ''}
+    </div>
+    <div class="dpanel dbody">
+      <h1>${esc(T(e.name) || e.id)}</h1>
+      <div class="zh">${esc(e.name.zh || '')} · <span class="pill">${e.id}</span></div>
+      <div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap">
+        <span class="pill" style="color:var(--r-${e.quality})">${e.quality}</span>
+        <a class="pill" href="#/hero/${e.hero}" style="color:var(--gold)">Của: ${esc(heroName(e.hero))}</a>
+        <span class="pill">Ô ${esc(e.slot)}</span>
+      </div>
+      <div class="kv" style="margin-top:18px">
+        ${e.maxAtk != null ? `<div class="cell"><div class="l">Công tối đa (max sao)</div><div class="v" style="color:var(--el-atk)">${e.maxAtk.toLocaleString()}</div></div>` : ''}
+        ${e.maxHp != null ? `<div class="cell"><div class="l">HP tối đa (max sao)</div><div class="v" style="color:var(--green)">${e.maxHp.toLocaleString()}</div></div>` : ''}
+        ${e.maxDef != null ? `<div class="cell"><div class="l">Thủ tối đa</div><div class="v" style="color:var(--el-def)">${e.maxDef.toLocaleString()}</div></div>` : ''}
+      </div>
+      <div class="desc-box" style="color:var(--txt-3)">Trang bị riêng của võ sĩ. Nâng sao để tăng chỉ số; Thức Tỉnh mở thêm sức mạnh. Chi tiết cơ chế xem <a href="#/guide/equipment" style="color:var(--gold)">cẩm nang Trang Bị</a>.</div>
+    </div>
+  </div>`;
+}
+
 function pageGuides() {
   const g = S.data.systems || [];
   app.innerHTML = `
@@ -406,6 +464,8 @@ function route() {
   if (p === 'soul') return pageSoul(id);
   if (p === 'items') return pageItems();
   if (p === 'item') return pageItem(id);
+  if (p === 'equips') return pageEquips();
+  if (p === 'equip') return pageEquip(id);
   if (p === 'guides') return pageGuides();
   if (p === 'guide') return pageGuide(id);
   if (p === 'calc') return pageCalc(params);
