@@ -1,0 +1,2047 @@
+[
+ {
+  "i": 0,
+  "zh": "攻击+2400,防御+960,生命+50000,我方全体格斗家提升15%的伤害率与免伤率,持续48秒,己方同怒气战魂的格斗家超过3人时,效果翻倍（副魂可激活）",
+  "cur": "công kích+2400,phòng ngự+960,sinh mệnh+50000,toàn thể phe tavõ sĩtăng 15% tỉ lệ sát thương và miễn thương,duy trì 48 giây,phe tacùngchiến hồn nộ khívõ sĩvượt quá3 người khi,hiệu quả nhân đôi(phó hồn có thể kích hoạt)"
+ },
+ {
+  "i": 1,
+  "zh": "唯一效果「崩坏」：攻击+2000,防御+480,生命+24000，施放超绝前，自身损失40%当前生命值，并使自身【灼烧】，此次超绝技暴击率和暴击强度提升50%（每次连击限1次）",
+  "cur": "Hiệu quả độc nhất\"Băng Hoại\": công kích +2000, phòng ngự +480, sinh mệnh +24000, trước khi tung Siêu Tuyệt, bản thân mất 40% Sinh Mệnh hiện tại, và khiến bản thân [Bỏng], lần này Siêu Tuyệt tỉ lệ bạo kích và cường độ bạo kích tăng 50% (mỗi lần liên kích giới hạn 1 lần)"
+ },
+ {
+  "i": 2,
+  "zh": "唯一效果「翠炎」：攻击+2000,防御+480,生命+24000，每20秒降低敌方怒气值最高的格斗家300点怒气",
+  "cur": "Hiệu quả độc nhất\"Thúy Viêm\": công kích +2000, phòng ngự +480, sinh mệnh +24000, mỗi 20 giây giảm địch võ sĩ có nộ khí cao nhất 300 điểm nộ khí"
+ },
+ {
+  "i": 3,
+  "zh": "唯一效果「钢躯」：攻击+1600,防御+640,生命+30000，敌方每次释放超绝技时，自身40%概率获得不可驱散的「无敌」，持续5秒",
+  "cur": "Hiệu quả độc nhất\"Cương Khu\": công kích +1600, phòng ngự +640, sinh mệnh +30000, địch mỗi lần khi tung Siêu Tuyệt, bản thân 40% xác suất nhận được không thể xua tan\"Vô Địch\", kéo dài 5 giây"
+ },
+ {
+  "i": 4,
+  "zh": "唯一效果「光芒」：攻击+1600,防御+640,生命+30000，战斗开始时，自身增加30%怒气回复速率，持续己方2次连击",
+  "cur": "Hiệu quả độc nhất\"Tia Sáng\": công kích +1600, phòng ngự +640, sinh mệnh +30000, khi bắt đầu trận, bản thân tăng thêm 30% tốc độ hồi nộ khí, kéo dài qua liên kích phe ta 2 lần liên kích"
+ },
+ {
+  "i": 5,
+  "zh": "唯一效果「心火」：攻击+2000,防御+480,生命+24000，每秒回复自身30点怒气，降低自身150%超绝伤害率，持续整场，不可驱散",
+  "cur": "Hiệu quả độc nhất\"Tâm Hỏa\": công kích +2000, phòng ngự +480, sinh mệnh +24000, mỗi giây hồi phục bản thân 30 điểm nộ khí, giảm bản thân 150% sát thương Siêu Tuyệt tỉ lệ, kéo dài cả trận, không thể xua tan"
+ },
+ {
+  "i": 6,
+  "zh": "唯一效果「扭曲」：提升自身攻击，防御，生命；释放超绝技前，自身损失当前生命，驱散主目标2个增益，驱散自身2个减益，自身获得最大生命值的护盾。",
+  "cur": "hiệu quả duy nhất「vặn xoắn」: tăng bản thâncông kích, phòng ngự, sinh mệnh; trước khi thi triển siêu tuyệt kỹ, bản thântổn thấtsinh mệnh hiện tại, xua tan chínhmục tiêu2 cáităng ích, xua tan bản thân2 cáigiảm ích, bản thânnhận giá trị sinh mệnh tối đacủakhiên. "
+ },
+ {
+  "i": 7,
+  "zh": "唯一效果「磐石」：攻击+1600,防御+640,生命+30000，敌方每次释放超绝技前，自身防御提高50%，持续整场。",
+  "cur": "Hiệu quả độc nhất\"Bàn Thạch\": công kích +1600, phòng ngự +640, sinh mệnh +30000, địch mỗi lần tung ra Siêu Tuyệt trước, bản thân phòng ngự tăng 50%, kéo dài cả trận."
+ },
+ {
+  "i": 8,
+  "zh": "唯一效果「先机」：攻击+1600,防御+640,生命+30000，敌方回合结束时，我方每有1点能量回复自身125点怒气",
+  "cur": "Hiệu quả độc nhất\"Tiên Cơ\": công kích +1600, phòng ngự +640, sinh mệnh +30000, địch khi kết thúc lượt, phe ta cứ mỗi 1 điểm năng lượng hồi phục bản thân 125 điểm nộ khí"
+ },
+ {
+  "i": 9,
+  "zh": "唯一效果「风范」：攻击+1600,防御+640,生命+30000，超绝技额外附加自身防御400%的真实伤害。",
+  "cur": "Hiệu quả độc nhất\"Phong Phạm\": công kích +1600, phòng ngự +640, sinh mệnh +30000, Siêu Tuyệt thêm gắn thêm bản thân phòng ngự 400% sát thương thực."
+ },
+ {
+  "i": 10,
+  "zh": "唯一效果「牌皇」： 战斗开始时，自身增加15%攻击率，持续己方2次连击",
+  "cur": "Hiệu quả độc nhất\"Bài Hoàng\": khi bắt đầu trận, bản thân tăng thêm 15% tỉ lệ công kích, kéo dài qua liên kích phe ta 2 lần liên kích"
+ },
+ {
+  "i": 11,
+  "zh": "唯一效果「五光」：攻击+2000,防御+480,生命+24000，自身释放超绝技时，主目标每有1层负面状态增加本次超绝技伤害10%",
+  "cur": "Hiệu quả độc nhất\"Ngũ Quang\": công kích +2000, phòng ngự +480, sinh mệnh +24000, bản thân khi tung Siêu Tuyệt, mục tiêu chính cứ mỗi 1 tầng trạng thái bất lợi tăng thêm lần này sát thương Siêu Tuyệt 10%"
+ },
+ {
+  "i": 12,
+  "zh": "唯一效果「鬼哭」：攻击+1600,防御+640,生命+30000，每10秒恢复自身20%最大生命值的血量，并使生命比例最低的2名队友获得等量回复",
+  "cur": "Hiệu quả độc nhất\"Quỷ Khốc\": công kích +1600, phòng ngự +640, sinh mệnh +30000, mỗi 10 giây hồi phục bản thân 20% lượng máu bằng Sinh Mệnh tối đa, và khiến tỉ lệ Sinh Mệnh thấp nhất 2 tên đồng đội nhận được lượng tương đương hồi phục"
+ },
+ {
+  "i": 13,
+  "zh": "唯一效果「怨灵」：攻击+2000,防御+480,生命+24000，自身每次释放超绝技后，对敌方全体造成其各自30%已损失生命值的伤害（不超过自身攻击力的1000%）",
+  "cur": "Hiệu quả độc nhất\"Oán Linh\": công kích +2000, phòng ngự +480, sinh mệnh +24000, bản thân mỗi lần tung ra Siêu Tuyệt sau, với toàn bộ địch gây nó mỗi bên 30% đã mất Sinh Mệnh sát thương (không vượt quá công kích bản thân 1000%)"
+ },
+ {
+  "i": 14,
+  "zh": "唯一效果「虎啸」：攻击+1000,防御+240,生命+12000，自身释放超绝技时，主目标每有1层增益状态提升自身15%暴击强度",
+  "cur": "Hiệu quả độc nhất\"Hổ Khiếu\": công kích +1000, phòng ngự +240, sinh mệnh +12000, bản thân khi tung Siêu Tuyệt, mục tiêu chính cứ mỗi 1 tầng có lợi trạng thái tăng bản thân 15% cường độ bạo kích"
+ },
+ {
+  "i": 15,
+  "zh": "攻击+1600,防御+640,生命+30000，己方连击开始时，使己方全体暴击率+12%，暴击伤害+12%，最多叠加3层",
+  "cur": "công kích +1600, phòng ngự +640, sinh mệnh +30000, khi phe ta bắt đầu liên kích, khiến toàn bộ phe ta tỉ lệ bạo kích +12%, sát thương bạo kích +12%, tối đa cộng dồn 3 tầng"
+ },
+ {
+  "i": 16,
+  "zh": "唯一效果「刀锋」：攻击+2000,防御+480,生命+24000，释放超绝技时，对攻击力最高的敌方格斗家造成800%自身攻击力的伤害",
+  "cur": "Hiệu quả độc nhất\"Đao Phong\": công kích +2000, phòng ngự +480, sinh mệnh +24000, khi tung Siêu Tuyệt, với võ sĩ địch có công kích cao nhất gây 800% công kích bản thân sát thương"
+ },
+ {
+  "i": 17,
+  "zh": "唯一效果「神工」：攻击+1600,防御+640,生命+30000，战斗开始时获得「复活」，复活后拥有20%生命值和1000点怒气。",
+  "cur": "Hiệu quả độc nhất\"Thần Công\": công kích +1600, phòng ngự +640, sinh mệnh +30000, khi bắt đầu trận nhận được\"Hồi Sinh\", sau khi hồi sinh sở hữu 20% Sinh Mệnh và 1000 điểm nộ khí."
+ },
+ {
+  "i": 18,
+  "zh": "攻击+2000,防御+480,生命+24000，伤害率+20%，暴击率+20%，暴击强度+20%，吸血率+20%",
+  "cur": "công kích +2000, phòng ngự +480, sinh mệnh +24000, tỉ lệ sát thương +20%, tỉ lệ bạo kích +20%, cường độ bạo kích +20%, tỉ lệ hút máu +20%"
+ },
+ {
+  "i": 19,
+  "zh": "唯一效果「振岳」：攻击+1600,防御+640,生命+30000，反伤率+50%，格挡率+50%，免伤率+50%",
+  "cur": "Hiệu quả độc nhất\"Chấn Nhạc\": công kích +1600, phòng ngự +640, sinh mệnh +30000, tỉ lệ phản thương +50%, tỉ lệ đỡ đòn +50%, tỉ lệ miễn thương +50%"
+ },
+ {
+  "i": 20,
+  "zh": "提升自身1200+10%攻击，10%暴击率和20%效果命中。使用能量技后刷新一个能量技。",
+  "cur": "Tăng bản thân 1200+10% công kích, 10% tỉ lệ bạo kích và 20% hiệu quả mệnh trúng. sau khi dùng Năng Lượng Kỹlàm mới một Năng Lượng Kỹ. "
+ },
+ {
+  "i": 21,
+  "zh": "提升自身1200+15%生命，自身免疫【冰冻】、【灼烧】、【麻痹】、【中毒】。",
+  "cur": "Tăng bản thân 1200+15% sinh mệnh, bản thân miễn nhiễm 【Đóng Băng】, 【Thiêu Đốt】, 【Tê Liệt】, 【Trúng Độc】. "
+ },
+ {
+  "i": 22,
+  "zh": "提升自身800+5%攻击，800+5%防御。登场时，获得自身攻击力500%的护盾，且降低对方怒气最高的一名格斗家500点怒气。",
+  "cur": "Tăng bản thân 800+5% công kích, 800+5% phòng ngự. khi ra sân, nhận khiên bằng công kích bản thân 500% khiên, và giảm cho một Võ Sĩ có nộ khí cao nhất của đối phương 500 điểm nộ khí. "
+ },
+ {
+  "i": 23,
+  "zh": "提升自身18000生命，1000防御。在场时，降低敌方格斗家10%暴击率，增加自身被攻击的概率30%。",
+  "cur": "Tăng bản thân 18000 sinh mệnh, 1000 phòng ngự. khi ở trên sân, giảm Võ Sĩ phe địch10% tỉ lệ bạo kích, tăng xác suất bản thân bị tấn công 30%. "
+ },
+ {
+  "i": 24,
+  "zh": "提升自身800+8%攻击，500+5%防御。提升我方女格斗家30%能量技伤害。",
+  "cur": "Tăng bản thân 800+8% công kích, 500+5% phòng ngự. Tăng cho Võ Sĩ nữ phe ta 30% sát thương Năng Lượng Kỹ. "
+ },
+ {
+  "i": 25,
+  "zh": "提升自身10000+5%生命、95%灼烧免伤率。使用技能时为自身附加一层灼烧；使用超绝技时将自身所有灼烧转移给主目标，回复1点能量，每层灼烧回复自身100怒气，每层灼烧有12%概率眩晕主目标。",
+  "cur": "tăng cho bản thân 10000+5% sinh mệnh, 95% tỉ lệ miễn thương thiêu đốt. khi dùng kỹ nănggắn cho bản thân một tầng Thiêu Đốt; khi dùng kỹ năng siêu tuyệtchuyển toàn bộ Thiêu Đốt của bản thân sang mục tiêu chính, hồi phục 1 điểm năng lượng, mỗi tầng Thiêu Đốthồi phục cho bản thân 100 nộ khí, mỗi tầng Thiêu Đốtcó12% xác suấtgây Choáng mục tiêu chính."
+ },
+ {
+  "i": 26,
+  "zh": "提升自身攻击1600,防御640,生命30000,己方全体格斗家提升攻击8%,防御8%,持续48秒,己方同流派的格斗家超过3人时,这些格斗家的效果翻倍。",
+  "cur": "tăng công kích bản thân 1600,phòng ngự640,sinh mệnh30000,toàn thể phe tavõ sĩtăng công kích8%,phòng ngự8%,duy trì 48 giây,phe tacùng lưu pháivõ sĩvượt quá3 người khi,những cái nàyvõ sĩhiệu quả nhân đôi."
+ },
+ {
+  "i": 27,
+  "zh": "提升自身攻击1600,防御640,生命30000,伤害率25%,免伤率25%,抗暴率30%,破击率30%。",
+  "cur": "tăng công kích bản thân 1600,phòng ngự640,sinh mệnh30000,tỉ lệ sát thương25%,tỉ lệ miễn thương25%,tỉ lệ kháng bạo30%,tỉ lệ phá kích30%."
+ },
+ {
+  "i": 28,
+  "zh": "提升自身攻击1600,防御640,生命30000,降低自身受到的能量技攻击时的伤害50%,和受到超绝技攻击时的伤害20%。",
+  "cur": "tăng công kích bản thân 1600,phòng ngự640,sinh mệnh30000,giảm sát thương bản thân nhận khi bị kỹ năng năng lượng tấn công50%,và sát thương nhận khi bị kỹ năng siêu tuyệt tấn công20%."
+ },
+ {
+  "i": 29,
+  "zh": "提升自身攻击1600,防御640,生命30000,暴击率20%,抗暴率20%,格挡率20%,效果命中30%。",
+  "cur": "tăng công kích bản thân 1600,phòng ngự640,sinh mệnh30000,tỉ lệ bạo kích20%,tỉ lệ kháng bạo20%,tỉ lệ đỡ đòn20%,hiệu quả mệnh trúng30%."
+ },
+ {
+  "i": 30,
+  "zh": "攻击+1600,防御+640,生命+30000，战斗中生效一次，生命小于30%时，自身获得「无敌」，持续敌方1次连击；每4秒回复10%最大生命，持续24秒",
+  "cur": "công kích+1600,phòng ngự+640,sinh mệnh+30000, có hiệu lực một lần trong trận, khi sinh mệnh nhỏ hơn 30%, bản thânnhận「Vô Địch」, duy trì 1 đợt liên kích của địch; mỗi 4 giâyhồi phục 10% sinh mệnh tối đa, duy trì 24 giây"
+ },
+ {
+  "i": 31,
+  "zh": "提升自身攻击800，防御320，生命15000，战斗开始时，提升己方全体12%+500超绝技伤害。",
+  "cur": "Tăng công kích bản thân 800, phòng ngự320, sinh mệnh15000, khi bắt đầu trận đấu, Tăng toàn bộ phe ta 12%+500 sát thương Siêu Tuyệt Kỹ. "
+ },
+ {
+  "i": 32,
+  "zh": "攻击灼烧中敌人时回复生命值最少的我方格斗家40%草薙京攻击力的生命值，草薙京品质提升为SR+后变为80%，SSR后变为100%。",
+  "cur": "công kíchthiêu đốttrong kẻ địch thì hồi sinh mệnhnhất ít phe ta Võ Sĩ40% sinh mệnh bằng công kích của Kyo, sau khi Kyo nâng phẩm chất lên SR+ trở thành 80%, SSR sau trở thành 100%. "
+ },
+ {
+  "i": 33,
+  "zh": "唯一效果「传说」：提升己方全体攻击，该值为本战魂拥有者攻击的3%+200（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Hiệu quả duy nhất「Truyền Thuyết」: Tăng công kích toàn bộ phe ta, giá trị này bằng công kích của chủ Chiến Hồn 3%+200 (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 34,
+  "zh": "唯一效果「元气」：提升自身攻击800，防御320，生命15000，战斗开始时，己方初始能量提升2点，40%概率额外提升1点",
+  "cur": "Hiệu quả duy nhất「Nguyên Khí」: Tăng công kích bản thân 800, phòng ngự320, sinh mệnh15000, khi bắt đầu trận đấu, phe tanăng lượng khởi đầutăng 2 điểm, 40% xác suất tăng thêm 1 điểm"
+ },
+ {
+  "i": 35,
+  "zh": "唯一效果「刀锋」：自身使用能量技，额外回复150点怒气并提升500+10%攻击和500+20%防御",
+  "cur": "Hiệu quả duy nhất「Đao Phong」: bản thân dùng Năng Lượng Kỹ, hồi thêm 150 điểm nộ khívà tăng 500+10% công kích và 500+20% phòng ngự"
+ },
+ {
+  "i": 36,
+  "zh": "战斗开始50秒后，提升我方全体斩杀率30%，持续整场",
+  "cur": "sau khi bắt đầu trận đấu 50 giây, tăng cho toàn thể phe ta tỉ lệ trảm sát30%, duy trì suốt trận"
+ },
+ {
+  "i": 37,
+  "zh": "唯一效果「应援」：提升自身6000点生命，己方每使用3个能量技，回复生命最低的格斗家50%攻击的生命",
+  "cur": "Hiệu quả duy nhất「Cổ Vũ」: Tăng bản thân 6000 điểm sinh mệnh, phe ta cứ mỗi 3 Năng Lượng Kỹ được dùng, hồi cho Võ Sĩ có sinh mệnh thấp nhất 50% công kích sinh mệnh"
+ },
+ {
+  "i": 38,
+  "zh": "提升己方全体1600点生命和10%效果抵抗（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Tăng toàn bộ phe ta 1600 điểm sinh mệnh và 10% kháng hiệu quả (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 39,
+  "zh": "唯一效果「红莲」：提升自身攻击800，防御320，生命15000，自身使用能量技伤害增加30%，且40%概率附加灼烧",
+  "cur": "Hiệu quả duy nhất「Hồng Liên」: Tăng công kích bản thân 800, phòng ngự320, sinh mệnh15000, bản thân dùng Năng Lượng Kỹsát thươngtăng thêm 30%, và 40% xác suất gắn thiêu đốt"
+ },
+ {
+  "i": 40,
+  "zh": "唯一效果「蹂躏」：提升自身攻击800，防御320和生命15000，能量技有8%概率减少敌人1点能量和15%+500攻击",
+  "cur": "Hiệu quả duy nhất「Giày Xéo」: Tăng công kích bản thân 800, phòng ngự320 và sinh mệnh15000, Năng Lượng Kỹcó 8% xác suất giảm ít kẻ địch1 điểm năng lượng và 15%+500 công kích"
+ },
+ {
+  "i": 41,
+  "zh": "唯一效果「守望」：提升己方全体防御，该值为本战魂拥有者防御的5%+300（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Hiệu quả duy nhất「Thủ Vọng」: Tăng phòng ngự toàn bộ phe ta, giá trị này bằng phòng ngự của chủ Chiến Hồn 5%+300 (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 42,
+  "zh": "唯一效果「夺萃」：攻击+800,防御+320,生命+15000,自身超绝技可以吸取目标12%+200攻击和12%+2400最大血量，持续36秒",
+  "cur": "Hiệu quả duy nhất「Đoạt Tụy」: công kích+800,phòng ngự+320,sinh mệnh+15000,Siêu Tuyệt Kỹ bản thân có thể hút của mục tiêu 12%+200 công kích và 12%+2400 nhất lớn máu, kéo dài 36 giây"
+ },
+ {
+  "i": 43,
+  "zh": "提升10%吸血率，超绝技的溢出伤害的50%溅射相邻目标。",
+  "cur": "tăng 10% tỉ lệ hút máu, Siêu Tuyệt Kỹsát thương tràn 50% văng sang mục tiêu kề bên. "
+ },
+ {
+  "i": 44,
+  "zh": "提升自身6000生命，唯一效果「活力」：每15秒回复己方全体格斗家3%的生命，提升10%*连击数（上限100%）的能量技伤害。",
+  "cur": "tăng cho bản thân 6000 sinh mệnh, Hiệu quả độc nhất「Hoạt Lực」: mỗi 15 giâyhồi phục toàn thể phe tavõ sĩ3% sinh mệnh, tăng 10%*số liên kích (giới hạn100%) sát thương kỹ năng năng lượng."
+ },
+ {
+  "i": 45,
+  "zh": "唯一效果「见切」：攻击+600,防御+420,生命+20000,开场和每次施放超绝时，给自身和同列队友附加1层【见切】（被作为主目标命中时消耗1层并触发：提升对该技能格挡率100%，治疗自身15%最大生命）",
+  "cur": "Hiệu quả duy nhất「Kiến Thiết」: công kích+600,phòng ngự+420,sinh mệnh+20000,khi vào trận và mỗi lần tung Siêu Tuyệt, gắn cho bản thân và đồng đội cùng cột 1 tầng【Kiến Thiết】 (khi bị nhắm làm mục tiêu chínhtiêu hao 1 tầng và kích hoạt: tăng tỉ lệ đỡ đòn với kỹ năng đó 100%, trị liệu bản thân 15% sinh mệnh tối đa) "
+ },
+ {
+  "i": 46,
+  "zh": "藤堂香澄敏锐的观察力能轻易识破对方的破绽。敌方格斗家每使用一次能量技，降低其8%免伤率，每使用一次超绝，降低其16%免伤率，最高降低40%，持续到己方下次连击结束。",
+  "cur": "Kasumi với khả năng quan sát nhạy bén dễ dàng nhìn thấu sơ hở đối phương. Võ Sĩ phe địchmỗi dùng một lần Năng Lượng Kỹ, giảm chúng 8% tỉ lệ giảm sát thương, mỗi dùng một lần Siêu Tuyệt, giảm chúng 16% tỉ lệ giảm sát thương, giảm tối đa 40%, kéo dài đến phe ta lầnliên kích kết thúc. "
+ },
+ {
+  "i": 47,
+  "zh": "唯一效果「超越」：提升自身攻击800,防御320,生命15000,战斗开始后，提升己方全体伤害率16%和攻击300，持续40秒。",
+  "cur": "Hiệu quả duy nhất「Siêu Việt」: Tăng công kích bản thân 800,phòng ngự320,sinh mệnh15000,sau khi bắt đầu trận đấu, Tăng toàn bộ phe ta tỉ lệ sát thương16% và công kích300, kéo dài 40 giây. "
+ },
+ {
+  "i": 48,
+  "zh": "战斗开始后，提升己方全体12%伤害率，持续60秒",
+  "cur": "sau khi bắt đầu trận đấu, Tăng toàn bộ phe ta 12% tỉ lệ sát thương, kéo dài 60 giây"
+ },
+ {
+  "i": 49,
+  "zh": "唯一效果「撕裂」：提升自身攻击800,防御320,生命15000,施放超绝技时，若主目标【流血】，则提升此技能伤害30%，并额外附加1层【流血】。",
+  "cur": "Hiệu quả duy nhất「Xé Rách」: Tăng công kích bản thân 800,phòng ngự320,sinh mệnh15000,tung Siêu Tuyệt Kỹ thì, nếu mục tiêu chính 【Chảy Máu】, thì tăng sát thương kỹ năng này 30%, và gắn thêm 1 tầng【Chảy Máu】. "
+ },
+ {
+  "i": 50,
+  "zh": "唯一效果「崩坏」：攻击+1000,防御+240,生命+12000，施放超绝前，自身损失30%当前生命值，并使自身【灼烧】，此次超绝技暴击率和暴击强度提升30%（每次连击限1次）",
+  "cur": "Hiệu quả độc nhất\"Băng Hoại\": công kích +1000, phòng ngự +240, sinh mệnh +12000, trước khi tung Siêu Tuyệt, bản thân mất 30% Sinh Mệnh hiện tại, và khiến bản thân [Bỏng], lần này Siêu Tuyệt tỉ lệ bạo kích và cường độ bạo kích tăng 30% (mỗi lần liên kích giới hạn 1 lần)"
+ },
+ {
+  "i": 51,
+  "zh": "我方连击开始时，无名将生命值按比例转化为怒气，直到怒气回满。敌方施放任意超绝技前，无名将自身300点怒气按比例转化为生命。开场时，若我方场上龙魂或熊魂格斗家大于3人，则无名的第3次超绝技，让全场所有队友回复1000点怒气。",
+  "cur": "khi phe ta bắt đầu liên kích, Vô Danh sẽ Sinh Mệnh theo tỉ lệ chuyển thành nộ khí, cho đến khi nộ khí đầy. trước khi địch tung bất kỳ Siêu Tuyệt nào, Vô Danh lấy bản thân của 300 điểm nộ khí theo tỉ lệ chuyển thành sinh mệnh. khi mở màn, nếu phe ta trên sân Long Hồn hoặc Hùng Hồn võ sĩ lớn hơn 3 người, thì Vô Danh Siêu Tuyệt thứ 3, khiến cả sân tất cả đồng đội hồi phục 1000 điểm nộ khí."
+ },
+ {
+  "i": 52,
+  "zh": "唯一效果「冰心」：提升自身攻击800,防御320,生命15000,战斗开始后，提升己方全体免伤率16%和防御300，持续40秒。",
+  "cur": "Hiệu quả duy nhất「Băng Tâm」: Tăng công kích bản thân 800,phòng ngự320,sinh mệnh15000,sau khi bắt đầu trận đấu, Tăng toàn bộ phe ta tỉ lệ giảm sát thương16% và phòng ngự300, kéo dài 40 giây. "
+ },
+ {
+  "i": 53,
+  "zh": "战斗开始后，提升己方全体12%免伤率，持续60秒",
+  "cur": "sau khi bắt đầu trận đấu, Tăng toàn bộ phe ta 12% tỉ lệ giảm sát thương, kéo dài 60 giây"
+ },
+ {
+  "i": 54,
+  "zh": "提升己方全体2%效果命中、2%效果强度、2%效果抵抗（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Tăng toàn bộ phe ta 2% hiệu quả mệnh trúng, 2% cường độ hiệu quả, 2% kháng hiệu quả (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 55,
+  "zh": "枫施放任意技能后，若自身血量低于50%，消耗1层【电能】，回复自身20%最大生命和200点怒气，回复我方1点能量",
+  "cur": "Maplethi triểnbất kỳ kỹ năng nào sau, nếu máu bản thân thấp hơn50%, tiêu hao 1 tầng【Điện Năng】, hồi phục cho bản thân 20% sinh mệnh tối đa và 200 điểm nộ khí, hồi phục cho phe ta 1 điểm năng lượng"
+ },
+ {
+  "i": 56,
+  "zh": "唯一效果「杀意」：提升自身6000点生命，己方每使用4个能量技，回复自身35%攻击的生命，提升10%伤害率，回复100点怒气",
+  "cur": "Hiệu quả duy nhất「Sát Ý」: Tăng bản thân 6000 điểm sinh mệnh, phe ta cứ mỗi 4 Năng Lượng Kỹ được dùng, hồi bản thân 35% công kích sinh mệnh, tăng 10% tỉ lệ sát thương, hồi 100 điểm nộ khí"
+ },
+ {
+  "i": 57,
+  "zh": "战斗开始后，提升自身嘲讽和免伤率各40%，持续敌方1次连击",
+  "cur": "sau khi bắt đầu trận đấu, tăng khiêu khích và tỉ lệ miễn thương bản thân mỗi loại 40%, duy trì 1 đợt liên kích của địch"
+ },
+ {
+  "i": 58,
+  "zh": "唯一效果「剑心」：提升自身攻击800,防御320,生命15000,本局战斗中，降低敌方全体伤害率16%和攻击300，持续40秒。",
+  "cur": "Hiệu quả duy nhất「Kiếm Tâm」: Tăng công kích bản thân 800,phòng ngự320,sinh mệnh15000,trong trận đấu này, giảm toàn bộ phe địch tỉ lệ sát thương16% và công kích300, kéo dài 40 giây. "
+ },
+ {
+  "i": 59,
+  "zh": "战斗开始后，降低敌方全体12%伤害率，持续60秒",
+  "cur": "sau khi bắt đầu trận đấu, giảm toàn bộ phe địch 12% tỉ lệ sát thương, kéo dài 60 giây"
+ },
+ {
+  "i": 60,
+  "zh": "提升自身攻击800,防御320,生命15000,己方格斗家使用超绝技时治疗生命最低的格斗家（攻击80%+1000）生命。",
+  "cur": "Tăng công kích bản thân 800,phòng ngự320,sinh mệnh15000,khi Võ Sĩ phe ta dùng Siêu Tuyệt Kỹtrị liệu cho Võ Sĩ có sinh mệnh thấp nhất (công kích80%+1000) sinh mệnh. "
+ },
+ {
+  "i": 61,
+  "zh": "开场时对每个敌人有30%概率附加1层流血，娜可露露品质提升为SSR后提升为60%概率。",
+  "cur": "khi vào trậnvới mỗi kẻ địch có 30% xác suất gắn 1 tầng chảy máu, sau khi Nakoruru nâng phẩm chất lên SSR tăng thành 60% xác suất. "
+ },
+ {
+  "i": 62,
+  "zh": "唯一效果「宗师」：攻击+800,防御+320,生命+15000，战斗开始时，场上每有1名不同流派的格斗家，自身获得5%伤害率，持续整场（可驱散）",
+  "cur": "Hiệu quả độc nhất\"Tông Sư\": công kích +800, phòng ngự +320, sinh mệnh +15000, khi bắt đầu trận, trên sân cứ mỗi 1 lưu phái khác nhau võ sĩ, bản thân nhận 5% tỉ lệ sát thương, kéo dài cả trận (có thể xua tan)"
+ },
+ {
+  "i": 63,
+  "zh": "己方所有能量技消耗能量减少1，但不得低于1点，己方格斗家每释放1个能量技，随机刷新1个能量技，每回合最多触发3次。若战斗开始时，我方怒气魂为狼魂或龙魂的格斗家大于3个，提升己方全体格斗家30%能量技伤害率，持续整场，不可驱散",
+  "cur": "phe ta tất cả kỹ năng năng lượng tiêu hao năng lượng giảm 1, nhưng không được thấp hơn 1 điểm, phe ta võ sĩ mỗi lần tung 1 cái kỹ năng năng lượng, ngẫu nhiên làm mới 1 cái kỹ năng năng lượng, mỗi lượt tối đa kích hoạt 3 lần. nếu khi bắt đầu trận, phe ta nộ khí hồn cho Lang Hồn hoặc Long Hồn võ sĩ lớn hơn 3 cái, tăng cho toàn bộ võ sĩ phe ta 30% tỉ lệ sát thương kỹ năng năng lượng, kéo dài cả trận, không thể xua tan"
+ },
+ {
+  "i": 64,
+  "zh": "提升自身800点攻击，320点防御，15000点生命，己方的前4次超绝技，伤害+8%，有60%概率回复1点能量和100怒气",
+  "cur": "Tăng bản thân 800 điểm công kích, 320 điểm phòng ngự, 15000 điểm sinh mệnh, 4 lần Siêu Tuyệt Kỹ đầu của phe ta, sát thương+8%, có 60% xác suất hồi 1 điểm năng lượng và 100 nộ khí"
+ },
+ {
+  "i": 65,
+  "zh": "唯一效果「剧毒」：攻击+800,防御+320,生命+15000,自身造成的毒的伤害提升100%",
+  "cur": "Hiệu quả độc nhất\"Kịch Độc\": công kích +800, phòng ngự +320, sinh mệnh +15000, bản thân gây độc sát thương tăng 100%"
+ },
+ {
+  "i": 66,
+  "zh": "我方所有中毒伤害提升40%。我方角色对后排敌人造成伤害时，若该敌人前排存在格斗家，则本次伤害提升12%",
+  "cur": "phe ta tất cả Trúng Độc sát thương tăng 40%. phe ta nhân vật khi gây sát thương lên địch hàng sau, nếu hàng trước kẻ địch đó có võ sĩ, thì lần này sát thương tăng 12%"
+ },
+ {
+  "i": 67,
+  "zh": "提升己方全体伤害率3%和攻击600（学习后无论格斗家是否上阵，均生效）。",
+  "cur": "Tăng toàn bộ phe ta tỉ lệ sát thương3% và công kích600 (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực). "
+ },
+ {
+  "i": 68,
+  "zh": "战斗开始后，降低敌方全体6%全属性，持续60秒。UR后额外降低敌方全体4%属性。",
+  "cur": "sau khi bắt đầu trận đấu, giảm toàn bộ phe địch 6% toàn thuộc tính, kéo dài 60 giây. sau UR giảm thêm toàn bộ phe địch 4% thuộc tính. "
+ },
+ {
+  "i": 69,
+  "zh": "提升己方全体3%免伤率和600点防御（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Tăng toàn bộ phe ta 3% tỉ lệ giảm sát thương và 600 điểm phòng ngự (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 70,
+  "zh": "登场时，提升自身30%免伤率和80%效果抗性，己方后排其他格斗家获得一半效果，持续60秒。",
+  "cur": "khi ra sân, Tăng bản thân 30% tỉ lệ giảm sát thương và 80% kháng hiệu quả, các Võ Sĩ khác hàng sau phe tanhận một nửa hiệu quả, kéo dài 60 giây. "
+ },
+ {
+  "i": 71,
+  "zh": "唯一效果「风暴」：攻击+800,防御+320,生命+15000,开场和复活时，为同排所有队友附加1层「暴风」",
+  "cur": "Hiệu quả duy nhất「Phong Bạo」: công kích+800,phòng ngự+320,sinh mệnh+15000,khi vào trận và hồi sinh, gắn cho tất cả đồng đội cùng hàng 1 tầng「Bạo Phong」"
+ },
+ {
+  "i": 72,
+  "zh": "开场时，为同排所有队友附加【复活】，复活后拥有10%血量，对已有【复活】的队友，复活后叠加血量；同排队友复活后，为其附加1000点怒气，并且其首次超绝伤害提升15%；所有大蛇之力的队友提升10%伤害率和免伤率（无法驱散，无法叠加）",
+  "cur": "khi vào trận, gắn cho tất cả đồng đội cùng hàng 【Hồi Sinh】, sau khi hồi sinhsở hữucó 10% máu, với đồng đội đã có 【Hồi Sinh】, sau khi hồi sinhcộng dồnmáu; đồng đội cùng hàngsau khi hồi sinh, gắn cho chúng 1000 điểm nộ khí, và chúngđầu lầnsát thương Siêu Tuyệttăng 15%; tất cả đồng đội Đại Xà Chi Lựctăng 10% tỉ lệ sát thương và tỉ lệ giảm sát thương (không thể xua tan, không thể cộng dồn) "
+ },
+ {
+  "i": 73,
+  "zh": "唯一效果「幻魔」：攻击+800,防御+320,生命+15000,战斗中，若自身处于前排，则提升12%防御；若自身处于后排，则提升12%攻击（无法驱散）。",
+  "cur": "Hiệu quả độc nhất\"Huyễn Ma\": công kích +800, phòng ngự +320, sinh mệnh +15000, trong trận, nếu bản thân ở hàng trước, thì tăng 12% phòng ngự; nếu bản thân ở hàng sau, thì tăng 12% công kích (không thể xua tan)."
+ },
+ {
+  "i": 74,
+  "zh": "处于后排时，降低自身30%防御和最大生命值，提升30%攻击（无法驱散）；开场时，提升我方全体80%效果抵抗，持续敌方2次连击；敌方前2次连击中，自身作为主目标被攻击时不会触发暴击",
+  "cur": "khi ở hàng sau, giảm bản thân 30% phòng ngự và Sinh Mệnh tối đa, tăng 30% công kích (không thể xua tan); khi mở màn, tăng toàn bộ phe ta 80% kháng hiệu quả, kéo dài qua liên kích địch 2 lần liên kích; địch trước 2 lần liên kích trong, bản thân khi bị đánh với tư cách mục tiêu chính sẽ không kích hoạt bạo kích"
+ },
+ {
+  "i": 75,
+  "zh": "唯一效果「帝王」：提升己方全体生命，该值为本战魂拥有者生命的3%+1500（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Hiệu quả duy nhất「Đế Vương」: Tăng sinh mệnh toàn bộ phe ta, giá trị này bằng sinh mệnh của chủ Chiến Hồn 3%+1500 (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 76,
+  "zh": "战斗开始后，吉斯每经过30秒获得自身最大生命值10%的护盾，战斗开始时吉斯获得双倍护盾；若我方怒气魂为独狼或玄武的格斗家大于3人，则每经过30秒，己方全体格斗家获得吉斯最大生命10%的护盾，持续30秒（可叠加）",
+  "cur": "sau khi bắt đầu trận đấu, Geese cứ mỗi 30 giây nhận khiên bằng sinh mệnh tối đa bản thân 10% khiên, khi bắt đầu trận đấu Geese nhận khiên gấp đôi; nếu phe ta nộ khí Hồnlà Độc Lang hoặc Huyền Vũ Võ Sĩlớn hơn 3 người, thì cứ mỗi 30 giây, toàn bộ Võ Sĩ phe tanhận sinh mệnh tối đa của Geese 10% khiên, kéo dài 30 giây (có thể cộng dồn) "
+ },
+ {
+  "i": 77,
+  "zh": "唯一效果「转生」：攻击+800,防御+320,生命+15000，自身在复活后，获得15%伤害率和15%免伤率，持续整场，无法驱散",
+  "cur": "Hiệu quả độc nhất\"Chuyển Sinh\": công kích +800, phòng ngự +320, sinh mệnh +15000, bản thân khi sau khi hồi sinh, nhận được 15% tỉ lệ sát thương và 15% tỉ lệ miễn thương, kéo dài cả trận, không thể xua tan"
+ },
+ {
+  "i": 78,
+  "zh": "天草四郎每秒回复12点怒气；被攻击时，回复128点怒气；有人死亡时，回复160点怒气；开场时，若我方熊魂格斗家>3人，则激活效果：天草四郎每次发动能量技后，回复四周队友怒气，其值等于天草四郎当前怒气值的15%。",
+  "cur": "Amakusa mỗi giây hồi 12 điểm nộ khí; khi bị tấn công, hồi 128 điểm nộ khí; khi có người tử vong, hồi 160 điểm nộ khí; khi vào trận, nếu Võ Sĩ Hùng Hồn phe ta>3 người, thì kích hoạt hiệu quả: sau mỗi lần Amakusa phát Năng Lượng Kỹ, hồi đồng đội xung quanhnộ khí, chúnggiá trịbằng nộ khí hiện tại của Amakusa 15%. "
+ },
+ {
+  "i": 79,
+  "zh": "唯一效果「翠炎」：攻击+1000,防御+240,生命+12000，每30秒降低敌方怒气值最高的格斗家300点怒气",
+  "cur": "Hiệu quả độc nhất\"Thúy Viêm\": công kích +1000, phòng ngự +240, sinh mệnh +12000, mỗi 30 giây giảm địch võ sĩ có nộ khí cao nhất 300 điểm nộ khí"
+ },
+ {
+  "i": 80,
+  "zh": "每10秒偷取敌方怒气最高的格斗家300点怒气；若战斗开始时，我方怒气魂为狼魂或龙魂的格斗家>3个，永久提升自身15%怒气回复速率，不可驱散",
+  "cur": "mỗi 10 giây trộm lấy địch võ sĩ có nộ khí cao nhất 300 điểm nộ khí; nếu khi bắt đầu trận, phe ta nộ khí hồn cho Lang Hồn hoặc Long Hồn võ sĩ >3 cái, vĩnh viễn tăng bản thân 15% tốc độ hồi nộ khí, không thể xua tan"
+ },
+ {
+  "i": 81,
+  "zh": "唯一效果「钢躯」：攻击+800,防御+320,生命+15000，敌方每次释放超绝技时，自身20%概率获得不可驱散的「无敌」，持续5秒",
+  "cur": "Hiệu quả độc nhất\"Cương Khu\": công kích +800, phòng ngự +320, sinh mệnh +15000, địch mỗi lần khi tung Siêu Tuyệt, bản thân 20% xác suất nhận được không thể xua tan\"Vô Địch\", kéo dài 5 giây"
+ },
+ {
+  "i": 82,
+  "zh": "战斗开始时，提升自身200%最大生命值，持续整场，不可驱散；若战斗开始时，我方怒气魂为龟魂或熊魂的格斗家>3个，敌方每回合前3个超绝技伤害率降低60%",
+  "cur": "khi bắt đầu trận, tăng bản thân 200% Sinh Mệnh tối đa, kéo dài cả trận, không thể xua tan; nếu khi bắt đầu trận, phe ta nộ khí hồn cho Quy Hồn hoặc Hùng Hồn võ sĩ >3 cái, mỗi lượt địch trước 3 cái tỉ lệ sát thương Siêu Tuyệt giảm 60%"
+ },
+ {
+  "i": 83,
+  "zh": "唯一效果「光芒」：攻击+800,防御+320,生命+15000，战斗开始时，自身增加20%怒气回复速率，持续己方2次连击",
+  "cur": "Hiệu quả độc nhất\"Tia Sáng\": công kích +800, phòng ngự +320, sinh mệnh +15000, khi bắt đầu trận, bản thân tăng thêm 20% tốc độ hồi nộ khí, kéo dài qua liên kích phe ta 2 lần liên kích"
+ },
+ {
+  "i": 84,
+  "zh": "敌方每回合第一个超绝技的主目标将会获得「无敌」且恢复该目标50%最大生命值的血量，持续到该次连击结束；若我方龙魂或龟魂格斗家>3人，将会驱散该目标3个减益状态。",
+  "cur": "mỗi lượt địch Siêu Tuyệt đầu tiên mục tiêu chính sẽ nhận được\"Vô Địch\"và hồi phục mục tiêu đó 50% lượng máu bằng Sinh Mệnh tối đa, kéo dài đến khi liên kích đó kết thúc; nếu phe ta Long Hồn hoặc Quy Hồn võ sĩ >3 người, sẽ xua tan mục tiêu đó 3 cái trạng thái bất lợi."
+ },
+ {
+  "i": 85,
+  "zh": "唯一效果「心火」：攻击+1000,防御+240,生命+12000，每秒回复自身15点怒气，降低自身100%超绝伤害率，持续整场，不可驱散",
+  "cur": "Hiệu quả độc nhất\"Tâm Hỏa\": công kích +1000, phòng ngự +240, sinh mệnh +12000, mỗi giây hồi phục bản thân 15 điểm nộ khí, giảm bản thân 100% sát thương Siêu Tuyệt tỉ lệ, kéo dài cả trận, không thể xua tan"
+ },
+ {
+  "i": 86,
+  "zh": "己方场上每有1名队友，祸忌拥有25%的超绝技和能量技免伤；敌方格斗家每次释放技能后，祸忌有60%的概率牺牲当前5%的生命值，为己方随机一名队友驱散1个控制效果，并回复自身70点怒气。若战斗开始时，己方怒气战魂为龙魂或者狼魂的格斗家>3个，则祸忌在场时，己方全体每损失1%生命，提高0.5%的伤害率、免伤率，0.15%的吸血率，对祸忌自身效果翻倍。",
+  "cur": "phe ta trên sân cứ mỗi 1 đồng đội, Họa Kỵ sở hữu 25% Siêu Tuyệt và kỹ năng năng lượng miễn thương; võ sĩ địch sau mỗi lần tung kỹ năng, Họa Kỵ có 60% xác suất hi sinh 5% Sinh Mệnh, cho phe ta một đồng đội ngẫu nhiên xua tan 1 cái hiệu ứng khống chế, và hồi phục bản thân 70 điểm nộ khí. nếu khi bắt đầu trận, phe ta nộ khí chiến hồn cho Long Hồn hoặc Lang Hồn võ sĩ >3 cái, thì Họa Kỵ khi có mặt trên sân, toàn bộ phe ta cứ mất 1% sinh mệnh, tăng 0.5% tỉ lệ sát thương, tỉ lệ miễn thương, 0.15% tỉ lệ hút máu, với Họa Kỵ hiệu ứng bản thân nhân đôi."
+ },
+ {
+  "i": 87,
+  "zh": "唯一效果「磐石」：攻击+800,防御+320,生命+15000，敌方每次释放超绝技前，自身防御提高30%，持续整场。",
+  "cur": "Hiệu quả độc nhất\"Bàn Thạch\": công kích +800, phòng ngự +320, sinh mệnh +15000, địch mỗi lần tung ra Siêu Tuyệt trước, bản thân phòng ngự tăng 30%, kéo dài cả trận."
+ },
+ {
+  "i": 88,
+  "zh": "无界在场时，提升自身及周围格斗家40%防御，40%免伤率和40%格挡率，且每秒回复15点怒气。若战斗开始时，我方龟魂或龙魂格斗家>3人，自身及周围格斗家每秒回复30点怒气。",
+  "cur": "Mukai khi có mặt trên sân, tăng bản thân và võ sĩ xung quanh 40% phòng ngự, 40% tỉ lệ miễn thương và 40% tỉ lệ đỡ đòn, và mỗi giây hồi phục 15 điểm nộ khí. nếu khi bắt đầu trận, phe ta Quy Hồn hoặc Long Hồn võ sĩ >3 người, bản thân và võ sĩ xung quanh mỗi giây hồi phục 30 điểm nộ khí."
+ },
+ {
+  "i": 89,
+  "zh": "唯一效果「玄冰」：攻击+800,防御+320,生命+15000，己方回合结束时，80%概率随机对1个己方格斗家附加【玄冰护甲】",
+  "cur": "Hiệu quả độc nhất\"Huyền Băng\": công kích +800, phòng ngự +320, sinh mệnh +15000, khi phe ta kết thúc lượt, 80% xác suất ngẫu nhiên với 1 cái phe ta võ sĩ gắn thêm [Giáp Huyền Băng]"
+ },
+ {
+  "i": 90,
+  "zh": "战斗开始时，若敌方存活人数大于2，随机对2名敌方格斗家附加【冰冻】（对BOSS无效）；己方连击结束时，若敌方存活人数大于1，随机对1名敌方格斗家附加【冰冻】（对BOSS无效）；战斗开始时，若我方龟魂或龙魂格斗家大于3人，己方造成的【冰冻】效果持续时间延长10秒。",
+  "cur": "khi bắt đầu trận, nếu địch số người còn sống lớn hơn 2, ngẫu nhiên với 2 tên võ sĩ địch gắn thêm [Đóng Băng] (với BOSS vô hiệu); khi phe ta kết thúc liên kích, nếu địch số người còn sống lớn hơn 1, ngẫu nhiên với 1 tên võ sĩ địch gắn thêm [Đóng Băng] (với BOSS vô hiệu); khi bắt đầu trận, nếu phe ta Quy Hồn hoặc Long Hồn võ sĩ lớn hơn 3 người, phe ta gây [Đóng Băng] hiệu ứng thời gian duy trì kéo dài thêm 10 giây."
+ },
+ {
+  "i": 91,
+  "zh": "唯一效果「先机」：攻击+800,防御+320,生命+15000，敌方回合结束时，我方每有1点能量回复自身100点怒气",
+  "cur": "Hiệu quả độc nhất\"Tiên Cơ\": công kích +800, phòng ngự +320, sinh mệnh +15000, địch khi kết thúc lượt, phe ta cứ mỗi 1 điểm năng lượng hồi phục bản thân 100 điểm nộ khí"
+ },
+ {
+  "i": 92,
+  "zh": "战斗开始时,降低敌方30%能量回复速率，持续敌方2次连击",
+  "cur": "khi bắt đầu trận, giảm địch 30% tốc độ hồi năng lượng, kéo dài qua liên kích địch 2 lần liên kích"
+ },
+ {
+  "i": 93,
+  "zh": "唯一效果「风范」：攻击+800,防御+320,生命+15000，超绝技额外附加自身防御200%的真实伤害。",
+  "cur": "Hiệu quả độc nhất\"Phong Phạm\": công kích +800, phòng ngự +320, sinh mệnh +15000, Siêu Tuyệt thêm gắn thêm bản thân phòng ngự 200% sát thương thực."
+ },
+ {
+  "i": 94,
+  "zh": "当己方格斗家死亡时，阿迪尔海德继承其100%攻击和防御（不超过阿迪尔海德当前攻击和防御的300%）。若战斗开始时，我方龙魂或熊魂格斗家>3人，则当敌方格斗家死亡时，阿迪尔海德继承其100%攻击和防御（不超过阿迪尔海德当前攻击和防御的300%）。",
+  "cur": "khi võ sĩ phe ta tử vong, Adelheid kế thừa 100% công kích và phòng ngự (không vượt quá Adelheid khi trước công kích và phòng ngự 300%). nếu khi bắt đầu trận, phe ta Long Hồn hoặc Hùng Hồn võ sĩ >3 người, thì khi võ sĩ địch tử vong, Adelheid kế thừa 100% công kích và phòng ngự (không vượt quá Adelheid khi trước công kích và phòng ngự 300%)."
+ },
+ {
+  "i": 95,
+  "zh": "唯一效果「牌王」：战斗开始时，自身增加10%攻击率，持续己方2次连击",
+  "cur": "Hiệu quả độc nhất\"Bài Vương\": khi bắt đầu trận, bản thân tăng thêm 10% tỉ lệ công kích, kéo dài qua liên kích phe ta 2 lần liên kích"
+ },
+ {
+  "i": 96,
+  "zh": "唯一效果「五光」：攻击+1000,防御+240,生命+12000，自身释放超绝技时，主目标每有1层负面状态增加本次超绝技伤害5%",
+  "cur": "Hiệu quả độc nhất\"Ngũ Quang\": công kích +1000, phòng ngự +240, sinh mệnh +12000, bản thân khi tung Siêu Tuyệt, mục tiêu chính cứ mỗi 1 tầng trạng thái bất lợi tăng thêm lần này sát thương Siêu Tuyệt 5%"
+ },
+ {
+  "i": 97,
+  "zh": "唯一效果「鬼哭」：攻击+800,防御+320,生命+15000，每10秒恢复自身10%最大生命值的血量，并使生命比例最低的2名队友获得等量回复",
+  "cur": "Hiệu quả độc nhất\"Quỷ Khốc\": công kích +800, phòng ngự +320, sinh mệnh +15000, mỗi 10 giây hồi phục bản thân 10% lượng máu bằng Sinh Mệnh tối đa, và khiến tỉ lệ Sinh Mệnh thấp nhất 2 tên đồng đội nhận được lượng tương đương hồi phục"
+ },
+ {
+  "i": 98,
+  "zh": "受到致命伤害时，立即回复100%生命和怒气，驱散自身所有负面效果，并获得不可驱散的「无敌」，持续敌方2次连击，每场战斗最多触发一次；若战斗开始时，我方怒气魂为熊魂或龙魂的格斗家>3个，触发上述效果后的体型变大，同时「晕眩」全体敌方",
+  "cur": "khi nhận sát thương chí mạng, tức tức hồi phục 100% sinh mệnh và nộ khí, xua tan tất cả của bản thân hiệu ứng bất lợi, và nhận được không thể xua tan\"Vô Địch\", kéo dài qua liên kích địch 2 lần liên kích, mỗi trận tối đa kích hoạt một lần; nếu khi bắt đầu trận, phe ta nộ khí hồn cho Hùng Hồn hoặc Long Hồn võ sĩ >3 cái, kích hoạt hiệu ứng nêu trên sau thân hình to ra, đồng thời\"Choáng\"toàn bộ địch"
+ },
+ {
+  "i": 99,
+  "zh": "唯一效果「怨灵」：攻击+1000,防御+240,生命+12000，自身每次释放超绝技后，对敌方全体造成其各自15%已损失生命值的伤害（不超过自身攻击力的500%）",
+  "cur": "Hiệu quả độc nhất\"Oán Linh\": công kích +1000, phòng ngự +240, sinh mệnh +12000, bản thân mỗi lần tung ra Siêu Tuyệt sau, với toàn bộ địch gây nó mỗi bên 15% đã mất Sinh Mệnh sát thương (không vượt quá công kích bản thân 500%)"
+ },
+ {
+  "i": 100,
+  "zh": "己方连击期间，直接斩杀生命值低于20%的敌方格斗家（敌方剩余血量超过堕珑攻击的2000%时不生效）；若战斗开始时，我方怒气魂为狼魂或龙魂的格斗家>3个，斩杀线提升至24%",
+  "cur": "trong lúc phe ta liên kích, trực tiếp chém hạ Sinh Mệnh dưới 20% võ sĩ địch (địch lượng máu còn lại vượt quá Duolon công kích 2000% khi không có hiệu lực); nếu khi bắt đầu trận, phe ta nộ khí hồn cho Lang Hồn hoặc Long Hồn võ sĩ >3 cái, ngưỡng chém hạ tăng lên 24%"
+ },
+ {
+  "i": 101,
+  "zh": "唯一效果「虎啸」：攻击+1000,防御+240,生命+12000，自身释放超绝技时，主目标每有1层增益状态提升自身5%暴击强度",
+  "cur": "Hiệu quả độc nhất\"Hổ Khiếu\": công kích +1000, phòng ngự +240, sinh mệnh +12000, bản thân khi tung Siêu Tuyệt, mục tiêu chính cứ mỗi 1 tầng có lợi trạng thái tăng bản thân 5% cường độ bạo kích"
+ },
+ {
+  "i": 102,
+  "zh": "己方连击结束时，暴击次数达到10次及以上时，己方全体格斗家将会提升自身暴击率50%的伤害率和自身暴击强度50%的免伤率，持续己方1次连击；若战斗开始时，我方怒气魂为龙魂或狼魂的格斗家>3个，己方连击结束时，暴击次数达到6次及以上时，己方全体格斗家将会提升自身暴击率50%的伤害率和自身暴击强度50%的免伤率，持续己方1次连击",
+  "cur": "khi phe ta kết thúc liên kích, số lần bạo kích đạt 10 lần trở lên khi, toàn bộ võ sĩ phe ta sẽ tăng bản thân tỉ lệ bạo kích 50% tỉ lệ sát thương và bản thân cường độ bạo kích 50% tỉ lệ miễn thương, kéo dài qua liên kích phe ta 1 lần liên kích; nếu khi bắt đầu trận, phe ta nộ khí hồn cho Long Hồn hoặc Lang Hồn võ sĩ >3 cái, khi phe ta kết thúc liên kích, số lần bạo kích đạt 6 lần trở lên khi, toàn bộ võ sĩ phe ta sẽ tăng bản thân tỉ lệ bạo kích 50% tỉ lệ sát thương và bản thân cường độ bạo kích 50% tỉ lệ miễn thương, kéo dài qua liên kích phe ta 1 lần liên kích"
+ },
+ {
+  "i": 103,
+  "zh": "唯一效果「取栗」：攻击+800,防御+320,生命+15000，处于灼烧中的敌人使用超绝时，回复自身10%最大生命",
+  "cur": "Hiệu quả độc nhất\"Thủ Lật\": công kích +800, phòng ngự +320, sinh mệnh +15000, kẻ địch đang bị Bỏng khi dùng Siêu Tuyệt, hồi phục bản thân 10% Sinh Mệnh tối đa"
+ },
+ {
+  "i": 104,
+  "zh": "我方每死亡一个角色，回复我方全体150点怒气。敌方每死亡一个角色，降低敌方全体150点怒气。开场时，若我方场上龙魂或狼魂格斗家大于3人，则以上效果提升50%。",
+  "cur": "phe ta mỗi tử vong một cái nhân vật, hồi phục toàn bộ phe ta 150 điểm nộ khí. địch mỗi tử vong một cái nhân vật, giảm toàn bộ địch 150 điểm nộ khí. khi mở màn, nếu phe ta trên sân Long Hồn hoặc Lang Hồn võ sĩ lớn hơn 3 người, thì các hiệu ứng trên tăng 50%."
+ },
+ {
+  "i": 105,
+  "zh": "唯一效果「火花」：攻击+800,防御+320,生命+15000，敌方场上有人死亡时，对所有敌人造成该格斗家120%攻击的伤害，该伤害无视免伤率、防御、格挡率。",
+  "cur": "Hiệu quả độc nhất\"Hỏa Hoa\": công kích +800, phòng ngự +320, sinh mệnh +15000, phe địch trên sân có người khi tử vong, với tất cả kẻ địch gây đó võ sĩ 120% công kích sát thương, sát thương này bỏ qua tỉ lệ miễn thương, phòng ngự, tỉ lệ đỡ đòn."
+ },
+ {
+  "i": 106,
+  "zh": "敌方施放任意技能后，偷取其对应的能量技或超绝技伤害30%，持续到己方下次连击结束。（偷取能量技和超绝技伤害最高各3层）",
+  "cur": "sau khi địch thi triển bất kỳ kỹ năng nào, trộm sát thương kỹ năng năng lượng hoặc siêu tuyệt tương ứng30%, duy trì đến hết đợt liên kích tiếp theo của phe ta. (trộm sát thương kỹ năng năng lượng và siêu tuyệt tối đa mỗi loại 3 tầng)"
+ },
+ {
+  "i": 107,
+  "zh": "唯一效果「超能」：攻击+800,防御+320,生命+15000，施放超绝时，对主目标额外造成自身12%最大生命值的伤害，最高不超过攻击力的1000%",
+  "cur": "Hiệu quả độc nhất\"Siêu Năng\": công kích +800, phòng ngự +320, sinh mệnh +15000, khi tung Siêu Tuyệt, với mục tiêu chính thêm gây bản thân 12% sát thương bằng Sinh Mệnh tối đa, tối đa không vượt công kích 1000%"
+ },
+ {
+  "i": 108,
+  "zh": "开场时在我方场地施放圣魔法阵，每10秒恢复全体己方格斗家10%最大生命值的血量，每20秒为全体己方格斗家驱散1个负面效果，持续120秒",
+  "cur": "khi mở màn thi triển trên sân phe ta trận pháp thần thánh, mỗi 10 giây hồi phục toàn bộ võ sĩ phe ta 10% lượng máu bằng Sinh Mệnh tối đa, mỗi 20 giây cho toàn bộ võ sĩ phe ta xua tan 1 cái hiệu ứng bất lợi, kéo dài 120 giây"
+ },
+ {
+  "i": 109,
+  "zh": "唯一效果「觉醒大地」：提升自身500点防御，战斗开始时，提升自身和同列友方格斗家20%格挡率，并有12%概率眩晕最多两个敌人",
+  "cur": "Hiệu quả duy nhất「Thức Tỉnh Đại Địa」: Tăng bản thân 500 điểm phòng ngự, khi bắt đầu trận đấu, Tăng bản thân và Võ Sĩ đồng đội cùng cột20% tỉ lệ đỡ đòn, và có 12% xác suất choángtối đa 2 kẻ địch"
+ },
+ {
+  "i": 110,
+  "zh": "开场时，提升我方后排其他格斗家10%免伤率，持续到大地七伽社死亡；敌方每次施放技能前，若自身处于被眩晕状态，则获得无敌，持续到敌方本次连击结束，该效果一场战斗最多生效2次",
+  "cur": "khi vào trận, tăng các Võ Sĩ khác hàng sau phe ta10% tỉ lệ giảm sát thương, kéo dài đến khi Đại Địa Thất Già Xã tử vong; trước mỗi lần phe địch tung kỹ năng, nếu bản thân đang bị choáng, thì nhận trạng thái vô địch, kéo dài đến khi lượt liên kích này của phe địch kết thúc, hiệu quả này mỗi trận có hiệu lực tối đa 2 lần"
+ },
+ {
+  "i": 111,
+  "zh": "唯一效果「荒狂雷光」：提升自身生命值+6000，战斗开始时，提升友方同排格斗家12%效果命中，20%概率对敌方所有目标附加麻痹（最多麻痹三人）",
+  "cur": "Hiệu quả duy nhất「Hoang Cuồng Lôi Quang」: Tăng sinh mệnh bản thân giá trị+6000, khi bắt đầu trận đấu, tăng Võ Sĩ đồng đội cùng hàng12% hiệu quả mệnh trúng, 20% xác suất gắn tê liệt cho tất cả mục tiêu phe địch (tê liệt tối đa 3 người) "
+ },
+ {
+  "i": 112,
+  "zh": "提升自身500点攻击，己方攻格斗家的超绝技降低主目标20%效果抗性，12%免伤率和300点防御",
+  "cur": "Tăng bản thân 500 điểm công kích, Siêu Tuyệt Kỹ của Võ Sĩ hệ Đả phe ta giảm mục tiêu chính 20% kháng hiệu quả, 12% tỉ lệ giảm sát thương và 300 điểm phòng ngự"
+ },
+ {
+  "i": 113,
+  "zh": "唯一效果「血狂」：提升自身600点攻击，本局战斗中，降低敌方全体12%免伤率和300点防御，持续40秒",
+  "cur": "Hiệu quả duy nhất「Huyết Cuồng」: Tăng bản thân 600 điểm công kích, trong trận đấu này, giảm toàn bộ phe địch 12% tỉ lệ giảm sát thương và 300 điểm phòng ngự, kéo dài 40 giây"
+ },
+ {
+  "i": 114,
+  "zh": "暴走八神庵攻击草薙京、神乐千鹤、八神庵时，伤害提升20%；自身复活时，天降800点怒气，平均分到我方每个格斗家身上（包含自身）",
+  "cur": "Iori Bạo Tẩucông kích Kyo, Chizuru, Iori khi, sát thươngtăng 20%; bản thânkhi hồi sinh, từ trên trời rơi xuống800 điểm nộ khí, chia đều cho mỗi võ sĩ phe ta (bao gồm bản thân)"
+ },
+ {
+  "i": 115,
+  "zh": "攻击+800,防御+320,生命+15000，己方连击开始时，使己方全体暴击率+6%，暴击伤害+6%，最多叠加3层",
+  "cur": "công kích +800, phòng ngự +320, sinh mệnh +15000, khi phe ta bắt đầu liên kích, khiến toàn bộ phe ta tỉ lệ bạo kích +6%, sát thương bạo kích +6%, tối đa cộng dồn 3 tầng"
+ },
+ {
+  "i": 116,
+  "zh": "战斗开始时，己方全体防御提升150%，并在随后的150秒内每10秒衰减10%，不可驱散；自身免疫所有控制效果（不可驱散的控制除外）；若战斗开始时，我方怒气魂为龟魂或熊魂的格斗家>3个，战斗中己方全体暴击率+30%",
+  "cur": "khi bắt đầu trận, toàn bộ phe ta phòng ngự tăng 150%, và trong đó 150 giây trong mỗi 10 giây suy giảm 10%, không thể xua tan; bản thân miễn nhiễm tất cả hiệu ứng khống chế (không thể xua tan khống chế ngoại trừ); nếu khi bắt đầu trận, phe ta nộ khí hồn cho Quy Hồn hoặc Hùng Hồn võ sĩ >3 cái, trong trận toàn bộ phe ta tỉ lệ bạo kích +30%"
+ },
+ {
+  "i": 117,
+  "zh": "唯一效果「刀锋」：攻击+1000,防御+240,生命+12000，释放超绝技时，对攻击力最高的敌方格斗家造成400%自身攻击力的伤害",
+  "cur": "Hiệu quả độc nhất\"Đao Phong\": công kích +1000, phòng ngự +240, sinh mệnh +12000, khi tung Siêu Tuyệt, với võ sĩ địch có công kích cao nhất gây 400% công kích bản thân sát thương"
+ },
+ {
+  "i": 118,
+  "zh": "唯一效果「神工」：攻击+800,防御+320,生命+15000，战斗开始时获得「复活」，复活后拥有10%生命值和500点怒气。",
+  "cur": "Hiệu quả độc nhất\"Thần Công\": công kích +800, phòng ngự +320, sinh mệnh +15000, khi bắt đầu trận nhận được\"Hồi Sinh\", sau khi hồi sinh sở hữu 10% Sinh Mệnh và 500 điểm nộ khí."
+ },
+ {
+  "i": 119,
+  "zh": "战斗开始时获得「复活」，复活后拥有50%生命值和1000点怒气；我方格斗家复活时，附加「无敌」（持续敌方1回合，不可驱散），同时对敌方全体造成1000%蛟攻击力的伤害。若战斗开始时，我方怒气魂为熊魂或龙魂的格斗家>3个，则为我方2个没有「复活」的格斗家附加「复活」，复活后拥有50%生命值和1000点怒气；若没有「复活」的格斗家不足2人，则随机选择格斗家附加此效果，此效果对已拥有「复活」的格斗家增加其50%最大生命值上限（持续整场，复活后生效，不可驱散）。",
+  "cur": "khi bắt đầu trận nhận được\"Hồi Sinh\", sau khi hồi sinh sở hữu 50% Sinh Mệnh và 1000 điểm nộ khí; phe ta võ sĩ khi hồi sinh, gắn thêm\"Vô Địch\"(kéo dài qua liên kích địch 1 lượt, không thể xua tan), đồng thời với toàn bộ địch gây 1000% Giao công kích sát thương. nếu khi bắt đầu trận, phe ta nộ khí hồn cho Hùng Hồn hoặc Long Hồn võ sĩ >3 cái, thì cho phe ta 2 cái không có\"Hồi Sinh\"võ sĩ gắn thêm\"Hồi Sinh\", sau khi hồi sinh sở hữu 50% Sinh Mệnh và 1000 điểm nộ khí; nếu không có\"Hồi Sinh\"võ sĩ không đủ 2 người, thì chọn ngẫu nhiên võ sĩ gắn thêm hiệu ứng này, hiệu ứng này với đã sở hữu\"Hồi Sinh\"võ sĩ tăng thêm nó 50% giới hạn Sinh Mệnh tối đa (kéo dài cả trận, sau khi hồi sinh có hiệu lực, không thể xua tan)."
+ },
+ {
+  "i": 120,
+  "zh": "唯一效果「孤王」：攻击+800,防御+320,生命+15000，场上每有2名角色死亡，自身获得1层【不屈】",
+  "cur": "Hiệu quả độc nhất\"Cô Vương\": công kích +800, phòng ngự +320, sinh mệnh +15000, trên sân cứ mỗi 2 nhân vật tử vong, bản thân nhận 1 tầng [Bất Khuất]"
+ },
+ {
+  "i": 121,
+  "zh": "敌方连击结束时，场上每有1名敌方格斗家，欧米茄·卢卡尔恢复自身20%最大生命值，不受被治疗率影响。若战斗开始时，我方龟魂或熊魂格斗家>3人，全体获得10%伤害率和免伤率，持续整场，不可驱散",
+  "cur": "khi địch kết thúc liên kích, trên sân cứ mỗi 1 võ sĩ địch, Omega Rugal hồi phục bản thân 20% Sinh Mệnh tối đa, không chịu tỉ lệ được hồi máu ảnh hưởng. nếu khi bắt đầu trận, phe ta Quy Hồn hoặc Hùng Hồn võ sĩ >3 người, toàn bộ nhận được 10% tỉ lệ sát thương và tỉ lệ miễn thương, kéo dài cả trận, không thể xua tan"
+ },
+ {
+  "i": 122,
+  "zh": "攻击+1000,防御+240,生命+12000，伤害率+10%，暴击率+10%，暴击强度+10%，吸血率+10%",
+  "cur": "công kích +1000, phòng ngự +240, sinh mệnh +12000, tỉ lệ sát thương +10%, tỉ lệ bạo kích +10%, cường độ bạo kích +10%, tỉ lệ hút máu +10%"
+ },
+ {
+  "i": 123,
+  "zh": "开场时，为自身附加【复活】，复活后拥有50%生命值和1000点怒气；开场时，为己方所有格斗家附加【风障】：敌方释放超绝技时，若自身不是主目标，提升80%对此技能的免伤率；【风障】持续120秒（不可驱散，复活后仍生效）；若战斗开始时，我方怒气魂为熊魂或龟魂的格斗家大于3个，【风障】持续时间延长至整场",
+  "cur": "khi mở màn, cho bản thân gắn thêm [Hồi Sinh], sau khi hồi sinh sở hữu 50% Sinh Mệnh và 1000 điểm nộ khí; khi mở màn, cho tất cả võ sĩ phe ta gắn thêm [Phong Chướng]: khi địch tung Siêu Tuyệt, nếu bản thân không phải mục tiêu chính, tăng 80% tỉ lệ miễn thương với kỹ năng này; [Phong Chướng] kéo dài 120 giây (không thể xua tan, sau khi hồi sinh vẫn có hiệu lực); nếu khi bắt đầu trận, phe ta nộ khí hồn cho Hùng Hồn hoặc Quy Hồn võ sĩ lớn hơn 3 cái, [Phong Chướng] thời gian duy trì kéo dài thêm đến hết trận"
+ },
+ {
+  "i": 124,
+  "zh": "唯一效果「振岳」：攻击+800,防御+320,生命+15000，反伤率+20%，格挡率+20%，免伤率+20%",
+  "cur": "Hiệu quả độc nhất\"Chấn Nhạc\": công kích +800, phòng ngự +320, sinh mệnh +15000, tỉ lệ phản thương +20%, tỉ lệ đỡ đòn +20%, tỉ lệ miễn thương +20%"
+ },
+ {
+  "i": 125,
+  "zh": "己方全体格斗家每秒获得噩梦吉斯最大生命值5%的「护盾」，持续整场。（护盾值不可大于自身最大生命值）；若战斗开始时，我方龟魂或狼魂格斗家>3人，己方全体格斗家的防御提升噩梦吉斯50%防御的值。",
+  "cur": "toàn bộ võ sĩ phe ta mỗi giây nhận được Geese Ác Mộng Sinh Mệnh tối đa 5%\"Khiên\", kéo dài cả trận. (Khiên giá trị không được lớn hơn bản thân Sinh Mệnh tối đa); nếu khi bắt đầu trận, phe ta Quy Hồn hoặc Lang Hồn võ sĩ >3 người, toàn bộ võ sĩ phe ta phòng ngự tăng Geese Ác Mộng 50% phòng ngự giá trị."
+ },
+ {
+  "i": 126,
+  "zh": "提升己方全体攻击300,暴击率3%,抗暴率3%。",
+  "cur": "Tăng công kích toàn bộ phe ta 300,tỉ lệ bạo kích3%,tỉ lệ kháng bạo3%. "
+ },
+ {
+  "i": 127,
+  "zh": "提升自身攻击800,防御320,生命15000,己方全体格斗家提升攻击4%,防御4%,持续48秒,己方同流派的格斗家超过3人时,这些格斗家的效果翻倍。",
+  "cur": "Tăng công kích bản thân 800,phòng ngự320,sinh mệnh15000,toàn bộ Võ Sĩ phe tatăng công kích4%,phòng ngự4%,kéo dài 48 giây,khi Võ Sĩ cùng phái phe ta vượt quá 3 người,hiệu quả của những Võ Sĩ này nhân đôi. "
+ },
+ {
+  "i": 128,
+  "zh": "提升自身攻击800,防御320,生命5000,降低自身受到的能量技攻击时的伤害40%,和受到超绝技攻击时的伤害10%。",
+  "cur": "Tăng công kích bản thân 800,phòng ngự320,sinh mệnh5000,giảm sát thương nhận vào khi bị Năng Lượng Kỹ tấn công40%, và nhận vào Siêu Tuyệt Kỹcông kích thì sát thương10%. "
+ },
+ {
+  "i": 129,
+  "zh": "提升自身攻击800,防御320,生命15000,伤害率15%,免伤率15%,抗暴率15%,破击率15%。",
+  "cur": "Tăng công kích bản thân 800,phòng ngự320,sinh mệnh15000,tỉ lệ sát thương15%,tỉ lệ giảm sát thương15%,tỉ lệ kháng bạo15%,tỉ lệ phá kích15%. "
+ },
+ {
+  "i": 130,
+  "zh": "提升自身攻击800,防御320,生命15000,暴击率10%,抗暴率10%,格挡率10%,效果命中20%。",
+  "cur": "Tăng công kích bản thân 800,phòng ngự320,sinh mệnh15000,tỉ lệ bạo kích10%,tỉ lệ kháng bạo10%,tỉ lệ đỡ đòn10%,hiệu quả mệnh trúng20%. "
+ },
+ {
+  "i": 131,
+  "zh": "提升自身攻击800,防御320,生命15000,超绝技提升吸血率10%,对主目标伤害25%,并恢复自身怒气,敌方剩余血量越低恢复越多,最多恢复300怒气。",
+  "cur": "Tăng công kích bản thân 800,phòng ngự320,sinh mệnh15000,Siêu Tuyệt Kỹtăng tỉ lệ hút máu10%,sát thương lên mục tiêu chính 25%,và hồi nộ khí bản thân,máu còn lại của phe địch càng thấp hồi càng nhiều,hồi tối đa 300 nộ khí. "
+ },
+ {
+  "i": 132,
+  "zh": "提升己方全体生命1%+3000。",
+  "cur": "Tăng sinh mệnh toàn bộ phe ta 1%+3000. "
+ },
+ {
+  "i": 133,
+  "zh": "提升自身攻击800,防御320,生命15000,战斗开始时,使自身获得攻击350%的护盾,持续敌方2次连击。",
+  "cur": "Tăng công kích bản thân 800,phòng ngự320,sinh mệnh15000,khi bắt đầu trận đấu,khiến bản thân nhận công kích350% khiên,kéo dài qua 2 lầnliên kích. "
+ },
+ {
+  "i": 134,
+  "zh": "唯一效果「龙虎震气」：己方连击结束时获得无敌（免疫所有伤害），持续2秒，此连击中每个暴击的技能使其增加2秒。",
+  "cur": "Hiệu quả duy nhất「Long Hổ Chấn Khí」: khi liên kích phe ta kết thúcnhận trạng thái vô địch (miễn nhiễm mọi sát thương), kéo dài 2 giây, mỗi kỹ năng bạo kích trong liên kích này khiến nó tăng thêm 2 giây. "
+ },
+ {
+  "i": 135,
+  "zh": "生命+6000，使用技能后增加护盾率10%，受到攻击后增加反伤率10%（最高叠加3层），持续到当前连击结束。",
+  "cur": "sinh mệnh+6000, sau khi dùng kỹ năngtăng thêm tỉ lệ khiên10%, sau khi bị tấn công tăng tỉ lệ phản thương10% (cộng dồn tối đa 3 tầng), kéo dài đến khi liên kích hiện tại kết thúc. "
+ },
+ {
+  "i": 136,
+  "zh": "提升自身攻击600,防御420,生命20000,战斗开始时，使自身获得【无敌】，但是伤害率大幅降低，持续到敌方连击结束。",
+  "cur": "Tăng công kích bản thân 600,phòng ngự420,sinh mệnh20000,khi bắt đầu trận đấu, khiến bản thân nhận 【Vô Địch】, nhưng tỉ lệ sát thươnggiảm mạnh, kéo dài đến khi liên kích của phe địch kết thúc. "
+ },
+ {
+  "i": 137,
+  "zh": "提升自身8000生命，3%能量恢复速度，自身免疫「冰冻」、「灼烧」效果",
+  "cur": "Tăng bản thân 8000 sinh mệnh, 3% tốc độ hồi phục năng lượng, bản thân miễn nhiễm 「Đóng Băng」, 「Thiêu Đốt」hiệu quả"
+ },
+ {
+  "i": 138,
+  "zh": "提升自身攻击800,防御320,生命15000,使用高于9费的连击技时,己方所有前排格斗家获得生命上限8%的护盾。",
+  "cur": "Tăng công kích bản thân 800,phòng ngự320,sinh mệnh15000,khi dùng Liên Kích Kỹ tốn hơn 9 điểm,tất cả Võ Sĩ hàng trước phe tanhận giới hạn sinh mệnh8% khiên. "
+ },
+ {
+  "i": 139,
+  "zh": "提升自身500攻击，500防御，附加的灼烧持续时间增加8秒，使用技能后，主目标每层灼烧有15%概率传染到一个相邻单位。",
+  "cur": "tăng cho bản thân 500 công kích, 500 phòng ngự, thời gian duy trì Thiêu Đốt được thêm vào tăng 8 giây, sau khi dùng kỹ năng, mục tiêu chínhmỗi tầng Thiêu Đốtcó15% xác suất lây lan sang một đơn vị lân cận."
+ },
+ {
+  "i": 140,
+  "zh": "唯一效果：万物皆虚，以后排为目标的超绝技，击杀目标后，再次释放超绝技并降低自身会怒率50%。",
+  "cur": "Hiệu quả độc nhất: Vạn Vật Giai Hư, kỹ năng siêu tuyệt nhắm vào hàng sau, sau khi hạ mục tiêu, thi triển lại kỹ năng siêu tuyệtđồng thời giảm cho bản thântỉ lệ hồi nộ50%."
+ },
+ {
+  "i": 141,
+  "zh": "唯一效果：淋漓鲜血，流血间隔降低20%，流血叠加层数上限增加2层。",
+  "cur": "Hiệu quả độc nhất: Lâm Ly Tiên Huyết, khoảng cách Xuất Huyếtgiảm20%, Xuất Huyếtgiới hạn tầng cộng dồn tăng 2 tầng."
+ },
+ {
+  "i": 142,
+  "zh": "提升自身300攻击。以后排为目标的超绝技，增加自身攻击力90%的固定伤害。",
+  "cur": "Tăng bản thân 300 công kích. Siêu Tuyệt Kỹ nhắm hàng sau, tăng công kích bản thân 90% sát thương cố định. "
+ },
+ {
+  "i": 143,
+  "zh": "提升自身400+5%攻击，400+5%防御。登场时，提升自身伤害率18%，免伤率12%，持续60秒。",
+  "cur": "Tăng bản thân 400+5% công kích, 400+5% phòng ngự. khi ra sân, tăng tỉ lệ sát thương bản thân18%, tỉ lệ giảm sát thương12%, kéo dài 60 giây. "
+ },
+ {
+  "i": 144,
+  "zh": "唯一效果【暗雷】：登场时在一名敌方后排格斗家脚下放置一个【炸弹】，该格斗家使用超绝技后爆炸，对该格斗家和周围敌方格斗家造成10%生命上限的伤害，并附加1层【中毒】。",
+  "cur": "Hiệu quả duy nhất【Ám Lôi】: khi ra sânđặt dưới chân một Võ Sĩ phe địch hàng sau một 【Bom】, Võ Sĩ đó sau khi dùng Siêu Tuyệt Kỹ sẽ phát nổ, gây cho Võ Sĩ đó và các Võ Sĩ phe địch xung quanh 10% giới hạn sinh mệnh sát thương, và gắn 1 tầng 【Trúng Độc】. "
+ },
+ {
+  "i": 145,
+  "zh": "提升我方格斗家400防御。唯一效果【不动】：自身处于【眩晕】、【冰冻】、【沉默】、【麻痹】状态时，受到的伤害降低40%。若生命值小于40%时此效果未触发过，则额外触发一次此效果。",
+  "cur": "Tăng cho Võ Sĩ phe ta 400 phòng ngự. Hiệu quả duy nhất【Bất Động】: khi bản thân đang ở trạng thái 【Choáng】, 【Đóng Băng】, 【Câm Lặng】, 【Tê Liệt】trạng thái thì, sát thương nhận vào giảm 40%. nếu sinh mệnh nhỏ hơn 40% thì hiệu quả này chưa từng kích hoạt, thì kích hoạt thêm một lần hiệu quả này. "
+ },
+ {
+  "i": 146,
+  "zh": "提升自身400+5%攻击，并提升自身40%能量技伤害率。",
+  "cur": "Tăng bản thân 400+5% công kích, và Tăng bản thân 40% tỉ lệ sát thương Năng Lượng Kỹ. "
+ },
+ {
+  "i": 147,
+  "zh": "提升自身6000生命，10%伤害率。唯一效果【神威】：使用能量技后降低主目标50点怒气，使用超绝技后降低主目标200点怒气。",
+  "cur": "Tăng bản thân 6000 sinh mệnh, 10% tỉ lệ sát thương. Hiệu quả duy nhất【Thần Uy】: sau khi dùng Năng Lượng Kỹgiảm mục tiêu chính 50 điểm nộ khí, sau khi dùng Siêu Tuyệt Kỹgiảm mục tiêu chính 200 điểm nộ khí. "
+ },
+ {
+  "i": 148,
+  "zh": "提升自身6000生命、80%灼烧免伤率。使用技能时为自身附加一层灼烧；使用超绝技时将自身所有灼烧转移给主目标，每层灼烧回复自身50怒气，每层灼烧有8%概率眩晕主目标。",
+  "cur": "tăng cho bản thân 6000 sinh mệnh, 80% tỉ lệ miễn thương thiêu đốt. khi dùng kỹ nănggắn cho bản thân một tầng Thiêu Đốt; khi dùng kỹ năng siêu tuyệtchuyển toàn bộ Thiêu Đốt của bản thân sang mục tiêu chính, mỗi tầng Thiêu Đốthồi phục cho bản thân 50 nộ khí, mỗi tầng Thiêu Đốtcó8% xác suấtgây Choáng mục tiêu chính."
+ },
+ {
+  "i": 149,
+  "zh": "提升自身400防御。唯一效果【链接】：战斗开始时，为己方女格斗家附加12%的【链接】（处于链接状态的格斗家受到伤害时，其它被链接的格斗家，会平均分担12%的伤害），持续60秒。链接效果可驱散。",
+  "cur": "tăng cho bản thân 400 phòng ngự. Hiệu quả độc nhất【Liên Kết】: khi bắt đầu trận đấu, gắn cho võ sĩ nữ phe ta12%【Liên Kết】 (khi võ sĩ đang ở trạng thái Liên Kết nhận sát thương, các võ sĩ khác được Liên Kết, sẽ chia đều gánh chịu12% sát thương), duy trì 60 giây. Liên Kếthiệu quảcó thể bị trục xuất."
+ },
+ {
+  "i": 150,
+  "zh": "提升自身攻击800,防御320,生命15000,自身每使用3个能量技，有50%概率使目标沉默，持续敌方一次连击。敌方场上人越少概率越低。",
+  "cur": "tăng công kích bản thân 800,phòng ngự320,sinh mệnh15000,bản thân cứ mỗi 3 kỹ năng năng lượng, có50% xác suất khiến mục tiêu Trầm Mặc, duy trì một đợt liên kích của địch. sân địch càng ít ngườixác suấtcàng thấp."
+ },
+ {
+  "i": 151,
+  "zh": "提升自身攻击800,防御320,生命15000,暴击率15%,伤害率15%。",
+  "cur": "tăng công kích bản thân 800,phòng ngự320,sinh mệnh15000,tỉ lệ bạo kích15%,tỉ lệ sát thương15%."
+ },
+ {
+  "i": 152,
+  "zh": "提升自身攻击800,防御320,生命15000,格挡率15%,免伤率15%。",
+  "cur": "tăng công kích bản thân 800,phòng ngự320,sinh mệnh15000,tỉ lệ đỡ đòn15%,tỉ lệ miễn thương15%."
+ },
+ {
+  "i": 153,
+  "zh": "提升自身攻击800,防御320,生命15000,降低自身受到后排敌人30%伤害。",
+  "cur": "tăng công kích bản thân 800,phòng ngự320,sinh mệnh15000,giảm 30% sát thương bản thân nhận từ địch hàng sau."
+ },
+ {
+  "i": 154,
+  "zh": "提升自身攻击800,防御320,生命15000,对敌人前排提升30%伤害。",
+  "cur": "tăng công kích bản thân 800,phòng ngự320,sinh mệnh15000,vớihàng trước của địchtăng 30% sát thương."
+ },
+ {
+  "i": 155,
+  "zh": "提升自身攻击800,防御320,生命15000,生命大于50%时,提升自身35%反伤率。",
+  "cur": "tăng công kích bản thân 800,phòng ngự320,sinh mệnh15000,khi sinh mệnh lớn hơn 50%,tăng cho bản thân 35% tỉ lệ phản thương."
+ },
+ {
+  "i": 156,
+  "zh": "提升自身攻击800,防御320,生命15000,生命小于50%时,提升自身30%吸血率。",
+  "cur": "tăng công kích bản thân 800,phòng ngự320,sinh mệnh15000,khi sinh mệnh nhỏ hơn 50%,tăng cho bản thân 30% tỉ lệ hút máu."
+ },
+ {
+  "i": 157,
+  "zh": "提升自身攻击800,防御320,生命15000,开场时提升我方全体伤害率和吸血率5%,持续整场；若全场女性数量为偶数,则改为提升10%。",
+  "cur": "tăng công kích bản thân 800,phòng ngự320,sinh mệnh15000,khi vào trậntăng cho toàn thể phe ta tỉ lệ sát thương và hút máu5%,duy trì suốt trận; nếucả sânnữsố lượng là số chẵn,thìđổi thànhtăng 10%."
+ },
+ {
+  "i": 158,
+  "zh": "提升自身攻击800,防御320,生命15000,开场时提升我方全体免伤率和反伤率5%,持续整场；若全场男性数量为奇数,则改为提升10%。",
+  "cur": "tăng công kích bản thân 800,phòng ngự320,sinh mệnh15000,khi vào trậntăng cho toàn thể phe ta tỉ lệ miễn thương và phản thương5%,duy trì suốt trận; nếucả sânnamsố lượng là số lẻ,thìđổi thànhtăng 10%."
+ },
+ {
+  "i": 159,
+  "zh": "攻击+1000,防御+250,生命+12000，自身每个技能额外对主目标造成10%当前生命的伤害（对BOSS无效）",
+  "cur": "công kích+1000,phòng ngự+250,sinh mệnh+12000, mỗi kỹ năng của bản thânthêmlên mục tiêu chínhgây ra10% sinh mệnh hiện tạisát thương(không hiệu quả với BOSS)"
+ },
+ {
+  "i": 160,
+  "zh": "攻击+800,防御+320,生命+15000，战斗中生效一次，生命小于25%时，「冰冻」自身，提升自身80%免伤率，每4秒回复8%最大生命，持续20秒",
+  "cur": "công kích+800,phòng ngự+320,sinh mệnh+15000, có hiệu lực một lần trong trận, khi sinh mệnh nhỏ hơn 25%, 「Đóng Băng」bản thân, tăng cho bản thân 80% tỉ lệ miễn thương, mỗi 4 giâyhồi phục 8% sinh mệnh tối đa, duy trì 20 giây"
+ },
+ {
+  "i": 161,
+  "zh": "攻击+600,防御+420,生命+20000，自身死亡时触发:为己方所有格斗家附加20%自身最大生命的「护盾」，持续敌方2次连击",
+  "cur": "công kích+600,phòng ngự+420,sinh mệnh+20000, kích hoạt khi bản thân tử vong:gắn cho tất cả võ sĩ phe ta20% bản thânsinh mệnh tối đa「hộ thuẫn」, duy trì 2 đợt liên kích của địch"
+ },
+ {
+  "i": 162,
+  "zh": "提升自身攻击400，防御160，生命6000，战斗开始时，提升己方全体8%+300超绝技伤害，持续48秒",
+  "cur": "Tăng công kích bản thân 400, phòng ngự160, sinh mệnh6000, khi bắt đầu trận đấu, Tăng toàn bộ phe ta 8%+300 sát thương Siêu Tuyệt Kỹ, kéo dài 48 giây"
+ },
+ {
+  "i": 163,
+  "zh": "提升己方所有男性格斗家4%效果命中（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Tăng cho tất cả Võ Sĩ nam phe ta 4% hiệu quả mệnh trúng (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 164,
+  "zh": "唯一效果「撼地」：提升自身攻击400，防御160，生命6000，全部技能有12%概率晕眩主目标，额外提升300点伤害，持续15秒",
+  "cur": "Hiệu quả duy nhất「Hám Địa」: Tăng công kích bản thân 400, phòng ngự160, sinh mệnh6000, toàn bộ kỹ năng có 12% xác suất choángmục tiêu chính, tăng thêm 300 điểm sát thương, kéo dài 15 giây"
+ },
+ {
+  "i": 165,
+  "zh": "唯一效果「传说」：提升己方全体攻击，该值为本战魂拥有者攻击的2%+100（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Hiệu quả duy nhất「Truyền Thuyết」: Tăng công kích toàn bộ phe ta, giá trị này bằng công kích của chủ Chiến Hồn 2%+100 (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 166,
+  "zh": "提升自身攻击400，防御160，生命6000，自身每次超绝技释放前会为自身附加180%攻击+1200的护盾，持续敌方2次连击。",
+  "cur": "Tăng công kích bản thân 400, phòng ngự160, sinh mệnh6000, bản thân trước mỗi lần tung Siêu Tuyệt Kỹsẽ gắn cho bản thân 180% công kích+1200 khiên, kéo dài qua 2 lầnliên kích. "
+ },
+ {
+  "i": 167,
+  "zh": "唯一效果「同气」：提升自身攻击400，防御160，生命6000，己方全体15%暴击强度，若与自身同流派格斗家数量大于2，该值额外提升50%",
+  "cur": "Hiệu quả duy nhất「Đồng Khí」: Tăng công kích bản thân 400, phòng ngự160, sinh mệnh6000, toàn bộ phe ta15% cường độ bạo kích, nếu số Võ Sĩ cùng phái với bản thân lớn hơn 2, giá trị nàytăng thêm 50%"
+ },
+ {
+  "i": 168,
+  "zh": "唯一效果「同心」：提升自身攻击400，防御160和生命6000，己方全体8%暴击率，若与自身同流派格斗家数量大于2，该值额外提升50%",
+  "cur": "Hiệu quả duy nhất「Đồng Tâm」: Tăng công kích bản thân 400, phòng ngự160 và sinh mệnh6000, toàn bộ phe ta8% tỉ lệ bạo kích, nếu số Võ Sĩ cùng phái với bản thân lớn hơn 2, giá trị nàytăng thêm 50%"
+ },
+ {
+  "i": 169,
+  "zh": "唯一效果「刀锋」：提升自身400攻击,160防御,6000生命,场上每有敌方格斗家死亡，提升自身10%斩杀率，最多叠加3层",
+  "cur": "Hiệu quả độc nhất「Đao Phong」: tăng cho bản thân 400 công kích,160 phòng ngự,6000 sinh mệnh,trên sâncứ mỗiđịchvõ sĩtử vong, tăng cho bản thân 10% tỉ lệ trảm sát, cộng dồn tối đa3 tầng"
+ },
+ {
+  "i": 170,
+  "zh": "提升自身攻击400，防御160，生命6000，释放超绝技有概率眩晕主目标并额外附加10%+600伤害，目标格挡率越高概率越高",
+  "cur": "Tăng công kích bản thân 400, phòng ngự160, sinh mệnh6000, tung Siêu Tuyệt Kỹcó xác suất làm choáng mục tiêu chính và gắn thêm 10%+600 sát thương, tỉ lệ đỡ đòn mục tiêu càng cao xác suất càng cao"
+ },
+ {
+  "i": 171,
+  "zh": "提升己方全体2%抗暴率（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Tăng toàn bộ phe ta 2% tỉ lệ kháng bạo (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 172,
+  "zh": "唯一效果「应援」：提升自身攻击400，防御160，生命6000，己方每使用4个能量技，回复生命最低的格斗家40%攻击+500的生命",
+  "cur": "Hiệu quả duy nhất「Cổ Vũ」: Tăng công kích bản thân 400, phòng ngự160, sinh mệnh6000, phe ta cứ mỗi 4 Năng Lượng Kỹ được dùng, hồi cho Võ Sĩ có sinh mệnh thấp nhất 40% công kích+500 sinh mệnh"
+ },
+ {
+  "i": 173,
+  "zh": "提升自身攻击400，防御160，生命6000，自身使用超绝技时，若生命大于50%，提升10%+200伤害，若生命小于50%，回复200%攻击+1000生命",
+  "cur": "Tăng công kích bản thân 400, phòng ngự160, sinh mệnh6000, khi bản thân dùng Siêu Tuyệt Kỹ, nếu sinh mệnh lớn hơn 50%, tăng 10%+200 sát thương, nếu sinh mệnh nhỏ hơn 50%, hồi 200% công kích+1000 sinh mệnh"
+ },
+ {
+  "i": 174,
+  "zh": "提升自身500点防御，战斗开始时，我方随机3个格斗家附加8%随机增益，持续60秒",
+  "cur": "Tăng bản thân 500 điểm phòng ngự, khi bắt đầu trận đấu, ngẫu nhiên phe ta 3 Võ Sĩgắn 8% tăng ích ngẫu nhiên, kéo dài 60 giây"
+ },
+ {
+  "i": 175,
+  "zh": "唯一效果「肃杀」：提升自身攻击400，防御160，生命6000，己方技和防格斗家的能量技，有10%的概率沉默目标，持续敌方1次连击",
+  "cur": "Hiệu quả duy nhất「Túc Sát」: Tăng công kích bản thân 400, phòng ngự160, sinh mệnh6000, Năng Lượng Kỹ của Võ Sĩ hệ Kĩ và hệ Thủ phe ta, có 10% xác suất câm lặngmục tiêu, kéo dài qua 1 lầnliên kích"
+ },
+ {
+  "i": 176,
+  "zh": "提升自身攻击400，防御160，生命6000，提升己方全体3%伤害率和20%灼烧伤害",
+  "cur": "Tăng công kích bản thân 400, phòng ngự160, sinh mệnh6000, Tăng toàn bộ phe ta 3% tỉ lệ sát thương và 20% sát thương thiêu đốt"
+ },
+ {
+  "i": 177,
+  "zh": "唯一效果「振奋」：提升自身攻击400，防御160，生命6000，自身生命大于30%时，提升15%格挡率",
+  "cur": "Hiệu quả duy nhất「Chấn Phấn」: Tăng công kích bản thân 400, phòng ngự160, sinh mệnh6000, sinh mệnh bản thân lớn hơn 30% thì, tăng 15% tỉ lệ đỡ đòn"
+ },
+ {
+  "i": 178,
+  "zh": "唯一效果「义胆」：提升自身攻击400，防御160，生命6000，战斗开始时，为同排队友附加护盾，护盾值为180%自身防御，持续敌方2次连击",
+  "cur": "Hiệu quả duy nhất「Nghĩa Đảm」: Tăng công kích bản thân 400, phòng ngự160, sinh mệnh6000, khi bắt đầu trận đấu, gắn cho đồng đội cùng hàng khiên, giá trị khiênlà 180% phòng ngự bản thân, kéo dài qua 2 lầnliên kích"
+ },
+ {
+  "i": 179,
+  "zh": "提升自身攻击400，防御160，生命6000，自身使用超绝后提升20%免伤率，持续40秒",
+  "cur": "Tăng công kích bản thân 400, phòng ngự160, sinh mệnh6000, sau khi bản thân dùng Siêu Tuyệt, tăng 20% tỉ lệ giảm sát thương, kéo dài 40 giây"
+ },
+ {
+  "i": 180,
+  "zh": "己方格斗家受到攻击时，陈国汉获得自身攻击力10%的护盾，持续32秒，每过20秒受到攻击时额外获得1%攻击力的护盾，单次攻击获得的护盾上限为攻击力的20%。",
+  "cur": "khi Võ Sĩ phe ta bị tấn công, Changnhận khiên bằng công kích bản thân 10% khiên, kéo dài 32 giây, cứ mỗi 20 giâykhi bị tấn côngthêm nhận 1% công kích khiên, lầncông kíchnhận khiêngiới hạnlà công kích20%. "
+ },
+ {
+  "i": 181,
+  "zh": "唯一效果「嗜血」：攻击+400,防御+160,生命+6000,自身使用能量技时，伤害增加15%，有35%概率附加流血",
+  "cur": "Hiệu quả duy nhất「Khát Máu」: công kích+400,phòng ngự+160,sinh mệnh+6000,khi bản thân dùng Năng Lượng Kỹ, sát thươngtăng thêm 15%, có 35% xác suất gắn chảy máu"
+ },
+ {
+  "i": 182,
+  "zh": "登场时，对我方黑社会格斗家附加山崎龙二生10%命上限的护盾。",
+  "cur": "khi ra trận, lên võ sĩ xã hội đen phe tagắn thêm Ryuji Yamazakisinh 10% mệnh giới hạn hộ thuẫn."
+ },
+ {
+  "i": 183,
+  "zh": "唯一效果「守望」：提升己方全体防御，该值为本战魂拥有者防御的3%+150（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Hiệu quả duy nhất「Thủ Vọng」: Tăng phòng ngự toàn bộ phe ta, giá trị này bằng phòng ngự của chủ Chiến Hồn 3%+150 (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 184,
+  "zh": "唯一效果「死士」：攻击+400,防御+160,生命+6000,自身生命小于50%时，提升50%反伤率",
+  "cur": "Hiệu quả duy nhất「Tử Sĩ」: công kích+400,phòng ngự+160,sinh mệnh+6000,sinh mệnh bản thân nhỏ hơn 50% thì, tăng 50% tỉ lệ phản thương"
+ },
+ {
+  "i": 185,
+  "zh": "唯一效果「夺萃」：攻击+400,防御+160,生命+6000,自身超绝技可以吸取目标6%+100攻击和6%+1200最大血量，持续30秒",
+  "cur": "Hiệu quả duy nhất「Đoạt Tụy」: công kích+400,phòng ngự+160,sinh mệnh+6000,Siêu Tuyệt Kỹ bản thân có thể hút của mục tiêu 6%+100 công kích và 6%+1200 nhất lớn máu, kéo dài 30 giây"
+ },
+ {
+  "i": 186,
+  "zh": "唯一效果「猛兽」：攻击+400,防御+160,生命+6000,主目标生命高于40%时，额外提升24%+400伤害",
+  "cur": "Hiệu quả duy nhất「Mãnh Thú」: công kích+400,phòng ngự+160,sinh mệnh+6000,sinh mệnh mục tiêu chính cao hơn 40% thì, tăng thêm 24%+400 sát thương"
+ },
+ {
+  "i": 187,
+  "zh": "唯一效果「死镰」：攻击+400,防御+160,生命+6000,目标生命低于55%时，额外提升24%+400伤害",
+  "cur": "Hiệu quả duy nhất「Tử Liêm」: công kích+400,phòng ngự+160,sinh mệnh+6000,sinh mệnh mục tiêu thấp hơn 55% thì, tăng thêm 24%+400 sát thương"
+ },
+ {
+  "i": 188,
+  "zh": "提升自身攻击400,防御160,生命6000,对后排敌人伤害24%。",
+  "cur": "Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,sát thương lên kẻ địch hàng sau 24%. "
+ },
+ {
+  "i": 189,
+  "zh": "提升自身攻击400,防御160,生命6000,本局战斗中，提升己方全体格挡率8%，若与自己同流派格斗家数量大于2，效果提升50%。",
+  "cur": "Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,trong trận đấu này, Tăng toàn bộ phe ta tỉ lệ đỡ đòn8%, nếu số Võ Sĩ cùng phái với bản thân lớn hơn 2, hiệu quảtăng 50%. "
+ },
+ {
+  "i": 190,
+  "zh": "登场时，80%概率对我方极限流格斗家附加1层「霸王」。",
+  "cur": "khi ra trận, 80% xác suấtlên võ sĩ phái Cực Hạn phe tagắn 1 tầng「Bá Vương」."
+ },
+ {
+  "i": 191,
+  "zh": "提升自身攻击400,防御160,生命6000,伤害率10%，灼烧伤害50%。",
+  "cur": "Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,tỉ lệ sát thương10%, sát thương thiêu đốt50%. "
+ },
+ {
+  "i": 192,
+  "zh": "提升我方火焰流格斗家，10%伤害率和20%效果强度，持续60秒。",
+  "cur": "tăng cho võ sĩ phái Hỏa Diễm phe ta 10% tỉ lệ sát thương và 20% cường độ hiệu quả, duy trì 60 giây."
+ },
+ {
+  "i": 193,
+  "zh": "提升所有女性格斗家3%效果命中（学习后无论格斗家是否上阵，均生效）",
+  "cur": "tăng cho tất cả võ sĩ nữ 3% hiệu quả mệnh trúng(sau khi học, bất kể võ sĩ có ra trận hay không đều có hiệu lực)"
+ },
+ {
+  "i": 194,
+  "zh": "唯一效果「毒刃」：提升自身攻击400,防御160,生命6000,自身使用能量技时，伤害提升20%，30%概率附加中毒。",
+  "cur": "Hiệu quả duy nhất「Độc Nhận」: Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,khi bản thân dùng Năng Lượng Kỹ, sát thươngtăng 20%, 30% xác suất gắn trúng độc. "
+ },
+ {
+  "i": 195,
+  "zh": "唯一效果「见切」：攻击+300,防御+200,生命+8000,若自身在前排，开场和首次施放超绝时，给自身附加1层【见切】（被作为主目标命中时消耗1层并触发：提升对该技能格挡率100%，治疗自身15%最大生命）",
+  "cur": "Hiệu quả duy nhất「Kiến Thiết」: công kích+300,phòng ngự+200,sinh mệnh+8000,nếu bản thân ở hàng trước, khi vào trận và lần đầu tung Siêu Tuyệt, gắn cho bản thân 1 tầng【Kiến Thiết】 (khi bị nhắm làm mục tiêu chínhtiêu hao 1 tầng và kích hoạt: tăng tỉ lệ đỡ đòn với kỹ năng đó 100%, trị liệu bản thân 15% sinh mệnh tối đa) "
+ },
+ {
+  "i": 196,
+  "zh": "唯一效果「正心」：提升自身攻击400，防御160，生命6000，自身使用超绝技时，有50%概率伤害提升35%+100，并降低主目标100点怒气。",
+  "cur": "Hiệu quả duy nhất「Chính Tâm」: Tăng công kích bản thân 400, phòng ngự160, sinh mệnh6000, khi bản thân dùng Siêu Tuyệt Kỹ, có 50% xác suất sát thươngtăng 35%+100, và giảm mục tiêu chính 100 điểm nộ khí. "
+ },
+ {
+  "i": 197,
+  "zh": "唯一效果「超越」：提升自身攻击400,防御160,生命6000,战斗开始后，提升己方全体伤害率8%和攻击200，持续32秒。",
+  "cur": "Hiệu quả duy nhất「Siêu Việt」: Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,sau khi bắt đầu trận đấu, Tăng toàn bộ phe ta tỉ lệ sát thương8% và công kích200, kéo dài 32 giây. "
+ },
+ {
+  "i": 198,
+  "zh": "唯一效果「撕裂」：提升自身攻击400,防御160,生命6000,施放超绝技时，若主目标【流血】，则提升此技能伤害20%，并有50%概率额外附加1层【流血】。",
+  "cur": "Hiệu quả duy nhất「Xé Rách」: Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,tung Siêu Tuyệt Kỹ thì, nếu mục tiêu chính 【Chảy Máu】, thì tăng sát thương kỹ năng này 20%, và có 50% xác suất gắn thêm 1 tầng【Chảy Máu】. "
+ },
+ {
+  "i": 199,
+  "zh": "唯一效果「冰心」：提升自身攻击400,防御160,生命6000,战斗开始后，提升己方全体免伤率8%和防御200，持续32秒。",
+  "cur": "Hiệu quả duy nhất「Băng Tâm」: Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,sau khi bắt đầu trận đấu, Tăng toàn bộ phe ta tỉ lệ giảm sát thương8% và phòng ngự200, kéo dài 32 giây. "
+ },
+ {
+  "i": 200,
+  "zh": "提升己方全体1%效果命中、1%效果强度、1%效果抵抗（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Tăng toàn bộ phe ta 1% hiệu quả mệnh trúng, 1% cường độ hiệu quả, 1% kháng hiệu quả (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 201,
+  "zh": "唯一效果「穿甲」：提升自身攻击400,防御160,生命6000,己方全体能量技有50%概率，无视目标20%+200的防御（对BOSS无效）。",
+  "cur": "Hiệu quả duy nhất「Xuyên Giáp」: Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,Năng Lượng Kỹ toàn bộ phe ta có 50% xác suất, phớt lờ của mục tiêu 20%+200 phòng ngự (vô hiệu với BOSS). "
+ },
+ {
+  "i": 202,
+  "zh": "唯一效果「杀意」：提升自身攻击200，防御240，生命10000，己方每使用5个能量技，回复自身40%攻击的生命，回复50点怒气",
+  "cur": "Hiệu quả duy nhất「Sát Ý」: Tăng công kích bản thân 200, phòng ngự240, sinh mệnh10000, phe ta cứ mỗi 5 Năng Lượng Kỹ được dùng, hồi bản thân 40% công kích sinh mệnh, hồi 50 điểm nộ khí"
+ },
+ {
+  "i": 203,
+  "zh": "唯一效果「剑心」：提升自身攻击400,防御160,生命6000,本局战斗中，降低敌方全体伤害率8%和攻击200，持续32秒。",
+  "cur": "Hiệu quả duy nhất「Kiếm Tâm」: Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,trong trận đấu này, giảm toàn bộ phe địch tỉ lệ sát thương8% và công kích200, kéo dài 32 giây. "
+ },
+ {
+  "i": 204,
+  "zh": "提升己方全体攻击1%，防御1%，生命1%（学习后无论格斗家是否上阵，均生效）。",
+  "cur": "Tăng công kích toàn bộ phe ta 1%, phòng ngự1%, sinh mệnh1% (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực). "
+ },
+ {
+  "i": 205,
+  "zh": "唯一效果「宗师」：攻击+400,防御+160,生命+6000，战斗开始时，场上每有1名不同流派的格斗家，自身获得3%伤害率，持续整场（可驱散）",
+  "cur": "Hiệu quả độc nhất\"Tông Sư\": công kích +400, phòng ngự +160, sinh mệnh +6000, khi bắt đầu trận, trên sân cứ mỗi 1 lưu phái khác nhau võ sĩ, bản thân nhận 3% tỉ lệ sát thương, kéo dài cả trận (có thể xua tan)"
+ },
+ {
+  "i": 206,
+  "zh": "唯一效果「剧毒」：攻击+400,防御+160,生命+6000,自身造成的毒的伤害提升40%",
+  "cur": "Hiệu quả duy nhất「Kịch Độc」: công kích+400,phòng ngự+160,sinh mệnh+6000,sát thương độc do bản thân gây ra tăng 40%"
+ },
+ {
+  "i": 207,
+  "zh": "提升己方全体伤害率1.6%和攻击100（学习后无论格斗家是否上阵，均生效）。",
+  "cur": "Tăng toàn bộ phe ta tỉ lệ sát thương1.6% và công kích100 (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực). "
+ },
+ {
+  "i": 208,
+  "zh": "提升己方全体1.6%免伤率和100点防御（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Tăng toàn bộ phe ta 1.6% tỉ lệ giảm sát thương và 100 điểm phòng ngự (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 209,
+  "zh": "提升己方全体1%伤害率、1%效果强度和1%效果命中（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Tăng toàn bộ phe ta 1% tỉ lệ sát thương, 1% cường độ hiệu quả và 1% hiệu quả mệnh trúng (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 210,
+  "zh": "提升己方全体2%格挡率和1000生命（学习后无论格斗家是否上阵，均生效）",
+  "cur": "tăng cho toàn bộ phe ta 2% tỉ lệ đỡ đòn và 1000 sinh mệnh (Sau khi học, dù võ sĩ có ra trận hay không đều có hiệu lực)"
+ },
+ {
+  "i": 211,
+  "zh": "唯一效果「帝王」：提升己方全体生命，该值为本战魂拥有者生命的2%+600（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Hiệu quả duy nhất「Đế Vương」: Tăng sinh mệnh toàn bộ phe ta, giá trị này bằng sinh mệnh của chủ Chiến Hồn 2%+600 (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 212,
+  "zh": "提升己方全体2%超绝技伤害和100点攻击（学习后无论格斗家是否上阵，均生效）",
+  "cur": "tăng cho toàn bộ phe ta 2% sát thương Siêu Tuyệt và 100 điểm công kích (Sau khi học, dù võ sĩ có ra trận hay không đều có hiệu lực)"
+ },
+ {
+  "i": 213,
+  "zh": "唯一效果「玄冰」：攻击+400,防御+160,生命+6000，己方回合结束时，40%概率随机对1个己方格斗家附加【玄冰护甲】",
+  "cur": "Hiệu quả độc nhất\"Huyền Băng\": công kích +400, phòng ngự +160, sinh mệnh +6000, khi phe ta kết thúc lượt, 40% xác suất ngẫu nhiên với 1 cái phe ta võ sĩ gắn thêm [Giáp Huyền Băng]"
+ },
+ {
+  "i": 214,
+  "zh": "提升己方全体1%超绝技伤害和1%超绝技免伤（学习后无论格斗家是否上阵，均生效）",
+  "cur": "tăng cho toàn bộ phe ta 1% sát thương Siêu Tuyệt và 1% miễn thương Siêu Tuyệt (Sau khi học, dù võ sĩ có ra trận hay không đều có hiệu lực)"
+ },
+ {
+  "i": 215,
+  "zh": "唯一效果「火花」：攻击+400,防御+160,生命+6000，敌方场上有人死亡时，对所有敌人造成该格斗家80%攻击的伤害，该伤害无视免伤率、防御、格挡率。",
+  "cur": "Hiệu quả độc nhất\"Hỏa Hoa\": công kích +400, phòng ngự +160, sinh mệnh +6000, phe địch trên sân có người khi tử vong, với tất cả kẻ địch gây đó võ sĩ 80% công kích sát thương, sát thương này bỏ qua tỉ lệ miễn thương, phòng ngự, tỉ lệ đỡ đòn."
+ },
+ {
+  "i": 216,
+  "zh": "唯一效果「超能」：攻击+400,防御+160,生命+6000，施放超绝时，自身对主目标额外造成自身6%最大生命值的伤害，最高不超过攻击力的1000%",
+  "cur": "Hiệu quả độc nhất\"Siêu Năng\": công kích +400, phòng ngự +160, sinh mệnh +6000, khi tung Siêu Tuyệt, bản thân với mục tiêu chính thêm gây bản thân 6% sát thương bằng Sinh Mệnh tối đa, tối đa không vượt công kích 1000%"
+ },
+ {
+  "i": 217,
+  "zh": "唯一效果「泰坦」：提升己方全体防格斗家4%+3000生命。（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Hiệu quả duy nhất「Titan」: Tăng toàn bộ phe ta Võ Sĩ hệ Thủ4%+3000 sinh mệnh. (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 218,
+  "zh": "唯一效果「血狂」：提升自身400点攻击，160点防御，6000点生命，战斗开始和复活后的首次施放超绝，对主目标造成最大生命10%的伤害",
+  "cur": "Hiệu quả duy nhất「Huyết Cuồng」: Tăng bản thân 400 điểm công kích, 160 điểm phòng ngự, 6000 điểm sinh mệnh, lần đầu tung Siêu Tuyệt khi bắt đầu trận và sau khi hồi sinh, với mục tiêu chínhgây sinh mệnh tối đa10% sát thương"
+ },
+ {
+  "i": 219,
+  "zh": "唯一效果「孤王」：攻击+400,防御+160,生命+6000，场上每有3名角色死亡，自身获得1层【不屈】",
+  "cur": "Hiệu quả độc nhất\"Cô Vương\": công kích +400, phòng ngự +160, sinh mệnh +6000, trên sân cứ mỗi 3 nhân vật tử vong, bản thân nhận 1 tầng [Bất Khuất]"
+ },
+ {
+  "i": 220,
+  "zh": "提升自身攻击400,防御160,生命6000,战斗中,提升自身3%免伤率和10%效果抵抗,防格斗家使用时效果提升50%。",
+  "cur": "Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,trong trận đấu,tăng tỉ lệ giảm sát thương 3% và kháng hiệu quả 10% cho bản thân,Võ Sĩ hệ Thủdùng thì hiệu quảtăng 50%. "
+ },
+ {
+  "i": 221,
+  "zh": "提升自身攻击400,防御160,生命6000,主目标带灼烧时,提升35%能量技伤害。",
+  "cur": "Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,khi mục tiêu chính đang bị thiêu đốt,tăng 35% sát thương Năng Lượng Kỹ. "
+ },
+ {
+  "i": 222,
+  "zh": "提升自身攻击400,防御160,生命6000,提升攻击随机目标的超绝技30%伤害。",
+  "cur": "Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,tăng công kíchmục tiêu ngẫu nhiên Siêu Tuyệt Kỹ30% sát thương. "
+ },
+ {
+  "i": 223,
+  "zh": "提升自身攻击400,防御160,生命6000,暴击率8%,伤害率10%。",
+  "cur": "Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,tỉ lệ bạo kích8%,tỉ lệ sát thương10%. "
+ },
+ {
+  "i": 224,
+  "zh": "提升自身攻击400,防御160,生命6000,格挡率8%,免伤率10%。",
+  "cur": "Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,tỉ lệ đỡ đòn8%,tỉ lệ giảm sát thương10%. "
+ },
+ {
+  "i": 225,
+  "zh": "提升自身攻击400,防御160,生命6000,降低自身受到后排敌人18%伤害。",
+  "cur": "Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,giảm sát thương bản thân nhận từ kẻ địch hàng sau 18% sát thương. "
+ },
+ {
+  "i": 226,
+  "zh": "提升自身攻击400,防御160,生命6000,对敌人前排提升18%伤害。",
+  "cur": "Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,tăng lên hàng trước kẻ địch 18% sát thương. "
+ },
+ {
+  "i": 227,
+  "zh": "提升自身攻击400,防御160,生命6000,提升我方全体15%被治疗率和500治疗值。",
+  "cur": "Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,Tăng toàn bộ phe ta 15% tỉ lệ được trị liệu và 500 giá trị trị liệu. "
+ },
+ {
+  "i": 228,
+  "zh": "提升自身攻击400,防御160,生命6000,生命大于50%时,提升自身20%反伤率。",
+  "cur": "Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,sinh mệnhlớn hơn 50% thì,Tăng bản thân 20% tỉ lệ phản thương. "
+ },
+ {
+  "i": 229,
+  "zh": "提升自身攻击400,防御160,生命6000,生命小于50%时,提升自身15%吸血率。",
+  "cur": "Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,sinh mệnhnhỏ hơn 50% thì,Tăng bản thân 15% tỉ lệ hút máu. "
+ },
+ {
+  "i": 230,
+  "zh": "提升自身攻击400,防御160,生命6000,开场时提升我方全体伤害率和吸血率3%,持续整场；若全场女性数量为偶数,则改为提升5%。",
+  "cur": "Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,khi vào trận Tăng toàn bộ phe ta tỉ lệ sát thương và tỉ lệ hút máu3%,kéo dài toàn trận; nếu số lượng Nữ toàn trận là số chẵn,thì chuyển thành tăng 5%. "
+ },
+ {
+  "i": 231,
+  "zh": "提升自身攻击400,防御160,生命6000,开场时提升我方全体免伤率和反伤率3%,持续整场；若全场男性数量为奇数,则改为提升5%。",
+  "cur": "Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,khi vào trận Tăng toàn bộ phe ta tỉ lệ giảm sát thương và tỉ lệ phản thương3%,kéo dài toàn trận; nếu số lượng Nam toàn trận là số lẻ,thì chuyển thành tăng 5%. "
+ },
+ {
+  "i": 232,
+  "zh": "提升自身攻击400,防御160,生命6000,战斗开始时，提升自身伤害率15%，暴击率15%，持续40秒。",
+  "cur": "Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,khi bắt đầu trận đấu, tăng tỉ lệ sát thương bản thân15%, tỉ lệ bạo kích15%, kéo dài 40 giây. "
+ },
+ {
+  "i": 233,
+  "zh": "战斗开始时，提升己方前排格斗家16%反伤率，持续32秒",
+  "cur": "khi bắt đầu trận đấu, tăng Võ Sĩ hàng trước phe ta16% tỉ lệ phản thương, kéo dài 32 giây"
+ },
+ {
+  "i": 234,
+  "zh": "加入黑社会，提升自身3600生命值，8%反伤率，12%被治疗率",
+  "cur": "Gia nhập Xã Hội Đen, Tăng bản thân 3600 sinh mệnh, 8% tỉ lệ phản thương, 12% tỉ lệ được trị liệu"
+ },
+ {
+  "i": 235,
+  "zh": "所有格斗家在竞技场中生命值提升12%（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Sinh Mệnh của tất cả Võ Sĩ trong Đấu Trường tăng12% (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 236,
+  "zh": "所有格斗家在拳皇争霸中生命值提升12%（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Sinh Mệnh của tất cả Võ Sĩ trong Quyền Hoàng Tranh Bá tăng12% (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 237,
+  "zh": "所有格斗家在社团竞技场中生命值提升12%（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Sinh Mệnh của tất cả Võ Sĩ trong Đấu Trường Câu Lạc Bộ tăng12% (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 238,
+  "zh": "攻击力+300，自身每次释放超绝技，主目标自身每有1层灼烧，降低其150怒气",
+  "cur": "công kích+300, bản thân mỗi lần tung Siêu Tuyệt Kỹ, mục tiêu chínhbản thân mỗi có 1 tầngthiêu đốt, giảm chúng 150 nộ khí"
+ },
+ {
+  "i": 239,
+  "zh": "唯一效果「血噬」:流血伤害提升20%,超绝技吞噬目标所有流血并直接附加所吞噬流血的100%的伤害。",
+  "cur": "Hiệu quả duy nhất「Huyết Phệ」:sát thương chảy máutăng 20%,Siêu Tuyệt Kỹnuốt toàn bộ chảy máu của mục tiêu và gắn trực tiếp lượng chảy máu đã nuốt 100% sát thương. "
+ },
+ {
+  "i": 240,
+  "zh": "提升自身攻击400,防御160,生命6000;能量技的伤害率（80%-180%）。",
+  "cur": "Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000;Năng Lượng Kỹtỉ lệ sát thương (80%-180%). "
+ },
+ {
+  "i": 241,
+  "zh": "提升自身3600点生命，所有己方格斗家复活时额外回复200点怒气",
+  "cur": "Tăng bản thân 3600 điểm sinh mệnh, khi tất cả Võ Sĩ phe ta hồi sinhhồi thêm 200 điểm nộ khí"
+ },
+ {
+  "i": 242,
+  "zh": "提升自身2400点生命，战斗开始时提升自身12%超绝技伤害，持续48秒，并获得己方场上格斗家的【地利战魂】、【人和战魂】的战魂效果",
+  "cur": "Tăng bản thân 2400 điểm sinh mệnh, khi bắt đầu trận đấu Tăng bản thân 12% sát thương Siêu Tuyệt Kỹ, kéo dài 48 giây, và nhận hiệu quả Chiến Hồn của Võ Sĩ trên sân phe ta 【Chiến Hồn Địa Lợi】, 【Chiến Hồn Nhân Hòa】 hiệu quả Chiến Hồn"
+ },
+ {
+  "i": 243,
+  "zh": "提升自身2400点生命，战斗开始时附加自身生命上限10%的护盾，并获得己方场上格斗家的【天时战魂】、【人和战魂】的战斗效果",
+  "cur": "Tăng bản thân 2400 điểm sinh mệnh, khi bắt đầu trận đấugắn bản thân giới hạn sinh mệnh10% khiên, và nhận hiệu quả Chiến Hồn của Võ Sĩ trên sân phe ta 【Chiến Hồn Thiên Thời】, 【Chiến Hồn Nhân Hòa】 hiệu quả chiến đấu"
+ },
+ {
+  "i": 244,
+  "zh": "提升自身2400点生命，战斗开始时提升自身12%能量技抗性，持续48秒，并获得己方格斗家装备的【天时战魂】、【地利战魂】的战斗效果",
+  "cur": "tăng cho bản thân 2400 điểm sinh mệnh, khi bắt đầu trận đấutăng cho bản thân 12% kỹ năng năng lượngkháng, duy trì 48 giây, đồng thời nhận hiệu quả chiến đấu của trang bị võ sĩ phe ta【Thiên Thời Chiến Hồn】, 【Địa Lợi Chiến Hồn】 hiệu quả chiến đấu"
+ },
+ {
+  "i": 245,
+  "zh": "提升自身攻击400,防御160,生命6000,战斗开始时附加：提升免伤率15%,降低伤害率8%,持续60秒。取消队伍中【阳极战魂】的免伤率降低效果。",
+  "cur": "Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,khi bắt đầu trận đấugắn: tăng tỉ lệ giảm sát thương15%,giảm tỉ lệ sát thương8%,kéo dài 60 giây. hủy hiệu quả trong đội của 【Chiến Hồn Dương Cực】 hiệu quả giảm tỉ lệ giảm sát thương. "
+ },
+ {
+  "i": 246,
+  "zh": "提升300点攻击，战斗开始时提升自身20%伤害率，但自身免伤率降低10%，持续48秒，并驱散队伍中己方格斗家装备【阴极战魂】的伤害率降低效果",
+  "cur": "tăng 300 điểm công kích, khi bắt đầu trận đấu Tăng bản thân 20% tỉ lệ sát thương, nhưng bản thân tỉ lệ giảm sát thươnggiảm 10%, kéo dài 48 giây, và xua tan hiệu quả trang bị Chiến Hồn của Võ Sĩ phe ta trong đội 【Chiến Hồn Âm Cực】 hiệu quả giảm tỉ lệ sát thương"
+ },
+ {
+  "i": 247,
+  "zh": "唯一效果【兵锐】：提升自身攻击400,防御160,生命6000,使用技能时20%概率对主目标附加【流血】，若目标已被流血，概率提升为100%。",
+  "cur": "Hiệu quả duy nhất【Binh Nhuệ】: Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,khi dùng kỹ năng20% xác suất với mục tiêu chínhgắn 【Chảy Máu】, nếu mục tiêu đã bị chảy máu, xác suất tăng là 100%. "
+ },
+ {
+  "i": 248,
+  "zh": "提升自身2000血量，12%效果抗性，使用超绝技后驱散自身随机一个负面效果，若男性格斗家装备，战斗中将被同时视为女性格斗家",
+  "cur": "tăng cho bản thân 2000 máu, 12% kháng hiệu quả, sau khi dùng kỹ năng siêu tuyệttrục xuấtbản thânngẫu nhiên mộthiệu ứng tiêu cực, nếu võ sĩ nam trang bị, trong trận đấusẽ bịđồng thờixem làvõ sĩ nữ"
+ },
+ {
+  "i": 249,
+  "zh": "提升自身攻击400,防御160,生命6000,使用超绝技时40%概率触发,使你当前技能的暴击率,与队伍中暴击率最高的人相同。",
+  "cur": "Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,khi dùng Siêu Tuyệt Kỹ40% xác suất kích hoạt,khiến bạn kỹ năng hiện tạitỉ lệ bạo kích,bằng với người có tỉ lệ bạo kích cao nhất trong đội. "
+ },
+ {
+  "i": 250,
+  "zh": "提升自身攻击400,防御160,生命6000,若自身能量技累计攻击一个敌人3次,则有50%概率使其沉默。",
+  "cur": "Tăng công kích bản thân 400,phòng ngự160,sinh mệnh6000,nếu Năng Lượng Kỹ bản thân tấn công tích lũy một kẻ địch 3 lần,thì có 50% xác suất khiến chúng câm lặng. "
+ },
+ {
+  "i": 251,
+  "zh": "提升己方全体格斗家2%能量技伤害和1%能量技抗性（无论格斗家是否上阵均生效）。",
+  "cur": "Tăng cho toàn bộ Võ Sĩ phe ta 2% sát thương Năng Lượng Kỹ và 1% kháng Năng Lượng Kỹ (Bất kể Võ Sĩ có ra trận hay không đều có hiệu lực). "
+ },
+ {
+  "i": 252,
+  "zh": "在竞技场和社团格斗场中提升所有己方格斗家8%生命和8%防御（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Trong Đấu Trường và Võ Đài Câu Lạc Bộ, tăng cho tất cả Võ Sĩ phe ta 8% sinh mệnh và 8% phòng ngự (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 253,
+  "zh": "唯一效果【暗雷】：登场时在一名敌方后排格斗家脚下放置一个【炸弹】，该格斗家使用超绝技后爆炸，对该格斗家造成10%生命上限的伤害。",
+  "cur": "Hiệu quả duy nhất【Ám Lôi】: khi ra sânđặt dưới chân một Võ Sĩ phe địch hàng sau một 【Bom】, Võ Sĩ đó sau khi dùng Siêu Tuyệt Kỹ sẽ phát nổ, gây cho Võ Sĩ đó 10% giới hạn sinh mệnh sát thương. "
+ },
+ {
+  "i": 254,
+  "zh": "提升自身300防御。唯一效果【不动】：自身处于【眩晕】、【冰冻】、【沉默】、【麻痹】状态时，受到的伤害降低30%。若生命值小于25%时此效果未触发过，则额外触发一次此效果。",
+  "cur": "Tăng bản thân 300 phòng ngự. Hiệu quả duy nhất【Bất Động】: khi bản thân đang ở trạng thái 【Choáng】, 【Đóng Băng】, 【Câm Lặng】, 【Tê Liệt】trạng thái thì, sát thương nhận vào giảm 30%. nếu sinh mệnh nhỏ hơn 25% thì hiệu quả này chưa từng kích hoạt, thì kích hoạt thêm một lần hiệu quả này. "
+ },
+ {
+  "i": 255,
+  "zh": "唯一被动【切割】：提升己方全体格斗家100攻击和的10%流血伤害（无论格斗家是否上阵均生效）。",
+  "cur": "Bị động độc nhất【Thiết Cát】: tăng cho toàn thể võ sĩ phe ta 100 công kíchvà10%Xuất Huyếtsát thương (bất kểvõ sĩcó hay khôngra trậnđều có hiệu lực)."
+ },
+ {
+  "i": 256,
+  "zh": "提升自身攻击300,防御210,生命10000，每次施放必杀技后，提升自身免伤率，提升的免伤率为自身当前血量百分比的20%，持续敌方一次连击。",
+  "cur": "tăng công kích bản thân 300,phòng ngự210,sinh mệnh10000, mỗi lần thi triển tuyệt kỹ, tăng tỉ lệ miễn thương bản thân, tỉ lệ miễn thương tăng bằng phần trăm máu hiện tại của bản thân20%, duy trì một đợt liên kích của địch."
+ },
+ {
+  "i": 257,
+  "zh": "攻击+400,防御+160,生命+6000,生命大于50%时，自身提升18%伤害率，降低10%免伤率，生命小于50%时，自身提升18%免伤率，降低10%伤害率",
+  "cur": "công kích+400,phòng ngự+160,sinh mệnh+6000,khi sinh mệnh lớn hơn 50%, bản thântăng 18% tỉ lệ sát thương, giảm10% tỉ lệ miễn thương, khi sinh mệnh nhỏ hơn 50%, bản thântăng 18% tỉ lệ miễn thương, giảm10% tỉ lệ sát thương"
+ },
+ {
+  "i": 258,
+  "zh": "攻击+400,防御+160,生命+6000,自身能量技伤害提升35%，超绝技伤害降低15%",
+  "cur": "công kích+400,phòng ngự+160,sinh mệnh+6000,bản thânsát thương kỹ năng năng lượngtăng 35%, sát thương kỹ năng siêu tuyệtgiảm15%"
+ },
+ {
+  "i": 259,
+  "zh": "提升自身攻击300,防御210,生命10000，施放超绝技前有30%概率为目标附加灼烧，若目标有3层灼烧，则提升自身18%免伤率，持续32秒。",
+  "cur": "tăng công kích bản thân 300,phòng ngự210,sinh mệnh10000, trước khi thi triển kỹ năng siêu tuyệtcó30% xác suấtgắn cho mục tiêu Thiêu Đốt, nếu mục tiêu có 3 tầng Thiêu Đốt, thìtăng cho bản thân 18% tỉ lệ miễn thương, duy trì 32 giây."
+ },
+ {
+  "i": 260,
+  "zh": "提升自身攻击250，防御100，生命4000，战斗开始时，提升己方全体5%+180超绝技伤害，持续36秒",
+  "cur": "Tăng công kích bản thân 250, phòng ngự100, sinh mệnh4000, khi bắt đầu trận đấu, Tăng toàn bộ phe ta 5%+180 sát thương Siêu Tuyệt Kỹ, kéo dài 36 giây"
+ },
+ {
+  "i": 261,
+  "zh": "唯一效果「崩雷」：提升自身攻击250，防御100，生命4000，自身能量技有80%概率，无视目标30%+120的防御（对BOSS无效）",
+  "cur": "Hiệu quả duy nhất「Băng Lôi」: Tăng công kích bản thân 250, phòng ngự100, sinh mệnh4000, bản thân Năng Lượng Kỹcó 80% xác suất phớt lờ của mục tiêu 30%+120 phòng ngự (vô hiệu với BOSS) "
+ },
+ {
+  "i": 262,
+  "zh": "提升己方全体1%格档率（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Tăng toàn bộ phe ta 1% tỉ lệ đỡ đòn (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 263,
+  "zh": "唯一效果「传说」：提升己方全体攻击，该值为本战魂拥有者攻击的1.2%+20（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Hiệu quả duy nhất「Truyền Thuyết」: Tăng công kích toàn bộ phe ta, giá trị này bằng công kích của chủ Chiến Hồn 1.2%+20 (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 264,
+  "zh": "提升自身攻击250，防御100，生命4000，自身首次释放超绝技额外为自身附加100%攻击+800的护盾，持续敌方2次连击。",
+  "cur": "Tăng công kích bản thân 250, phòng ngự100, sinh mệnh4000, lần đầu tung Siêu Tuyệt Kỹ, bản thân được gắn thêm 100% công kích+800 khiên, kéo dài qua 2 lầnliên kích. "
+ },
+ {
+  "i": 265,
+  "zh": "提升自身攻击250，防御100，生命4000，自身超绝技有25%概率降低敌人2点能量",
+  "cur": "Tăng công kích bản thân 250, phòng ngự100, sinh mệnh4000, Siêu Tuyệt Kỹ bản thân có 25% xác suất giảm kẻ địch 2 điểm năng lượng"
+ },
+ {
+  "i": 266,
+  "zh": "唯一效果「元气」：提升自身攻击250，防御100，生命4000，战斗开始时，己方初始能量提升1点",
+  "cur": "Hiệu quả duy nhất「Nguyên Khí」: Tăng công kích bản thân 250, phòng ngự100, sinh mệnh4000, khi bắt đầu trận đấu, phe tanăng lượng khởi đầutăng 1 điểm"
+ },
+ {
+  "i": 267,
+  "zh": "唯一效果「刀锋」：提升自身200点攻击，自身的能量技额外回复50点怒气",
+  "cur": "Hiệu quả duy nhất「Đao Phong」: Tăng bản thân 200 điểm công kích, Năng Lượng Kỹ bản thân hồi thêm 50 điểm nộ khí"
+ },
+ {
+  "i": 268,
+  "zh": "提升己方全体2%破击率（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Tăng toàn bộ phe ta 2% tỉ lệ phá kích (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 269,
+  "zh": "提升自身250点攻击，300点防御，4000点生命,敌人每使用1次能量技，提升自身1%防御，最多提高20次",
+  "cur": "Tăng bản thân 250 điểm công kích, 300 điểm phòng ngự, 4000 điểm sinh mệnh,kẻ địch mỗi lần dùng 1 Năng Lượng Kỹ, Tăng bản thân 1% phòng ngự, tối đa nâng 20 lần"
+ },
+ {
+  "i": 270,
+  "zh": "唯一效果「应援」：提升自身2000点生命，己方每使用5个能量技，回复生命最低的格斗家32%攻击+300生命",
+  "cur": "Hiệu quả duy nhất「Cổ Vũ」: Tăng bản thân 2000 điểm sinh mệnh, phe ta cứ mỗi 5 Năng Lượng Kỹ được dùng, hồi cho Võ Sĩ có sinh mệnh thấp nhất 32% công kích+300 sinh mệnh"
+ },
+ {
+  "i": 271,
+  "zh": "提升自身300点防御，战斗开始时，我方随机2个格斗家附加6%随机增益，持续48秒",
+  "cur": "Tăng bản thân 300 điểm phòng ngự, khi bắt đầu trận đấu, ngẫu nhiên phe ta 2 Võ Sĩgắn 6% tăng ích ngẫu nhiên, kéo dài 48 giây"
+ },
+ {
+  "i": 272,
+  "zh": "提升己方全体1%暴击率（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Tăng toàn bộ phe ta 1% tỉ lệ bạo kích (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 273,
+  "zh": "唯一效果「振奋」：提升自身攻击250，防御100，生命4000，自身生命大于50%时，提升10%格挡率",
+  "cur": "Hiệu quả duy nhất「Chấn Phấn」: Tăng công kích bản thân 250, phòng ngự100, sinh mệnh4000, sinh mệnh bản thân lớn hơn 50% thì, tăng 10% tỉ lệ đỡ đòn"
+ },
+ {
+  "i": 274,
+  "zh": "提升自身3000点生命，自身死亡时给相邻队友附加护盾，护盾值为自身生命上限的12%+800",
+  "cur": "Tăng bản thân 3000 điểm sinh mệnh, khi bản thân tử vong, gắn cho đồng đội kề bên khiên, giá trị khiêncho bản thân giới hạn sinh mệnh12%+800"
+ },
+ {
+  "i": 275,
+  "zh": "提升自身效果强度+12%。友方格斗家死亡时额外提高6%，最高可叠加三层",
+  "cur": "Tăng bản thân cường độ hiệu quả+12%. Võ Sĩ đồng độikhi tử vongthêm nâng cao 6%, cộng dồn tối đa 3 tầng"
+ },
+ {
+  "i": 276,
+  "zh": "提升自身300点攻击，超绝技可以驱散目标的护盾和防御提升状态",
+  "cur": "Tăng bản thân 300 điểm công kích, Siêu Tuyệt Kỹcó thể xua tan khiên và trạng thái tăng phòng ngự của mục tiêu"
+ },
+ {
+  "i": 277,
+  "zh": "提升己方全体防御10%（学习后无论格斗家是否上阵，均生效）。",
+  "cur": "Tăng phòng ngự toàn bộ phe ta 10% (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực). "
+ },
+ {
+  "i": 278,
+  "zh": "唯一效果「守望」：提升己方全体防御，该值为本战魂拥有者防御的2%+60（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Hiệu quả duy nhất「Thủ Vọng」: Tăng phòng ngự toàn bộ phe ta, giá trị này bằng phòng ngự của chủ Chiến Hồn 2%+60 (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 279,
+  "zh": "唯一效果「死士」：攻击+250,防御+100,生命+4000,自身生命小于40%时，提升15%反伤率",
+  "cur": "Hiệu quả duy nhất「Tử Sĩ」: công kích+250,phòng ngự+100,sinh mệnh+4000,sinh mệnh bản thân nhỏ hơn 40% thì, tăng 15% tỉ lệ phản thương"
+ },
+ {
+  "i": 280,
+  "zh": "唯一效果「猛兽」：攻击+250,防御+100,生命+4000,主目标生命高于55%时，额外提升12%+200伤害",
+  "cur": "Hiệu quả duy nhất「Mãnh Thú」: công kích+250,phòng ngự+100,sinh mệnh+4000,sinh mệnh mục tiêu chính cao hơn 55% thì, tăng thêm 12%+200 sát thương"
+ },
+ {
+  "i": 281,
+  "zh": "唯一效果「死镰」：攻击+250,防御+100,生命+4000,目标生命低于40%时，额外提升12%+200伤害",
+  "cur": "Hiệu quả duy nhất「Tử Liêm」: công kích+250,phòng ngự+100,sinh mệnh+4000,sinh mệnh mục tiêu thấp hơn 40% thì, tăng thêm 12%+200 sát thương"
+ },
+ {
+  "i": 282,
+  "zh": "提升自身攻击250,防御100,生命4000,自身使用超绝技后，80%概率驱散自身1个减益效果。",
+  "cur": "Tăng công kích bản thân 250,phòng ngự100,sinh mệnh4000,sau khi bản thân dùng Siêu Tuyệt Kỹ, 80% xác suất xua tan bản thân 1 giảm íchhiệu quả. "
+ },
+ {
+  "i": 283,
+  "zh": "提升自身攻击250,防御100,生命4000,自身使用超绝技时，提升连击数*3%的伤害。",
+  "cur": "Tăng công kích bản thân 250,phòng ngự100,sinh mệnh4000,khi bản thân dùng Siêu Tuyệt Kỹ, tăng theo số liên kích *3% sát thương. "
+ },
+ {
+  "i": 284,
+  "zh": "提升自身3000生命，唯一效果「活力」：每15秒回复自身3%的生命，连击数大于等于3时，提升30%能量技伤害。",
+  "cur": "tăng cho bản thân 3000 sinh mệnh, Hiệu quả độc nhất「Hoạt Lực」: mỗi 15 giâyhồi phục cho bản thân 3% sinh mệnh, khi số liên kích lớn hơn hoặc bằng 3, tăng 30% sát thương kỹ năng năng lượng."
+ },
+ {
+  "i": 285,
+  "zh": "唯一效果「毒刃」：提升自身攻击250,防御100,生命4000,自身使用2,3费能量技时，伤害提升10%，25%概率附加中毒。",
+  "cur": "Hiệu quả duy nhất「Độc Nhận」: Tăng công kích bản thân 250,phòng ngự100,sinh mệnh4000,khi bản thân dùng Năng Lượng Kỹ tốn 2,3 điểm, sát thươngtăng 10%, 25% xác suất gắn trúng độc. "
+ },
+ {
+  "i": 286,
+  "zh": "唯一效果「见切」：攻击+200,防御+120,生命+5000,若自身在前排，开场时给自身附加1层【见切】（被作为主目标命中时消耗1层并触发：提升对该技能格挡率100%，治疗自身15%最大生命）",
+  "cur": "Hiệu quả duy nhất「Kiến Thiết」: công kích+200,phòng ngự+120,sinh mệnh+5000,nếu bản thân ở hàng trước, khi vào trậngắn cho bản thân 1 tầng【Kiến Thiết】 (khi bị nhắm làm mục tiêu chínhtiêu hao 1 tầng và kích hoạt: tăng tỉ lệ đỡ đòn với kỹ năng đó 100%, trị liệu bản thân 15% sinh mệnh tối đa) "
+ },
+ {
+  "i": 287,
+  "zh": "提升自身攻击250,防御100,生命4000,自身死亡后，降低随机2个敌方格斗家（优先后排）攻击10%。",
+  "cur": "Tăng công kích bản thân 250,phòng ngự100,sinh mệnh4000,sau khi bản thân tử vong, giảm ngẫu nhiên2 Võ Sĩ phe địch (ưu tiên hàng sau) công kích10%. "
+ },
+ {
+  "i": 288,
+  "zh": "唯一效果「撕裂」：提升自身攻击250,防御100,生命4000,施放超绝技时，若主目标【流血】，则提升此技能伤害12%，并有30%概率额外附加1层【流血】。",
+  "cur": "Hiệu quả duy nhất「Xé Rách」: Tăng công kích bản thân 250,phòng ngự100,sinh mệnh4000,tung Siêu Tuyệt Kỹ thì, nếu mục tiêu chính 【Chảy Máu】, thì tăng sát thương kỹ năng này 12%, và có 30% xác suất gắn thêm 1 tầng【Chảy Máu】. "
+ },
+ {
+  "i": 289,
+  "zh": "唯一效果「穿甲」：提升自身攻击250,防御100,生命4000,己方全体能量技有40%概率，无视目标8%+100防御（对BOSS无效）。",
+  "cur": "Hiệu quả duy nhất「Xuyên Giáp」: Tăng công kích bản thân 250,phòng ngự100,sinh mệnh4000,Năng Lượng Kỹ toàn bộ phe ta có 40% xác suất, phớt lờ của mục tiêu 8%+100 phòng ngự (vô hiệu với BOSS). "
+ },
+ {
+  "i": 290,
+  "zh": "唯一效果「背水」：提升自身2400点生命，当场上人数小于3时，提升自身12%攻击和防御，持续32秒",
+  "cur": "Hiệu quả duy nhất「Bối Thủy」: Tăng bản thân 2400 điểm sinh mệnh, khi số người trên sân nhỏ hơn 3, Tăng bản thân 12% công kích và phòng ngự, kéo dài 32 giây"
+ },
+ {
+  "i": 291,
+  "zh": "提升自身攻击250,防御100,生命4000,自身的能量技额外附加目标最大生命1%的伤害。",
+  "cur": "Tăng công kích bản thân 250,phòng ngự100,sinh mệnh4000,Năng Lượng Kỹ bản thân gắn thêm cho mục tiêu sinh mệnh tối đa1% sát thương. "
+ },
+ {
+  "i": 292,
+  "zh": "提升己方全体1%抗暴率和100点攻击（学习后无论格斗家是否上阵，均生效）",
+  "cur": "Tăng toàn bộ phe ta 1% tỉ lệ kháng bạo và 100 điểm công kích (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực) "
+ },
+ {
+  "i": 293,
+  "zh": "提升自身300点攻击，自己使用能量技时有30%概率附加中毒",
+  "cur": "Tăng bản thân 300 điểm công kích, bản thân khi dùng Năng Lượng Kỹcó 30% xác suất gắn trúng độc"
+ },
+ {
+  "i": 294,
+  "zh": "唯一效果「息吹之岚」：生命值加2400。登场和复活时触发，为自身附加「暴风」（免疫负面效果，技能伤害和效果强度+15%，持续32s）",
+  "cur": "Hiệu quả duy nhất「Tức Xuy Chi Lam」: sinh mệnhcộng 2400. kích hoạt khi ra sân và hồi sinh, gắn cho bản thân 「Bạo Phong」 (miễn nhiễm hiệu quả tiêu cực, kỹ năngsát thương và cường độ hiệu quả+15%, kéo dài 32 s) "
+ },
+ {
+  "i": 295,
+  "zh": "唯一效果「觉醒大地」：提升自身200点防御，战斗开始时，提升自身12%格挡率，并有12%概率眩晕一个随机敌人",
+  "cur": "Hiệu quả duy nhất「Thức Tỉnh Đại Địa」: Tăng bản thân 200 điểm phòng ngự, khi bắt đầu trận đấu, Tăng bản thân 12% tỉ lệ đỡ đòn, và có 12% xác suất choángmột ngẫu nhiênkẻ địch"
+ },
+ {
+  "i": 296,
+  "zh": "唯一效果「荒狂雷光」：提升自身生命值+3000，战斗开始时，50%概率对随机一个敌方目标附加麻痹",
+  "cur": "Hiệu quả duy nhất「Hoang Cuồng Lôi Quang」: Tăng sinh mệnh bản thân giá trị+3000, khi bắt đầu trận đấu, 50% xác suất gắn tê liệt cho một mục tiêu phe địch ngẫu nhiên"
+ },
+ {
+  "i": 297,
+  "zh": "提升自身200点攻击，怒气回复速率提升10%，战斗开始时对自身附加1层神血诅咒（全属性降低1%，流派变为大蛇之力）",
+  "cur": "Tăng bản thân 200 điểm công kích, tốc độ hồi nộ khítăng 10%, khi bắt đầu trận đấuvới bản thân gắn 1 tầng Chú Nguyền Thần Huyết (toàn thuộc tínhgiảm 1%, Pháitrở thành Đại Xà Chi Lực) "
+ },
+ {
+  "i": 298,
+  "zh": "提升自身攻击250+5%,防御100,生命4000。",
+  "cur": "Tăng công kích bản thân 250+5%,phòng ngự100,sinh mệnh4000. "
+ },
+ {
+  "i": 299,
+  "zh": "提升自身攻击250,防御100+5%,生命4000。",
+  "cur": "Tăng công kích bản thân 250,phòng ngự100+5%,sinh mệnh4000. "
+ },
+ {
+  "i": 300,
+  "zh": "提升自身攻击250,防御100,生命4000+5%。",
+  "cur": "Tăng công kích bản thân 250,phòng ngự100,sinh mệnh4000+5%. "
+ },
+ {
+  "i": 301,
+  "zh": "提升自身攻击250,防御100,生命4000,暴击率8%,暴击强度8%。",
+  "cur": "Tăng công kích bản thân 250,phòng ngự100,sinh mệnh4000,tỉ lệ bạo kích8%,cường độ bạo kích8%. "
+ },
+ {
+  "i": 302,
+  "zh": "提升自身攻击250,防御100,生命4000,格挡率8%,格挡强度8%。",
+  "cur": "Tăng công kích bản thân 250,phòng ngự100,sinh mệnh4000,tỉ lệ đỡ đòn8%,cường độ đỡ đòn8%. "
+ },
+ {
+  "i": 303,
+  "zh": "提升自身攻击250,防御100,生命4000,效果命中10%,效果强度10%。",
+  "cur": "Tăng công kích bản thân 250,phòng ngự100,sinh mệnh4000,hiệu quả mệnh trúng10%,cường độ hiệu quả10%. "
+ },
+ {
+  "i": 304,
+  "zh": "提升自身攻击250,防御100,生命4000,战斗开始时,使己方防格斗家获得2400点护盾。",
+  "cur": "Tăng công kích bản thân 250,phòng ngự100,sinh mệnh4000,khi bắt đầu trận đấu,khiến phe ta Võ Sĩ hệ Thủnhận 2400 điểm khiên. "
+ },
+ {
+  "i": 305,
+  "zh": "提升自身攻击250,防御100,生命4000,提升己方女性格斗家4%伤害率和4%免伤率。",
+  "cur": "Tăng công kích bản thân 250,phòng ngự100,sinh mệnh4000,Tăng cho Võ Sĩ nữ phe ta 4% tỉ lệ sát thương và 4% tỉ lệ giảm sát thương. "
+ },
+ {
+  "i": 306,
+  "zh": "提升自身240防御，当前能量小于4点时，提升自身能量技10%+100伤害",
+  "cur": "Tăng bản thân 240 phòng ngự, năng lượng hiện tạinhỏ hơn 4 điểm thì, tăng sát thương Năng Lượng Kỹ bản thân 10%+100"
+ },
+ {
+  "i": 307,
+  "zh": "提升自身攻击250,防御100,生命4000,己方场上只有1个人时,提升6%伤害率和6%免伤率。",
+  "cur": "Tăng công kích bản thân 250,phòng ngự100,sinh mệnh4000,khi phe ta chỉ còn 1 người trên sân,tăng 6% tỉ lệ sát thương và 6% tỉ lệ giảm sát thương. "
+ },
+ {
+  "i": 308,
+  "zh": "提升自身攻击250,防御100,生命4000,灼烧伤害25%",
+  "cur": "Tăng công kích bản thân 250,phòng ngự100,sinh mệnh4000,sát thương thiêu đốt25%"
+ },
+ {
+  "i": 309,
+  "zh": "提升自身攻击250,防御100,生命4000,战斗开始时,自身会获得随机一种增益或减益效果。",
+  "cur": "Tăng công kích bản thân 250,phòng ngự100,sinh mệnh4000,khi bắt đầu trận đấu,bản thân sẽ nhận một hiệu quả tăng ích hoặc giảm ích ngẫu nhiên. "
+ },
+ {
+  "i": 310,
+  "zh": "提升自身攻击250,防御100,生命4000,被治疗率12%，使用必杀技后为自身附加【回春】：每4秒回复攻击15%生命，持续32秒。",
+  "cur": "Tăng công kích bản thân 250,phòng ngự100,sinh mệnh4000,tỉ lệ được trị liệu12%, sau khi dùng Tất Sát Kỹgắn cho bản thân 【Hồi Xuân】: mỗi 4 giâyhồi công kích15% sinh mệnh, kéo dài 32 giây. "
+ },
+ {
+  "i": 311,
+  "zh": "提升自身300攻击，唯一效果「拳脚为兵」：自身所有能量技额外附带「武器大师」（若目标身上已有流血效果则附加一层流血）效果",
+  "cur": "Tăng bản thân 300 công kích, Hiệu quả duy nhất「Quyền Cước Vi Binh」: tất cả Năng Lượng Kỹ bản thân kèm thêm 「Đại Sư Vũ Khí」 (nếu mục tiêu đã có hiệu quả chảy máu thì gắn thêm một tầng chảy máu) hiệu quả"
+ },
+ {
+  "i": 312,
+  "zh": "提升自身攻击250,防御100,生命4000,每次使用连击技回复自身最大生命值4%的血量。",
+  "cur": "Tăng công kích bản thân 250,phòng ngự100,sinh mệnh4000,mỗi lầndùng Liên Kích Kỹhồi sinh mệnh tối đa bản thân 4% máu. "
+ },
+ {
+  "i": 313,
+  "zh": "提升自身攻击250,防御100,生命4000,所有超绝技相关连击技效果增强10%",
+  "cur": "Tăng công kích bản thân 250,phòng ngự100,sinh mệnh4000,hiệu quả tất cả Liên Kích Kỹ liên quan Siêu Tuyệt Kỹ tăng mạnh 10%"
+ },
+ {
+  "i": 314,
+  "zh": "提升自身攻击250,防御100,生命4000,蓄力音击（1-1-1）后再次使用1费能量技的下一个角色同样获得蓄力音击效果。",
+  "cur": "Tăng công kích bản thân 250,phòng ngự100,sinh mệnh4000,Súc Lực Âm Kích (1-1-1) sau nhân vật kế tiếp dùng lại Năng Lượng Kỹ 1 điểm cũng nhận hiệu quả Súc Lực Âm Kích. "
+ },
+ {
+  "i": 315,
+  "zh": "提升所有格斗家在竞技场中生命10%（学习后无论格斗家是否上阵,均生效）。",
+  "cur": "Tăng Sinh Mệnh của tất cả Võ Sĩ trong Đấu Trường10% (Sau khi học, bất kể Võ Sĩ có ra trận hay không đều có hiệu lực). "
+ },
+ {
+  "i": 316,
+  "zh": "提升自身攻击150+3.6%,防御60,生命1800。",
+  "cur": "Tăng công kích bản thân 150+3.6%,phòng ngự60,sinh mệnh1800. "
+ },
+ {
+  "i": 317,
+  "zh": "提升自身攻击150,防御60,生命1800+3.6%。",
+  "cur": "Tăng công kích bản thân 150,phòng ngự60,sinh mệnh1800+3.6%. "
+ },
+ {
+  "i": 318,
+  "zh": "提升自身攻击150,防御60+3.6%,生命1800。",
+  "cur": "Tăng công kích bản thân 150,phòng ngự60+3.6%,sinh mệnh1800. "
+ },
+ {
+  "i": 319,
+  "zh": "提升自身攻击150,防御60,生命1800,对攻格斗家伤害10%。",
+  "cur": "Tăng công kích bản thân 150,phòng ngự60,sinh mệnh1800,sát thương lên Võ Sĩ hệ Đả 10%. "
+ },
+ {
+  "i": 320,
+  "zh": "提升自身攻击150,防御60,生命1800,对防格斗家伤害10%。",
+  "cur": "Tăng công kích bản thân 150,phòng ngự60,sinh mệnh1800,sát thương lên Võ Sĩ hệ Thủ 10%. "
+ },
+ {
+  "i": 321,
+  "zh": "提升自身攻击150,防御60,生命1800,对技格斗家伤害10%。",
+  "cur": "Tăng công kích bản thân 150,phòng ngự60,sinh mệnh1800,sát thương lên Võ Sĩ hệ Kĩ 10%. "
+ },
+ {
+  "i": 322,
+  "zh": "提升自身攻击150,防御60,生命1800,效果抵抗5%,效果强度5%。",
+  "cur": "Tăng công kích bản thân 150,phòng ngự60,sinh mệnh1800,kháng hiệu quả5%,cường độ hiệu quả5%. "
+ },
+ {
+  "i": 323,
+  "zh": "提升自身攻击150,防御60,生命1800,暴击率5%,暴击强度5%。",
+  "cur": "Tăng công kích bản thân 150,phòng ngự60,sinh mệnh1800,tỉ lệ bạo kích5%,cường độ bạo kích5%. "
+ },
+ {
+  "i": 324,
+  "zh": "提升自身攻击150,防御60,生命1800,格挡率5%,格挡强度5%。",
+  "cur": "Tăng công kích bản thân 150,phòng ngự60,sinh mệnh1800,tỉ lệ đỡ đòn5%,cường độ đỡ đòn5%. "
+ },
+ {
+  "i": 325,
+  "zh": "在封神之路中,提升己方全体5%攻击。",
+  "cur": "Trong Con Đường Phong Thần, tăng cho toàn bộ phe ta 5% công kích. "
+ },
+ {
+  "i": 326,
+  "zh": "在封神之路中,提升己方全体5%防御。",
+  "cur": "Trong Con Đường Phong Thần, tăng cho toàn bộ phe ta 5% phòng ngự. "
+ },
+ {
+  "i": 327,
+  "zh": "在封神之路中,提升己方全体5%生命。",
+  "cur": "Trong Con Đường Phong Thần, tăng cho toàn bộ phe ta 5% sinh mệnh. "
+ },
+ {
+  "i": 328,
+  "zh": "提升自身攻击150,防御60,生命1800,自身超绝技有15%概率使主目标流血。",
+  "cur": "Tăng công kích bản thân 150,phòng ngự60,sinh mệnh1800,Siêu Tuyệt Kỹ bản thân có 15% xác suất khiến mục tiêu chínhchảy máu. "
+ },
+ {
+  "i": 329,
+  "zh": "提升自身攻击150,防御60,生命1800,自身超绝技有15%概率使主目标中毒。",
+  "cur": "Tăng công kích bản thân 150,phòng ngự60,sinh mệnh1800,Siêu Tuyệt Kỹ bản thân có 15% xác suất khiến mục tiêu chínhtrúng độc. "
+ },
+ {
+  "i": 330,
+  "zh": "提升自身攻击200,防御50。",
+  "cur": "Tăng công kích bản thân 200,phòng ngự50. "
+ },
+ {
+  "i": 331,
+  "zh": "提升自身防御50,生命2400。",
+  "cur": "Tăng phòng ngự bản thân 50,sinh mệnh2400. "
+ },
+ {
+  "i": 332,
+  "zh": "提升自身攻击120+2%,防御50,生命1500。",
+  "cur": "tăng công kích bản thân 120+2%,phòng ngự50,sinh mệnh1500."
+ },
+ {
+  "i": 333,
+  "zh": "提升自身攻击120,防御50,生命1500+2%。",
+  "cur": "tăng công kích bản thân 120,phòng ngự50,sinh mệnh1500+2%."
+ },
+ {
+  "i": 334,
+  "zh": "提升自身攻击120,防御50+2%,生命1500。",
+  "cur": "tăng công kích bản thân 120,phòng ngự50+2%,sinh mệnh1500."
+ },
+ {
+  "i": 335,
+  "zh": "提升自身攻击120,防御50,生命1500,对攻格斗家伤害6%。",
+  "cur": "tăng công kích bản thân 120,phòng ngự50,sinh mệnh1500,với võ sĩ hệ Đảsát thương6%."
+ },
+ {
+  "i": 336,
+  "zh": "提升自身攻击120,防御50,生命1500,对防格斗家伤害6%。",
+  "cur": "tăng công kích bản thân 120,phòng ngự50,sinh mệnh1500,với võ sĩ hệ Thủsát thương6%."
+ },
+ {
+  "i": 337,
+  "zh": "提升自身攻击120,防御50,生命1500,对技格斗家伤害6%。",
+  "cur": "tăng công kích bản thân 120,phòng ngự50,sinh mệnh1500,với võ sĩ hệ Kĩsát thương6%."
+ },
+ {
+  "i": 338,
+  "zh": "每秒增长怒气",
+  "cur": "mỗi giây tăng Nộ Khí"
+ },
+ {
+  "i": 339,
+  "zh": "提升同排格斗家攻击",
+  "cur": "tăng cùng hàngvõ sĩcông kích"
+ },
+ {
+  "i": 340,
+  "zh": "战斗初始怒气提升",
+  "cur": "Tăng nộ khí ban đầu khi vào trận"
+ },
+ {
+  "i": 341,
+  "zh": "提升己方女性格斗家攻击",
+  "cur": "tăng phe tanữ giớivõ sĩcông kích"
+ },
+ {
+  "i": 342,
+  "zh": "被攻击时，增长怒气",
+  "cur": "khi bị đánh, tăng Nộ Khí"
+ },
+ {
+  "i": 343,
+  "zh": "提升同排格斗家防御",
+  "cur": "tăng cùng hàngvõ sĩphòng ngự"
+ },
+ {
+  "i": 344,
+  "zh": "敌人死亡时，增长怒气，且友军死亡时，增长怒气",
+  "cur": "khi địch tử vong, tăng Nộ Khí, và khi đồng minh tử vong, tăng Nộ Khí"
+ },
+ {
+  "i": 345,
+  "zh": "提升己方男性格斗家攻击",
+  "cur": "tăng phe tanam giớivõ sĩcông kích"
+ },
+ {
+  "i": 346,
+  "zh": "提升己方防格斗家攻击",
+  "cur": "tăng phe taphòngvõ sĩcông kích"
+ },
+ {
+  "i": 347,
+  "zh": "友军死亡时，增长怒气",
+  "cur": "khi đồng minh tử vong, tăng Nộ Khí"
+ },
+ {
+  "i": 348,
+  "zh": "提升同列格斗家格挡率",
+  "cur": "tăng cùng cộtvõ sĩtỉ lệ đỡ đòn"
+ },
+ {
+  "i": 349,
+  "zh": "提升同排格斗家暴击强度",
+  "cur": "tăng cùng hàngvõ sĩcường độ bạo kích"
+ },
+ {
+  "i": 350,
+  "zh": "敌人死亡时，增长怒气",
+  "cur": "khi địch tử vong, tăng Nộ Khí"
+ },
+ {
+  "i": 351,
+  "zh": "提升同排格斗家暴击率",
+  "cur": "tăng cùng hàngvõ sĩtỉ lệ bạo kích"
+ },
+ {
+  "i": 352,
+  "zh": "友军死亡时，增长怒气，且连击时，增长怒气",
+  "cur": "khi đồng minh tử vong, tăng Nộ Khí, và khi Liên Kích, tăng Nộ Khí"
+ },
+ {
+  "i": 353,
+  "zh": "降低敌方男性格斗家防御",
+  "cur": "giảm phe địchnam giớivõ sĩphòng ngự"
+ },
+ {
+  "i": 354,
+  "zh": "友军死亡时，增长怒气，且敌人死亡时，增长怒气",
+  "cur": "khi đồng minh tử vong, tăng Nộ Khí, và khi địch tử vong, tăng Nộ Khí"
+ },
+ {
+  "i": 355,
+  "zh": "提升己方后排攻击",
+  "cur": "Tăng công kích hàng sau phe ta"
+ },
+ {
+  "i": 356,
+  "zh": "提升己方攻格斗家攻击",
+  "cur": "tăng phe tacôngvõ sĩcông kích"
+ },
+ {
+  "i": 357,
+  "zh": "提升同列格斗家暴击强度",
+  "cur": "tăng cùng cộtvõ sĩcường độ bạo kích"
+ },
+ {
+  "i": 358,
+  "zh": "提升己方全体格斗家被治疗率",
+  "cur": "tăng phe tatoàn thểvõ sĩtỉ lệ được trị liệu"
+ },
+ {
+  "i": 359,
+  "zh": "降低敌方同列格斗家抗暴率",
+  "cur": "giảm phe địchcùng cộtvõ sĩtỉ lệ kháng bạo"
+ },
+ {
+  "i": 360,
+  "zh": "提升己方技格斗家攻击",
+  "cur": "tăng phe takỹvõ sĩcông kích"
+ },
+ {
+  "i": 361,
+  "zh": "被攻击时，增长怒气，且每秒增长怒气",
+  "cur": "khi bị đánh, tăng Nộ Khí, và mỗi giây tăng Nộ Khí"
+ },
+ {
+  "i": 362,
+  "zh": "降低敌方同列格斗家效果强度",
+  "cur": "giảm phe địchcùng cộtvõ sĩcường độ hiệu quả"
+ },
+ {
+  "i": 363,
+  "zh": "降低敌方男性格斗家攻击",
+  "cur": "giảm phe địchnam giớivõ sĩcông kích"
+ },
+ {
+  "i": 364,
+  "zh": "降低敌方攻格斗家攻击",
+  "cur": "giảm phe địchcôngvõ sĩcông kích"
+ },
+ {
+  "i": 365,
+  "zh": "降低敌方同列格斗家效果抗性",
+  "cur": "giảm phe địchcùng cộtvõ sĩkháng hiệu quả"
+ },
+ {
+  "i": 366,
+  "zh": "降低敌方同列格斗家攻击",
+  "cur": "giảm phe địchcùng cộtvõ sĩcông kích"
+ },
+ {
+  "i": 367,
+  "zh": "降低敌方女格斗家防御",
+  "cur": "giảm phe địchnữvõ sĩphòng ngự"
+ },
+ {
+  "i": 368,
+  "zh": "敌人死亡时，增长怒气，且被攻击时，增长怒气",
+  "cur": "khi địch tử vong, tăng Nộ Khí, và khi bị đánh, tăng Nộ Khí"
+ },
+ {
+  "i": 369,
+  "zh": "降低敌方女性格斗家攻击",
+  "cur": "giảm phe địch nữ võ sĩ công kích"
+ },
+ {
+  "i": 370,
+  "zh": "提升己方女性格斗家防御",
+  "cur": "tăng phe ta nữ võ sĩ phòng ngự"
+ },
+ {
+  "i": 371,
+  "zh": "降低敌方攻格斗家防御",
+  "cur": "giảm phe địch võ sĩ hệ Đả phòng ngự"
+ },
+ {
+  "i": 372,
+  "zh": "友军死亡时，增长怒气，且每秒增长怒气",
+  "cur": "khi đồng minh tử vong, tăng Nộ Khí, và mỗi giây tăng Nộ Khí"
+ },
+ {
+  "i": 373,
+  "zh": "提升自身吸血率",
+  "cur": "Tăng Tỉ Lệ Hút Máu"
+ },
+ {
+  "i": 374,
+  "zh": "提升己方攻格斗家防御",
+  "cur": "tăng phe ta võ sĩ hệ Đả phòng ngự"
+ },
+ {
+  "i": 375,
+  "zh": "提升己方隐秘暗杀格斗家攻击",
+  "cur": "tăng phe ta Ẩn Bí Ám Sát võ sĩ công kích"
+ },
+ {
+  "i": 376,
+  "zh": "每秒增长怒气，且连击时，增长怒气",
+  "cur": "mỗi giây tăng Nộ Khí, và khi Liên Kích, tăng Nộ Khí"
+ },
+ {
+  "i": 377,
+  "zh": "提升己方传统武道格斗家攻击",
+  "cur": "tăng phe ta Truyền Thống Võ Đạo võ sĩ công kích"
+ },
+ {
+  "i": 378,
+  "zh": "提升己方秘传古武格斗家攻击",
+  "cur": "tăng phe ta Bí Truyền Cổ Võ võ sĩ công kích"
+ },
+ {
+  "i": 379,
+  "zh": "提升己方技格斗家防御",
+  "cur": "tăng phe ta võ sĩ hệ Kĩ phòng ngự"
+ },
+ {
+  "i": 380,
+  "zh": "降低敌方防格斗家攻击",
+  "cur": "giảm phe địch võ sĩ hệ Thủ công kích"
+ },
+ {
+  "i": 381,
+  "zh": "所有PVP玩法中提升生命值百分比",
+  "cur": "tất cả PVP chế độ trong tăng máu bách phân hơn"
+ },
+ {
+  "i": 382,
+  "zh": "降低敌方技格斗家防御",
+  "cur": "giảm phe địch võ sĩ hệ Kĩ phòng ngự"
+ },
+ {
+  "i": 383,
+  "zh": "降低敌方同列格斗家格挡强度",
+  "cur": "giảm phe địch cùng cột võ sĩ cường độ đỡ"
+ },
+ {
+  "i": 384,
+  "zh": "友军死亡时，增长怒气，且战斗初始怒气提升",
+  "cur": "khi đồng minh tử vong, tăng Nộ Khí, và tăng Nộ Khí ban đầu khi vào trận"
+ },
+ {
+  "i": 385,
+  "zh": "提升己方全体攻击和暴击率",
+  "cur": "tăng phe ta toàn thể công và tỉ lệ bạo kích"
+ },
+ {
+  "i": 386,
+  "zh": "提升己方防格斗家防御",
+  "cur": "tăng phe ta võ sĩ hệ Thủ phòng ngự"
+ },
+ {
+  "i": 387,
+  "zh": "提升同排格斗家防御和攻击",
+  "cur": "tăng cùng hàng võ sĩ phòng ngự và công kích"
+ },
+ {
+  "i": 388,
+  "zh": "战斗初始怒气提升，且友军死亡时，增长怒气",
+  "cur": "tăng Nộ Khí ban đầu khi vào trận, và khi đồng minh tử vong, tăng Nộ Khí"
+ },
+ {
+  "i": 389,
+  "zh": "降低敌方全体防御和效果抗性",
+  "cur": "giảm phe địch toàn thể phòng ngự và kháng hiệu ứng"
+ },
+ {
+  "i": 390,
+  "zh": "降低敌方技格斗家攻击",
+  "cur": "giảm phe địch võ sĩ hệ Kĩ công kích"
+ },
+ {
+  "i": 391,
+  "zh": "每秒增长怒气，且有人死亡时，增长怒气",
+  "cur": "mỗi giây tăng Nộ Khí, và khi có người tử vong, tăng Nộ Khí"
+ },
+ {
+  "i": 392,
+  "zh": "每秒增长怒气，且被攻击时，增长怒气",
+  "cur": "mỗi giây tăng Nộ Khí, và khi bị đánh, tăng Nộ Khí"
+ },
+ {
+  "i": 393,
+  "zh": "提升己方前排防御",
+  "cur": "Tăng Phòng Ngự Hàng Trước"
+ },
+ {
+  "i": 394,
+  "zh": "战斗初始怒气提升，且有人死亡时，增长怒气",
+  "cur": "tăng Nộ Khí ban đầu khi vào trận, và khi có người tử vong, tăng Nộ Khí"
+ },
+ {
+  "i": 395,
+  "zh": "降低敌方全体防御",
+  "cur": "Giảm Phòng Ngự Toàn Địch"
+ },
+ {
+  "i": 396,
+  "zh": "提升己方全体攻击",
+  "cur": "Tăng Công Kích Toàn Phe"
+ },
+ {
+  "i": 397,
+  "zh": "提升己方同列格斗家攻击",
+  "cur": "tăng phe ta cùng cột võ sĩ công kích"
+ },
+ {
+  "i": 398,
+  "zh": "降低敌方同列格斗家防御",
+  "cur": "giảm phe địch cùng cột võ sĩ phòng ngự"
+ },
+ {
+  "i": 399,
+  "zh": "每秒增长怒气，且敌人死亡时，增长怒气",
+  "cur": "mỗi giây tăng Nộ Khí, và khi địch tử vong, tăng Nộ Khí"
+ },
+ {
+  "i": 400,
+  "zh": "降低敌方全体伤害率",
+  "cur": "giảm phe địch toàn thể tỉ lệ sát thương"
+ },
+ {
+  "i": 401,
+  "zh": "被攻击时，增长怒气，且战斗初始怒气提升",
+  "cur": "khi bị đánh, tăng Nộ Khí, và tăng Nộ Khí ban đầu khi vào trận"
+ },
+ {
+  "i": 402,
+  "zh": "提升己方全体攻击和防御",
+  "cur": "tăng phe ta toàn thể công và thủ"
+ },
+ {
+  "i": 403,
+  "zh": "战斗初始怒气提升，且敌人死亡时，增长怒气",
+  "cur": "tăng Nộ Khí ban đầu khi vào trận, và khi địch tử vong, tăng Nộ Khí"
+ },
+ {
+  "i": 404,
+  "zh": "友军死亡时，增长怒气，且被攻击时，增长怒气",
+  "cur": "khi đồng minh tử vong, tăng Nộ Khí, và khi bị đánh, tăng Nộ Khí"
+ },
+ {
+  "i": 405,
+  "zh": "提升己方全体防御",
+  "cur": "Tăng Phòng Ngự Toàn Phe"
+ },
+ {
+  "i": 406,
+  "zh": "被攻击时，增长怒气，且敌人死亡时，增长怒气",
+  "cur": "khi bị đánh, tăng Nộ Khí, và khi địch tử vong, tăng Nộ Khí"
+ },
+ {
+  "i": 407,
+  "zh": "战斗初始怒气提升，且连击时，增长怒气",
+  "cur": "tăng Nộ Khí ban đầu khi vào trận, và khi Liên Kích, tăng Nộ Khí"
+ },
+ {
+  "i": 408,
+  "zh": "提升己方全体攻击和自身吸血率",
+  "cur": "tăng phe ta toàn thể công và bản thân tỉ lệ hút máu"
+ }
+]
