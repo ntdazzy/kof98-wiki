@@ -342,6 +342,7 @@ function pageItem(id) {
       ${zhLine(it.name.zh || it.cnName)}
       <div class="tagrow"><span class="pill gold">${esc(itemTypeVi(it.type))}</span>${it.category ? `<span class="pill">${esc(it.category)}</span>` : ''}${it.quality ? `<span class="pill">${'★'.repeat(Math.min(it.quality, 7))}</span>` : ''}</div>
       ${it.usage ? `<div class="usebox"><div class="ulabel">📌 Dùng để làm gì?</div><div>${hl(it.usage)}</div></div>` : ''}
+      ${it.source ? `<div class="usebox src"><div class="ulabel">📍 Nơi kiếm</div><div>${hl(it.source)}</div></div>` : ''}
       ${(fn || ds) ? `<div class="section-t sub2" style="margin:22px 0 10px">Chi tiết <div class="line"></div></div>${descBlock(fn ? it.funcDesc : it.desc)}` : (it.usage ? '' : '<div class="desc-box muted">Vật phẩm này chưa có mô tả chi tiết trong game.</div>')}
     </div>
   </div>`;

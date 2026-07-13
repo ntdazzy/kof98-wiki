@@ -228,6 +228,8 @@ select.inline{cursor:pointer}
   border-radius:12px;font-size:14px;line-height:1.65;color:var(--txt)}
 .usebox .ulabel{font-size:12px;font-weight:800;color:var(--gold);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px}
 .usebox .nm{color:var(--gold-2)}
+.usebox.src{background:rgba(74,168,255,.06);border-color:rgba(74,168,255,.22)}
+.usebox.src .ulabel{color:var(--blue)}
 /* event detail */
 .evmore{display:inline-block;margin-top:8px;font-size:12px;font-weight:700;color:var(--gold)}
 .ev-logo{background:linear-gradient(180deg,var(--bg-3),#140d0f);gap:12px}
